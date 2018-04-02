@@ -339,6 +339,13 @@
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/7535.BMP.bmp" kind="image" name="7535.BMP.bmp" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/7536.BMP.bmp" kind="image" name="7536.BMP.bmp" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/7537.BMP.bmp" kind="image" name="7537.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/armoryplaceholder.png" kind="image" name="armoryplaceholder.png2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/universityplaceholder.png" kind="image" name="universityplaceholder.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9900.BMP.bmp" kind="image" name="9900.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9901.BMP.bmp" kind="image" name="9901.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9902.BMP.bmp" kind="image" name="9902.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9901.BMP.bmp" kind="image" name="9901.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/buttoncross.png" kind="image" name="buttoncross.png" smoothed="true" userAdded="false" />
         </resources>
         <resourceFolders />
     </resources>
@@ -9647,7 +9654,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject8" width="0.000000" x="284.000000" y="413.999969" zOrder="8">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject8" width="0.000000" x="284.000000" y="414.999969" zOrder="8">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -9702,72 +9709,37 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject19" width="0.000000" x="158.000000" y="113.000046" zOrder="171">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject27" width="0.000000" x="264.999939" y="61.999954" zOrder="176">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="true" name="NewObject20" width="0.000000" x="144.000000" y="32.999985" zOrder="1">
+                <instance angle="0.000000" customSize="false" height="93.000000" layer="New layer" locked="false" name="NewObject28" width="169.000000" x="153.999939" y="129.999969" zOrder="177">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject22" width="0.000000" x="359.000000" y="91.999985" zOrder="172">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="true" name="NewObject30" width="0.000000" x="136.000000" y="25.999985" zOrder="2">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject23" width="0.000000" x="359.000000" y="175.999985" zOrder="173">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject31" width="0.000000" x="221.000000" y="107.500008" zOrder="17">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject24" width="0.000000" x="359.000000" y="260.000000" zOrder="20">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="true" name="NewObject34" width="0.000000" x="139.000000" y="46.500000" zOrder="1">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject25" width="0.000000" x="437.999939" y="92.999969" zOrder="174">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject35" width="0.000000" x="354.000000" y="161.500000" zOrder="17">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject26" width="0.000000" x="437.999939" y="174.999969" zOrder="175">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject27" width="0.000000" x="279.999939" y="46.999954" zOrder="176">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="93.000000" layer="New layer" locked="false" name="NewObject28" width="169.000000" x="159.999939" y="309.999969" zOrder="177">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject29" width="0.000000" x="437.999939" y="259.999969" zOrder="178">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="true" name="NewObject30" width="0.000000" x="136.000000" y="25.999985" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject31" width="0.000000" x="209.000000" y="95.500008" zOrder="17">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject32" width="0.000000" x="438.000000" y="344.000000" zOrder="17">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject33" width="0.000000" x="359.000000" y="343.500000" zOrder="17">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject36" width="0.000000" x="497.000000" y="32.000000" zOrder="17">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -10727,7 +10699,7 @@
                 <object bold="true" italic="false" name="NewObject27" smoothed="true" type="TextObject::Text" underlined="false">
                     <variables />
                     <behaviors />
-                    <string>Armory</string>
+                    <string>University</string>
                     <font></font>
                     <characterSize>20</characterSize>
                     <color b="0" g="64" r="128" />
@@ -10735,7 +10707,7 @@
                 <object bold="false" italic="false" name="NewObject28" smoothed="true" type="TextObject::Text" underlined="false">
                     <variables />
                     <behaviors />
-                    <string>These men move rapidily across all&#x0A;terrain. They are taught to take cover&#x0A;and fight when not in formation.&#x0A;&#x0A;&#x0A;</string>
+                    <string>Farmers improve grain,&#x0A;fruit, and cotton&#x0A;production.&#x0A;</string>
                     <font></font>
                     <characterSize>10</characterSize>
                     <color b="0" g="0" r="0" />
@@ -10788,16 +10760,16 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="armoryplaceholder.png">
+                                        <sprite hasCustomCollisionMask="false" image="universityplaceholder.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="193.500000" y="214.500000" />
+                                            <centerPoint automatic="true" name="centre" x="188.000000" y="216.500000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="387.000000" y="0.000000" />
-                                                    <vertice x="387.000000" y="429.000000" />
-                                                    <vertice x="0.000000" y="429.000000" />
+                                                    <vertice x="376.000000" y="0.000000" />
+                                                    <vertice x="376.000000" y="433.000000" />
+                                                    <vertice x="0.000000" y="433.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -10807,10 +10779,10 @@
                         </animation>
                     </animations>
                 </object>
-                <object bold="true" italic="false" name="NewObject31" smoothed="true" type="TextObject::Text" underlined="false">
+                <object bold="false" italic="false" name="NewObject31" smoothed="true" type="TextObject::Text" underlined="false">
                     <variables />
                     <behaviors />
-                    <string>Skirmishers</string>
+                    <string>Farmer</string>
                     <font></font>
                     <characterSize>12</characterSize>
                     <color b="0" g="64" r="128" />
@@ -10895,6 +10867,113 @@
                         </animation>
                     </animations>
                 </object>
+                <object name="NewObject34" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="9900.BMP.bmp2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="185.000000" y="205.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="370.000000" y="0.000000" />
+                                                    <vertice x="370.000000" y="410.000000" />
+                                                    <vertice x="0.000000" y="410.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject35" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="9901.BMP.bmp">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9902.BMP.bmp">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9901.BMP.bmp2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject36" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="buttoncross.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="5.500000" y="6.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="11.000000" y="0.000000" />
+                                                    <vertice x="11.000000" y="12.000000" />
+                                                    <vertice x="0.000000" y="12.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
             </objects>
             <events>
                 <event disabled="false" folded="false">
@@ -10917,6 +10996,14 @@
                             <subActions />
                         </action>
                         <action>
+                            <type inverted="false" value="HideLayer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;New layer&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
                             <type inverted="false" value="Cache" />
                             <parameters>
                                 <parameter>NewObject2</parameter>
@@ -10926,15 +11013,83 @@
                     </actions>
                     <events />
                 </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject36</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="HideLayer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;New layer&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject13</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ShowLayer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;New layer&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
             </events>
             <layers>
-                <layer name="New layer" visibility="true">
+                <layer name="" visibility="true">
                     <cameras>
                         <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
                     </cameras>
                     <effects />
                 </layer>
-                <layer name="" visibility="false">
+                <layer name="New layer" visibility="true">
                     <cameras>
                         <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
                     </cameras>
