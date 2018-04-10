@@ -30,13 +30,10 @@
             <extension name="BuiltinStringInstructions" />
             <extension name="BuiltinMathematicalTools" />
             <extension name="BuiltinExternalLayouts" />
-            <extension name="SoundObject" />
-            <extension name="TimedEvent" />
             <extension name="TextObject" />
             <extension name="PrimitiveDrawing" />
         </extensions>
         <platforms>
-            <platform name="GDevelop C++ platform" />
             <platform name="GDevelop JS platform" />
         </platforms>
         <currentPlatform>GDevelop JS platform</currentPlatform>
@@ -361,6 +358,47 @@
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9902.BMP.bmp" kind="image" name="9902.BMP.bmp2" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9802.BMP.bmp" kind="image" name="9802.BMP.bmp" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/7501.BMP.bmp" kind="image" name="7501.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9903.BMP.bmp" kind="image" name="9903.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9904.BMP.bmp" kind="image" name="9904.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9903.BMP.bmp" kind="image" name="9903.BMP.bmp3" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9924.BMP.bmp" kind="image" name="9924.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9925.BMP.bmp" kind="image" name="9925.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9925.BMP.bmp" kind="image" name="9925.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9924.BMP.bmp" kind="image" name="9924.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9940.BMP.bmp" kind="image" name="9940.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9941.BMP.bmp" kind="image" name="9941.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9942.BMP.bmp" kind="image" name="9942.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9943.BMP.bmp" kind="image" name="9943.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9944.BMP.bmp" kind="image" name="9944.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9945.BMP.bmp" kind="image" name="9945.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9948.BMP.bmp" kind="image" name="9948.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/universityfarmer1.png" kind="image" name="universityfarmer1.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/universityminer3.png" kind="image" name="universityminer3.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/4101.BMP.bmp" kind="image" name="4101.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/4101.BMP.bmp" kind="image" name="4101.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/4102.BMP.bmp" kind="image" name="4102.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9802.BMP.bmp" kind="image" name="9802.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9802.BMP.bmp" kind="image" name="9802.BMP.bmp3" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9803.BMP.bmp" kind="image" name="9803.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9804.BMP.bmp" kind="image" name="9804.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9804.BMP.bmp" kind="image" name="9804.BMP.bmp3" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9805.BMP.bmp" kind="image" name="9805.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/universityprospector1.png" kind="image" name="universityprospector1.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9928.BMP.bmp" kind="image" name="9928.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9928.BMP.bmp" kind="image" name="9928.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9929.BMP.bmp" kind="image" name="9929.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9901.BMP.bmp" kind="image" name="9901.BMP.bmp4" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9901.BMP.bmp" kind="image" name="9901.BMP.bmp5" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9902.BMP.bmp" kind="image" name="9902.BMP.bmp3" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9804.BMP.bmp" kind="image" name="9804.BMP.bmp4" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9804.BMP.bmp" kind="image" name="9804.BMP.bmp5" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9805.BMP.bmp" kind="image" name="9805.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9926.BMP.bmp" kind="image" name="9926.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9926.BMP.bmp" kind="image" name="9926.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9927.BMP.bmp" kind="image" name="9927.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9930.BMP.bmp" kind="image" name="9930.BMP.bmp" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9930.BMP.bmp" kind="image" name="9930.BMP.bmp2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictuniv/.rsrc/BITMAP/9931.BMP.bmp" kind="image" name="9931.BMP.bmp" smoothed="true" userAdded="false" />
         </resources>
         <resourceFolders />
     </resources>
@@ -371,16 +409,6 @@
             <children>
                 <variable name="militia" value="0" />
                 <variable name="soldier" value="1" />
-            </children>
-        </variable>
-        <variable name="resources">
-            <children>
-                <variable name="furniture" value="20" />
-                <variable name="money" value="50000" />
-                <variable name="paper" value="10" />
-                <variable name="shirts" value="5" />
-                <variable name="tools" value="20" />
-                <variable name="weapons" value="20" />
             </children>
         </variable>
         <variable name="prices">
@@ -395,25 +423,28 @@
                 <variable name="weapons" value="900" />
             </children>
         </variable>
-        <variable name="player">
+        <variable name="blue">
             <children>
-                <variable name="merchantmarine" value="8" />
-            </children>
-        </variable>
-        <variable name="buysell">
-            <children>
+                <variable name="buycannedfood" value="0" />
+                <variable name="buycloth" value="0" />
+                <variable name="buyfurniture" value="0" />
+                <variable name="buypaper" value="0" />
+                <variable name="buyshirts" value="0" />
+                <variable name="buytools" value="0" />
+                <variable name="buyweapons" value="0" />
                 <variable name="cannedfood" value="0" />
                 <variable name="cloth" value="0" />
-                <variable name="furniture" value="0" />
-                <variable name="paper" value="0" />
-                <variable name="shirts" value="0" />
-                <variable name="timber" value="0" />
-                <variable name="tools" value="0" />
-                <variable name="weapons" value="0" />
+                <variable name="furniture" value="20" />
+                <variable name="merchantmarine" value="8" />
+                <variable name="money" value="50000" />
+                <variable name="musiclevel" value="100" />
+                <variable name="paper" value="10" />
+                <variable name="shirts" value="5" />
+                <variable name="soundlevel" value="100" />
+                <variable name="tools" value="20" />
+                <variable name="weapons" value="20" />
             </children>
         </variable>
-        <variable name="soundlevel" value="100" />
-        <variable name="musiclevel" value="100" />
         <variable name="armyp1">
             <children>
                 <variable name="heavyartillery" value="0" />
@@ -588,30 +619,6 @@
                             </directions>
                         </animation>
                     </animations>
-                </object>
-                <object name="NewObject4" type="SoundObject::Sound">
-                    <variables />
-                    <behaviors />
-                    <type>Sound</type>
-                    <filename>E:/ultimate/wave/.rsrc/WAVE/1000.wav</filename>
-                    <loop>false</loop>
-                    <volume>100</volume>
-                    <pitch>1</pitch>
-                    <attenuation>1</attenuation>
-                    <minDistance>1</minDistance>
-                    <zPos>0</zPos>
-                </object>
-                <object name="Track09" type="SoundObject::Sound">
-                    <variables />
-                    <behaviors />
-                    <type>Sound</type>
-                    <filename>E:/ultimate/MUSIC/cleaned/Track09.wav</filename>
-                    <loop>false</loop>
-                    <volume>100</volume>
-                    <pitch>1</pitch>
-                    <attenuation>1</attenuation>
-                    <minDistance>1</minDistance>
-                    <zPos>0</zPos>
                 </object>
                 <object name="NewObject5" type="Sprite">
                     <variables />
@@ -9631,16 +9638,18 @@
                         <object name="NewObject6" />
                         <object name="NewObject7" />
                         <object name="NewObject8" />
-                    </objects>
-                </group>
-                <group name="hiddenz">
-                    <objects>
-                        <object name="NewObject28" />
-                        <object name="NewObject31" />
+                        <object name="NewObject30" />
                     </objects>
                 </group>
             </objectsGroups>
-            <variables />
+            <variables>
+                <variable name="carpenter" value="0" />
+                <variable name="NewVariable" value="0" />
+                <variable name="NewVariable2" value="0" />
+                <variable name="NewVariable3" value="0" />
+                <variable name="NewVariable4" value="0" />
+                <variable name="NewVariable5" value="0" />
+            </variables>
             <instances>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="true" name="NewObject" width="0.000000" x="0.000000" y="0.000000" zOrder="1">
                     <numberProperties />
@@ -9732,22 +9741,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="93.000000" layer="New layer" locked="false" name="NewObject28" width="169.000000" x="153.999939" y="129.999969" zOrder="177">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="true" name="NewObject30" width="0.000000" x="136.000000" y="25.999985" zOrder="2">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject31" width="0.000000" x="221.000000" y="107.500008" zOrder="17">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="true" name="NewObject34" width="0.000000" x="139.000000" y="46.500000" zOrder="1">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -9758,11 +9752,6 @@
                     <initialVariables />
                 </instance>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject36" width="0.000000" x="497.000000" y="32.000000" zOrder="17">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject37" width="0.000000" x="375.000000" y="162.000015" zOrder="178">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -9802,12 +9791,67 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject44" width="0.000000" x="354.000000" y="244.500000" zOrder="183">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject44" width="0.000000" x="433.000000" y="161.500000" zOrder="183">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject45" width="0.000000" x="375.000000" y="244.500000" zOrder="184">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject46" width="0.000000" x="460.000000" y="164.500000" zOrder="185">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject47" width="0.000000" x="473.000000" y="161.500000" zOrder="186">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject48" width="0.000000" x="351.500000" y="185.500000" zOrder="187">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject20" width="0.000000" x="354.000000" y="246.000015" zOrder="188">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject21" width="0.000000" x="381.000000" y="249.000015" zOrder="189">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject28" width="0.000000" x="393.500000" y="246.000031" zOrder="190">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject31" width="0.000000" x="352.500000" y="270.000000" zOrder="191">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject34" width="0.000000" x="354.500000" y="329.500000" zOrder="192">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject37" width="0.000000" x="380.500000" y="332.500000" zOrder="193">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject45" width="0.000000" x="394.500000" y="329.500000" zOrder="194">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject49" width="0.000000" x="431.500000" y="185.500000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="NewObject50" width="0.000000" x="431.500000" y="269.500000" zOrder="195">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -10510,60 +10554,6 @@
                         </animation>
                     </animations>
                 </object>
-                <object name="NewObject20" type="Sprite">
-                    <variables />
-                    <behaviors />
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="9900.BMP.bmp">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="185.000000" y="205.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="370.000000" y="0.000000" />
-                                                    <vertice x="370.000000" y="410.000000" />
-                                                    <vertice x="0.000000" y="410.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
-                <object name="NewObject21" type="Sprite">
-                    <variables />
-                    <behaviors />
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="7500.BMP.bmp">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="185.000000" y="205.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="370.000000" y="0.000000" />
-                                                    <vertice x="370.000000" y="410.000000" />
-                                                    <vertice x="0.000000" y="410.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
                 <object name="NewObject22" type="Sprite">
                     <variables />
                     <behaviors />
@@ -10764,14 +10754,6 @@
                         </animation>
                     </animations>
                 </object>
-                <object bold="false" italic="false" name="NewObject28" smoothed="true" type="TextObject::Text" underlined="false">
-                    <variables />
-                    <behaviors />
-                    <string>Farmers improve grain,&#x0A;fruit, and cotton&#x0A;production.&#x0A;</string>
-                    <font></font>
-                    <characterSize>10</characterSize>
-                    <color b="0" g="0" r="0" />
-                </object>
                 <object name="NewObject29" type="Sprite">
                     <variables />
                     <behaviors />
@@ -10820,7 +10802,33 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="universityplaceholder.png">
+                                        <sprite hasCustomCollisionMask="false" image="universityminer3.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="188.000000" y="216.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="376.000000" y="0.000000" />
+                                                    <vertice x="376.000000" y="432.000000" />
+                                                    <vertice x="0.000000" y="432.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="universityfarmer1.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="188.000000" y="216.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="376.000000" y="0.000000" />
+                                                    <vertice x="376.000000" y="432.000000" />
+                                                    <vertice x="0.000000" y="432.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="universityprospector1.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="188.000000" y="216.000000" />
@@ -10838,14 +10846,6 @@
                             </directions>
                         </animation>
                     </animations>
-                </object>
-                <object bold="false" italic="false" name="NewObject31" smoothed="true" type="TextObject::Text" underlined="false">
-                    <variables />
-                    <behaviors />
-                    <string>Farmer</string>
-                    <font></font>
-                    <characterSize>12</characterSize>
-                    <color b="0" g="64" r="128" />
                 </object>
                 <object name="NewObject32" type="Sprite">
                     <variables />
@@ -10927,33 +10927,6 @@
                         </animation>
                     </animations>
                 </object>
-                <object name="NewObject34" type="Sprite">
-                    <variables />
-                    <behaviors />
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="9900.BMP.bmp2">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="185.000000" y="205.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="370.000000" y="0.000000" />
-                                                    <vertice x="370.000000" y="410.000000" />
-                                                    <vertice x="0.000000" y="410.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
                 <object name="NewObject35" type="Sprite">
                     <variables />
                     <behaviors />
@@ -11025,33 +10998,6 @@
                                                     <vertice x="11.000000" y="0.000000" />
                                                     <vertice x="11.000000" y="12.000000" />
                                                     <vertice x="0.000000" y="12.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
-                <object name="NewObject37" type="Sprite">
-                    <variables />
-                    <behaviors />
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="9906.BMP.bmp">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="9.000000" y="10.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="18.000000" y="0.000000" />
-                                                    <vertice x="18.000000" y="20.000000" />
-                                                    <vertice x="0.000000" y="20.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -11307,24 +11253,498 @@
                         </animation>
                     </animations>
                 </object>
+                <object bold="false" italic="false" name="NewObject46" smoothed="true" type="TextObject::Text" underlined="false">
+                    <variables />
+                    <behaviors />
+                    <string>0</string>
+                    <font></font>
+                    <characterSize>10</characterSize>
+                    <color b="0" g="0" r="0" />
+                </object>
+                <object name="NewObject47" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.100000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="9903.BMP.bmp2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9904.BMP.bmp2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9903.BMP.bmp3">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject48" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.100000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="9924.BMP.bmp">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="60.000000" />
+                                                    <vertice x="0.000000" y="60.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9925.BMP.bmp">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="60.000000" />
+                                                    <vertice x="0.000000" y="60.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9924.BMP.bmp2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="60.000000" />
+                                                    <vertice x="0.000000" y="60.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject20" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.100000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="9802.BMP.bmp2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9803.BMP.bmp">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9802.BMP.bmp3">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object bold="false" italic="false" name="NewObject21" smoothed="true" type="TextObject::Text" underlined="false">
+                    <variables />
+                    <behaviors />
+                    <string>0</string>
+                    <font></font>
+                    <characterSize>10</characterSize>
+                    <color b="0" g="0" r="0" />
+                </object>
+                <object name="NewObject28" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.100000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="9804.BMP.bmp2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9805.BMP.bmp">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9804.BMP.bmp3">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject31" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.100000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="9928.BMP.bmp2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="60.000000" />
+                                                    <vertice x="0.000000" y="60.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9929.BMP.bmp">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="60.000000" />
+                                                    <vertice x="0.000000" y="60.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9928.BMP.bmp">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="60.000000" />
+                                                    <vertice x="0.000000" y="60.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject34" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.100000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="9901.BMP.bmp4">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9902.BMP.bmp3">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9901.BMP.bmp5">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object bold="false" italic="false" name="NewObject37" smoothed="true" type="TextObject::Text" underlined="false">
+                    <variables />
+                    <behaviors />
+                    <string>0</string>
+                    <font></font>
+                    <characterSize>10</characterSize>
+                    <color b="0" g="0" r="0" />
+                </object>
                 <object name="NewObject45" type="Sprite">
                     <variables />
                     <behaviors />
                     <animations>
                         <animation name="" useMultipleDirections="false">
                             <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
+                                <direction looping="false" timeBetweenFrames="0.100000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="7501.BMP.bmp">
+                                        <sprite hasCustomCollisionMask="false" image="9804.BMP.bmp4">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="9.000000" y="10.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="18.000000" y="0.000000" />
-                                                    <vertice x="18.000000" y="20.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
                                                     <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9805.BMP.bmp2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9804.BMP.bmp5">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="10.000000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="0.000000" />
+                                                    <vertice x="20.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject49" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.100000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="9926.BMP.bmp">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="60.000000" />
+                                                    <vertice x="0.000000" y="60.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9927.BMP.bmp">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="60.000000" />
+                                                    <vertice x="0.000000" y="60.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9926.BMP.bmp2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="60.000000" />
+                                                    <vertice x="0.000000" y="60.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject50" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.100000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="9930.BMP.bmp">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="60.000000" />
+                                                    <vertice x="0.000000" y="60.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9931.BMP.bmp">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="60.000000" />
+                                                    <vertice x="0.000000" y="60.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="9930.BMP.bmp2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="60.000000" />
+                                                    <vertice x="0.000000" y="60.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -11381,22 +11801,6 @@
                             <subActions />
                         </action>
                         <action>
-                            <type inverted="false" value="ChangePlan" />
-                            <parameters>
-                                <parameter>NewObject34</parameter>
-                                <parameter>=</parameter>
-                                <parameter>2</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="Cache" />
-                            <parameters>
-                                <parameter>hiddenz</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
                             <type inverted="false" value="PauseAnimation" />
                             <parameters>
                                 <parameter>buildingz</parameter>
@@ -11418,6 +11822,294 @@
                         <condition>
                             <type inverted="false" value="SourisSurObjet" />
                             <parameters>
+                                <parameter>NewObject50</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.1</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlaySound" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject50</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject30</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject49</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.1</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlaySound" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject49</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject30</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject31</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.1</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlaySound" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject31</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject30</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject48</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.1</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlaySound" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject48</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject30</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
                                 <parameter>NewObject43</parameter>
                                 <parameter></parameter>
                                 <parameter></parameter>
@@ -11460,6 +12152,15 @@
                                 <parameter></parameter>
                                 <parameter></parameter>
                                 <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject30</parameter>
+                                <parameter>=</parameter>
+                                <parameter>2</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -11529,6 +12230,15 @@
                         <action>
                             <type inverted="false" value="ChangeSprite" />
                             <parameters>
+                                <parameter>NewObject30</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
                                 <parameter>NewObject27</parameter>
                                 <parameter>=</parameter>
                                 <parameter>0</parameter>
@@ -11541,8 +12251,548 @@
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Comment</type>
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
-                    <comment></comment>
+                    <comment>arrow buttons</comment>
                     <comment2></comment2>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject45</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.1</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="VarScene" />
+                            <parameters>
+                                <parameter>NewVariable5</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>99990</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarScene" />
+                            <parameters>
+                                <parameter>NewVariable5</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Variable(NewVariable5) + 1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject37</parameter>
+                                <parameter>=</parameter>
+                                <parameter>VariableString(NewVariable5)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject45</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlaySound" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject34</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.1</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="VarScene" />
+                            <parameters>
+                                <parameter>NewVariable5</parameter>
+                                <parameter>&gt;</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarScene" />
+                            <parameters>
+                                <parameter>NewVariable5</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Variable(NewVariable5) - 1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject37</parameter>
+                                <parameter>=</parameter>
+                                <parameter>VariableString(NewVariable5)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject34</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlaySound" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject20</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.1</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="VarScene" />
+                            <parameters>
+                                <parameter>NewVariable4</parameter>
+                                <parameter>&gt;</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarScene" />
+                            <parameters>
+                                <parameter>NewVariable4</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Variable(NewVariable4) - 1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject21</parameter>
+                                <parameter>=</parameter>
+                                <parameter>VariableString(NewVariable4)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject20</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlaySound" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject28</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.1</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="VarScene" />
+                            <parameters>
+                                <parameter>NewVariable4</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>99990</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarScene" />
+                            <parameters>
+                                <parameter>NewVariable4</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Variable(NewVariable4) + 1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject21</parameter>
+                                <parameter>=</parameter>
+                                <parameter>VariableString(NewVariable4)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject28</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlaySound" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject44</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.1</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="VarScene" />
+                            <parameters>
+                                <parameter>NewVariable</parameter>
+                                <parameter>&gt;</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarScene" />
+                            <parameters>
+                                <parameter>NewVariable</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Variable(NewVariable) - 1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject46</parameter>
+                                <parameter>=</parameter>
+                                <parameter>VariableString(NewVariable)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject44</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlaySound" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject47</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.1</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="VarScene" />
+                            <parameters>
+                                <parameter>NewVariable</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>99990</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarScene" />
+                            <parameters>
+                                <parameter>NewVariable</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Variable(NewVariable) + 1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject46</parameter>
+                                <parameter>=</parameter>
+                                <parameter>VariableString(NewVariable)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>NewObject47</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlaySound" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
                 </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
@@ -11575,10 +12825,9 @@
                             <subConditions />
                         </condition>
                         <condition>
-                            <type inverted="false" value="VarObjet" />
+                            <type inverted="false" value="VarScene" />
                             <parameters>
-                                <parameter>NewObject38</parameter>
-                                <parameter>NewVariable</parameter>
+                                <parameter>NewVariable2</parameter>
                                 <parameter>&gt;</parameter>
                                 <parameter>0</parameter>
                             </parameters>
@@ -11587,12 +12836,11 @@
                     </conditions>
                     <actions>
                         <action>
-                            <type inverted="false" value="ModVarObjet" />
+                            <type inverted="false" value="ModVarScene" />
                             <parameters>
-                                <parameter>NewObject38</parameter>
-                                <parameter>NewVariable</parameter>
+                                <parameter>NewVariable2</parameter>
                                 <parameter>=</parameter>
-                                <parameter>NewObject38.Variable(NewVariable) - 1</parameter>
+                                <parameter>Variable(NewVariable2) - 1</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -11601,7 +12849,7 @@
                             <parameters>
                                 <parameter>NewObject38</parameter>
                                 <parameter>=</parameter>
-                                <parameter>NewObject38.VariableString(NewVariable)</parameter>
+                                <parameter>VariableString(NewVariable)</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -11658,6 +12906,15 @@
                             <subConditions />
                         </condition>
                         <condition>
+                            <type inverted="false" value="VarScene" />
+                            <parameters>
+                                <parameter>NewVariable2</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>99990</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
                             <type inverted="false" value="Timer" />
                             <parameters>
                                 <parameter></parameter>
@@ -11669,12 +12926,11 @@
                     </conditions>
                     <actions>
                         <action>
-                            <type inverted="false" value="ModVarObjet" />
+                            <type inverted="false" value="ModVarScene" />
                             <parameters>
-                                <parameter>NewObject38</parameter>
-                                <parameter>NewVariable</parameter>
+                                <parameter>NewVariable2</parameter>
                                 <parameter>=</parameter>
-                                <parameter>NewObject38.Variable(NewVariable) + 1</parameter>
+                                <parameter>Variable(NewVariable2) + 1</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -11683,7 +12939,7 @@
                             <parameters>
                                 <parameter>NewObject38</parameter>
                                 <parameter>=</parameter>
-                                <parameter>NewObject38.VariableString(NewVariable)</parameter>
+                                <parameter>VariableString(NewVariable)</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -11804,6 +13060,15 @@
                                 <parameter>NewObject41</parameter>
                                 <parameter>=</parameter>
                                 <parameter>GlobalVariableString(resources.paper)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject40</parameter>
+                                <parameter>=</parameter>
+                                <parameter>VariableString(NewVariable3)</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -12478,26 +13743,9 @@
             </layers>
             <behaviorsSharedData />
         </layout>
-        <layout b="209" disableInputWhenNotFocused="true" mangledName="New_32scene_322" name="New scene 2" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
-            <objectsGroups />
-            <variables />
-            <instances />
-            <objects />
-            <events />
-            <layers>
-                <layer name="" visibility="true">
-                    <cameras>
-                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
-                    </cameras>
-                    <effects />
-                </layer>
-            </layers>
-            <behaviorsSharedData />
-        </layout>
     </layouts>
     <externalEvents>
-        <externalEvents associatedLayout="" lastChangeTimeStamp="0" name="External events">
+        <externalEvents associatedLayout="" lastChangeTimeStamp="1522914367" name="External events">
             <events />
         </externalEvents>
     </externalEvents>
