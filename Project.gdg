@@ -436,6 +436,7 @@
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/redcross.png" kind="image" name="redcross.png2" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/redcross.png" kind="image" name="redcross.png3" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/redcross.png" kind="image" name="redcross.png4" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/foodprocessingbar.png" kind="image" name="foodprocessingbar.png" smoothed="true" userAdded="false" />
         </resources>
         <resourceFolders />
     </resources>
@@ -483,11 +484,11 @@
                 <variable name="paper" value="10" />
                 <variable name="resources">
                     <children>
-                        <variable name="arms" value="20" />
-                        <variable name="cannedfood" value="20" />
-                        <variable name="cows" value="10" />
-                        <variable name="grain" value="10" />
-                        <variable name="tomatoes" value="10" />
+                        <variable name="arms" value="200" />
+                        <variable name="cannedfood" value="200" />
+                        <variable name="cows" value="100" />
+                        <variable name="grain" value="100" />
+                        <variable name="tomatoes" value="100" />
                     </children>
                 </variable>
                 <variable name="shirts" value="5" />
@@ -9904,7 +9905,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject4" width="0.000000" x="381.000000" y="255.000000" zOrder="18">
+                <instance angle="0.000000" customSize="true" height="53.500000" layer="" locked="false" name="NewObject4" width="51.500000" x="381.000000" y="255.000000" zOrder="18">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -9979,7 +9980,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="3.000000" layer="New layer 2" locked="false" name="NewObject64" width="145.000000" x="140.000000" y="276.000000" zOrder="7">
+                <instance angle="0.000000" customSize="true" height="4.000000" layer="New layer 2" locked="false" name="NewObject64" width="150.000000" x="137.000000" y="276.000000" zOrder="7">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -11274,19 +11275,6 @@
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="9920.BMP.bmp2">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="64.000000" y="0.000000" />
-                                                    <vertice x="64.000000" y="60.000000" />
-                                                    <vertice x="0.000000" y="60.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
                                     </sprites>
                                 </direction>
                             </directions>
@@ -11315,19 +11303,6 @@
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="9923.BMP.bmp">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="64.000000" y="0.000000" />
-                                                    <vertice x="64.000000" y="60.000000" />
-                                                    <vertice x="0.000000" y="60.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="9922.BMP.bmp2">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
@@ -11494,19 +11469,6 @@
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="9924.BMP.bmp2">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="64.000000" y="0.000000" />
-                                                    <vertice x="64.000000" y="60.000000" />
-                                                    <vertice x="0.000000" y="60.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
                                     </sprites>
                                 </direction>
                             </directions>
@@ -11661,19 +11623,6 @@
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="9928.BMP.bmp">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="64.000000" y="0.000000" />
-                                                    <vertice x="64.000000" y="60.000000" />
-                                                    <vertice x="0.000000" y="60.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
                                     </sprites>
                                 </direction>
                             </directions>
@@ -11816,19 +11765,6 @@
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="9927.BMP.bmp">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="64.000000" y="0.000000" />
-                                                    <vertice x="64.000000" y="60.000000" />
-                                                    <vertice x="0.000000" y="60.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="9926.BMP.bmp2">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="32.000000" y="30.000000" />
@@ -12102,7 +12038,7 @@
                     <fillOpacity>255</fillOpacity>
                     <outlineSize>0</outlineSize>
                     <outlineOpacity>255</outlineOpacity>
-                    <fillColor b="64" g="255" r="0" />
+                    <fillColor b="162" g="88" r="0" />
                     <outlineColor b="0" g="0" r="0" />
                     <absoluteCoordinates>true</absoluteCoordinates>
                 </object>
@@ -12242,6 +12178,19 @@
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="foodprocessing.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="138.000000" y="91.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="276.000000" y="0.000000" />
+                                                    <vertice x="276.000000" y="182.000000" />
+                                                    <vertice x="0.000000" y="182.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="foodprocessingbar.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="138.000000" y="91.000000" />
@@ -12440,7 +12389,7 @@
                 </object>
             </objects>
             <events>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12501,7 +12450,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12539,16 +12488,17 @@
                             </parameters>
                             <subConditions />
                         </condition>
-                        <condition>
-                            <type inverted="true" value="LayerVisible" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&quot;New layer 1&quot;</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
                     </conditions>
                     <actions>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject63</parameter>
+                                <parameter>=</parameter>
+                                <parameter>&quot;off Steel Mill&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
                         <action>
                             <type inverted="false" value="ChangeSprite" />
                             <parameters>
@@ -12565,39 +12515,6 @@
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
-                            <type inverted="false" value="Sprite" />
-                            <parameters>
-                                <parameter>NewObject5</parameter>
-                                <parameter>=</parameter>
-                                <parameter>0</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="true" value="LayerVisible" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&quot;New layer&quot;</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="true" value="LayerVisible" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&quot;New layer 1&quot;</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="true" value="LayerVisible" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&quot;New layer 2&quot;</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
                             <type inverted="false" value="SourisSurObjet" />
                             <parameters>
                                 <parameter>NewObject4</parameter>
@@ -12610,11 +12527,11 @@
                     </conditions>
                     <actions>
                         <action>
-                            <type inverted="false" value="ChangeSprite" />
+                            <type inverted="false" value="TextObject::String" />
                             <parameters>
-                                <parameter>NewObject5</parameter>
+                                <parameter>NewObject63</parameter>
                                 <parameter>=</parameter>
-                                <parameter>1</parameter>
+                                <parameter>&quot;Steel Mill&quot;</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -12624,19 +12541,45 @@
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
-                                    <type inverted="false" value="SourisBouton" />
+                                    <type inverted="false" value="Sprite" />
                                     <parameters>
-                                        <parameter></parameter>
-                                        <parameter>Left</parameter>
+                                        <parameter>NewObject5</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
                                     </parameters>
                                     <subConditions />
                                 </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ChangeSprite" />
+                                    <parameters>
+                                        <parameter>NewObject5</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="true">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
                                 <condition>
                                     <type inverted="false" value="Timer" />
                                     <parameters>
                                         <parameter></parameter>
                                         <parameter>0.1</parameter>
                                         <parameter>&quot;&quot;</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="SourisBouton" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
                                     </parameters>
                                     <subConditions />
                                 </condition>
@@ -12663,13 +12606,13 @@
                         </event>
                     </events>
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Comment</type>
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                     <comment>civilian buttons</comment>
                     <comment2></comment2>
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12725,7 +12668,7 @@
                             <parameters>
                                 <parameter>NewObject49</parameter>
                                 <parameter>=</parameter>
-                                <parameter>0</parameter>
+                                <parameter>1</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -12741,7 +12684,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12797,7 +12740,7 @@
                             <parameters>
                                 <parameter>NewObject31</parameter>
                                 <parameter>=</parameter>
-                                <parameter>0</parameter>
+                                <parameter>1</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -12813,7 +12756,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12869,7 +12812,7 @@
                             <parameters>
                                 <parameter>NewObject48</parameter>
                                 <parameter>=</parameter>
-                                <parameter>0</parameter>
+                                <parameter>1</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -12885,7 +12828,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12950,14 +12893,14 @@
                             <parameters>
                                 <parameter>NewObject43</parameter>
                                 <parameter>=</parameter>
-                                <parameter>0</parameter>
+                                <parameter>1</parameter>
                             </parameters>
                             <subActions />
                         </action>
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13022,20 +12965,20 @@
                             <parameters>
                                 <parameter>NewObject27</parameter>
                                 <parameter>=</parameter>
-                                <parameter>0</parameter>
+                                <parameter>1</parameter>
                             </parameters>
                             <subActions />
                         </action>
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Comment</type>
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                     <comment>arrow buttons</comment>
                     <comment2></comment2>
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13134,7 +13077,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13233,7 +13176,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13323,7 +13266,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13413,7 +13356,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13503,7 +13446,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13593,7 +13536,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13683,7 +13626,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13773,7 +13716,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13863,7 +13806,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13953,13 +13896,13 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Comment</type>
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                     <comment></comment>
                     <comment2></comment2>
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13993,7 +13936,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14054,7 +13997,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Comment</type>
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                     <comment>newlayer1</comment>
@@ -14110,7 +14053,7 @@
                         </action>
                     </actions>
                     <events>
-                        <event disabled="false" folded="false">
+                        <event disabled="false" folded="true">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
@@ -14213,7 +14156,7 @@
                         </action>
                     </actions>
                     <events>
-                        <event disabled="false" folded="false">
+                        <event disabled="false" folded="true">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
@@ -14266,13 +14209,13 @@
                         </event>
                     </events>
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="true" folded="true">
                     <type>BuiltinCommonInstructions::Comment</type>
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                     <comment>neewlayer2</comment>
                     <comment2></comment2>
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14298,7 +14241,7 @@
                         </action>
                     </actions>
                     <events>
-                        <event disabled="false" folded="false">
+                        <event disabled="false" folded="true">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
@@ -14341,7 +14284,7 @@
                         </event>
                     </events>
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14375,7 +14318,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14426,17 +14369,6 @@
                             <subActions />
                         </action>
                         <action>
-                            <type inverted="false" value="PlaySound" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
                             <type inverted="false" value="ResetTimer" />
                             <parameters>
                                 <parameter></parameter>
@@ -14459,6 +14391,15 @@
                                 <parameter>NewObject54</parameter>
                                 <parameter>=</parameter>
                                 <parameter>VariableString(NewVariable7)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="MettreX" />
+                            <parameters>
+                                <parameter>NewObject54</parameter>
+                                <parameter>=</parameter>
+                                <parameter>NewObject54.X() - 1</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -14510,7 +14451,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14597,17 +14538,6 @@
                             <subActions />
                         </action>
                         <action>
-                            <type inverted="false" value="PlaySound" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
                             <type inverted="false" value="ResetTimer" />
                             <parameters>
                                 <parameter></parameter>
@@ -14678,10 +14608,19 @@
                             </parameters>
                             <subActions />
                         </action>
+                        <action>
+                            <type inverted="false" value="MettreX" />
+                            <parameters>
+                                <parameter>NewObject54</parameter>
+                                <parameter>=</parameter>
+                                <parameter>NewObject54.X() + 1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14767,6 +14706,15 @@
                             <subActions />
                         </action>
                         <action>
+                            <type inverted="false" value="MettreX" />
+                            <parameters>
+                                <parameter>NewObject54</parameter>
+                                <parameter>=</parameter>
+                                <parameter>MouseX(&quot;New layer 2&quot;,0)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
                             <type inverted="false" value="TextObject::String" />
                             <parameters>
                                 <parameter>NewObject54</parameter>
@@ -14778,7 +14726,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14799,14 +14747,14 @@
                                 <parameter>NewObject64.X()</parameter>
                                 <parameter>NewObject64.Y()</parameter>
                                 <parameter>NewObject64.X() + Variable(NewVariable7)</parameter>
-                                <parameter>NewObject64.Y() + 3</parameter>
+                                <parameter>NewObject64.Y() + 4</parameter>
                             </parameters>
                             <subActions />
                         </action>
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14831,7 +14779,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14856,7 +14804,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14881,7 +14829,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="false" folded="true">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14908,19 +14856,19 @@
                 </event>
             </events>
             <layers>
-                <layer name="" visibility="false">
+                <layer name="" visibility="true">
                     <cameras>
                         <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
                     </cameras>
                     <effects />
                 </layer>
-                <layer name="New layer 1" visibility="false">
+                <layer name="New layer 1" visibility="true">
                     <cameras>
                         <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
                     </cameras>
                     <effects />
                 </layer>
-                <layer name="New layer 2" visibility="true">
+                <layer name="New layer 2" visibility="false">
                     <cameras>
                         <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
                     </cameras>
