@@ -437,6 +437,7 @@
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/redcross.png" kind="image" name="redcross.png3" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/redcross.png" kind="image" name="redcross.png4" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/foodprocessingbar.png" kind="image" name="foodprocessingbar.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/1505.png" kind="image" name="1505.png" smoothed="true" userAdded="false" />
         </resources>
         <resourceFolders />
     </resources>
@@ -484,11 +485,11 @@
                 <variable name="paper" value="10" />
                 <variable name="resources">
                     <children>
-                        <variable name="arms" value="200" />
+                        <variable name="arms" value="120" />
                         <variable name="cannedfood" value="200" />
-                        <variable name="cows" value="100" />
-                        <variable name="grain" value="100" />
-                        <variable name="tomatoes" value="100" />
+                        <variable name="cows" value="130" />
+                        <variable name="grain" value="150" />
+                        <variable name="tomatoes" value="190" />
                     </children>
                 </variable>
                 <variable name="shirts" value="5" />
@@ -9682,7 +9683,7 @@
             <behaviorsSharedData />
         </layout>
         <layout b="209" disableInputWhenNotFocused="true" mangledName="city" name="city" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="1" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="1" snap="true" windowMask="false" zoomFactor="2.000000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="1" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="1" snap="true" windowMask="false" zoomFactor="1.000000" />
             <objectsGroups>
                 <group name="buildz">
                     <objects>
@@ -9708,6 +9709,8 @@
                 <variable name="NewVariable5" value="0" />
                 <variable name="NewVariable6" value="0" />
                 <variable name="NewVariable7" value="0" />
+                <variable name="foodmin" value="0" />
+                <variable name="foodmax" value="0" />
             </variables>
             <instances>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="true" name="NewObject" width="0.000000" x="0.000000" y="0.000000" zOrder="1">
@@ -9980,7 +9983,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="4.000000" layer="New layer 2" locked="false" name="NewObject64" width="150.000000" x="137.000000" y="276.000000" zOrder="7">
+                <instance angle="0.000000" customSize="true" height="4.000000" layer="New layer 2" locked="false" name="NewObject64" width="100.000000" x="137.500000" y="275.333344" zOrder="7">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -12164,6 +12167,19 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="foodprocessingbar.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="138.000000" y="91.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="276.000000" y="0.000000" />
+                                                    <vertice x="276.000000" y="182.000000" />
+                                                    <vertice x="0.000000" y="182.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
                                         <sprite hasCustomCollisionMask="false" image="foodprocessingfull.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
@@ -12178,19 +12194,6 @@
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="foodprocessing.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="138.000000" y="91.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="276.000000" y="0.000000" />
-                                                    <vertice x="276.000000" y="182.000000" />
-                                                    <vertice x="0.000000" y="182.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="foodprocessingbar.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="138.000000" y="91.000000" />
@@ -12260,16 +12263,16 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="5050.png3">
+                                        <sprite hasCustomCollisionMask="false" image="1505.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <centerPoint automatic="true" name="centre" x="75.000000" y="2.500000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="50.000000" y="0.000000" />
-                                                    <vertice x="50.000000" y="50.000000" />
-                                                    <vertice x="0.000000" y="50.000000" />
+                                                    <vertice x="150.000000" y="0.000000" />
+                                                    <vertice x="150.000000" y="5.000000" />
+                                                    <vertice x="0.000000" y="5.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -12389,7 +12392,7 @@
                 </object>
             </objects>
             <events>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12450,7 +12453,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12563,7 +12566,7 @@
                             </actions>
                             <events />
                         </event>
-                        <event disabled="false" folded="true">
+                        <event disabled="false" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
@@ -12606,13 +12609,13 @@
                         </event>
                     </events>
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Comment</type>
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                     <comment>civilian buttons</comment>
                     <comment2></comment2>
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12684,7 +12687,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12756,7 +12759,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12828,7 +12831,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12900,7 +12903,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -12972,13 +12975,13 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Comment</type>
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                     <comment>arrow buttons</comment>
                     <comment2></comment2>
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13077,7 +13080,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13176,7 +13179,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13266,7 +13269,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13356,7 +13359,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13446,7 +13449,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13536,7 +13539,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13626,7 +13629,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13716,7 +13719,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13806,7 +13809,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13896,13 +13899,13 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Comment</type>
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                     <comment></comment>
                     <comment2></comment2>
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13936,7 +13939,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -13997,7 +14000,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Comment</type>
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                     <comment>newlayer1</comment>
@@ -14053,7 +14056,7 @@
                         </action>
                     </actions>
                     <events>
-                        <event disabled="false" folded="true">
+                        <event disabled="false" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
@@ -14156,7 +14159,7 @@
                         </action>
                     </actions>
                     <events>
-                        <event disabled="false" folded="true">
+                        <event disabled="false" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
@@ -14209,13 +14212,13 @@
                         </event>
                     </events>
                 </event>
-                <event disabled="true" folded="true">
+                <event disabled="true" folded="false">
                     <type>BuiltinCommonInstructions::Comment</type>
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                     <comment>neewlayer2</comment>
                     <comment2></comment2>
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14241,7 +14244,7 @@
                         </action>
                     </actions>
                     <events>
-                        <event disabled="false" folded="true">
+                        <event disabled="false" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
@@ -14279,12 +14282,48 @@
                                     </parameters>
                                     <subActions />
                                 </action>
+                                <action>
+                                    <type inverted="false" value="ModVarScene" />
+                                    <parameters>
+                                        <parameter>foodmax</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>max(GlobalVariable(blue.resources.arms) / 2,GlobalVariable(blue.resources.cows),GlobalVariable(blue.resources.tomatoes),GlobalVariable(blue.resources.grain))</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarScene" />
+                                    <parameters>
+                                        <parameter>foodmin</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>min(min(GlobalVariable(blue.resources.arms) / 2,GlobalVariable(blue.resources.cows)),min(GlobalVariable(blue.resources.tomatoes),GlobalVariable(blue.resources.grain)))</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="TextObject::String" />
+                                    <parameters>
+                                        <parameter>NewObject54</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>VariableString(foodmin)</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ChangeScaleWidth" />
+                                    <parameters>
+                                        <parameter>NewObject64</parameter>
+                                        <parameter>*</parameter>
+                                        <parameter>Variable(foodmin) / 100</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
                             </actions>
                             <events />
                         </event>
                     </events>
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14318,7 +14357,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14451,7 +14490,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14495,34 +14534,7 @@
                             <parameters>
                                 <parameter>NewVariable7</parameter>
                                 <parameter>&lt;</parameter>
-                                <parameter>GlobalVariable(blue.resources.tomatoes)</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="VarScene" />
-                            <parameters>
-                                <parameter>NewVariable7</parameter>
-                                <parameter>&lt;</parameter>
-                                <parameter>GlobalVariable(blue.resources.grain)</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="VarScene" />
-                            <parameters>
-                                <parameter>NewVariable7</parameter>
-                                <parameter>&lt;</parameter>
-                                <parameter>GlobalVariable(blue.resources.cows)</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="VarScene" />
-                            <parameters>
-                                <parameter>NewVariable7</parameter>
-                                <parameter>&lt;</parameter>
-                                <parameter>GlobalVariable(blue.resources.arms) / 2</parameter>
+                                <parameter>Variable(foodmin)</parameter>
                             </parameters>
                             <subConditions />
                         </condition>
@@ -14620,7 +14632,209 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Comment</type>
+                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                    <comment>redcrosses</comment>
+                    <comment2></comment2>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarGlobal" />
+                            <parameters>
+                                <parameter>blue.resources.cows</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject65</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarGlobal" />
+                            <parameters>
+                                <parameter>blue.resources.tomatoes</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject67</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarGlobal" />
+                            <parameters>
+                                <parameter>blue.resources.grain</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject66</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarGlobal" />
+                            <parameters>
+                                <parameter>blue.resources.arms</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject68</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="true" value="VarGlobal" />
+                            <parameters>
+                                <parameter>blue.resources.arms</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>NewObject68</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="true" value="VarGlobal" />
+                            <parameters>
+                                <parameter>blue.resources.grain</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>NewObject66</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="true" value="VarGlobal" />
+                            <parameters>
+                                <parameter>blue.resources.tomatoes</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>NewObject67</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="true" value="VarGlobal" />
+                            <parameters>
+                                <parameter>blue.resources.cows</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>NewObject65</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14726,7 +14940,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -14754,121 +14968,21 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="false" folded="true">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="VarGlobal" />
-                            <parameters>
-                                <parameter>blue.resources.cows</parameter>
-                                <parameter>&lt;</parameter>
-                                <parameter>1</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="Montre" />
-                            <parameters>
-                                <parameter>NewObject68</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-                <event disabled="false" folded="true">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="VarGlobal" />
-                            <parameters>
-                                <parameter>blue.resources.tomatoes</parameter>
-                                <parameter>&lt;</parameter>
-                                <parameter>1</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="Montre" />
-                            <parameters>
-                                <parameter>NewObject67</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-                <event disabled="false" folded="true">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="VarGlobal" />
-                            <parameters>
-                                <parameter>blue.resources.grain</parameter>
-                                <parameter>&lt;</parameter>
-                                <parameter>1</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="Montre" />
-                            <parameters>
-                                <parameter>NewObject66</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-                <event disabled="false" folded="true">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="VarGlobal" />
-                            <parameters>
-                                <parameter>blue.resources.arms</parameter>
-                                <parameter>&lt;</parameter>
-                                <parameter>2</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="Montre" />
-                            <parameters>
-                                <parameter>NewObject65</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
             </events>
             <layers>
-                <layer name="" visibility="true">
+                <layer name="" visibility="false">
                     <cameras>
                         <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
                     </cameras>
                     <effects />
                 </layer>
-                <layer name="New layer 1" visibility="true">
+                <layer name="New layer 1" visibility="false">
                     <cameras>
                         <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
                     </cameras>
                     <effects />
                 </layer>
-                <layer name="New layer 2" visibility="false">
+                <layer name="New layer 2" visibility="true">
                     <cameras>
                         <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
                     </cameras>
