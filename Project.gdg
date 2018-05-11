@@ -513,10 +513,6 @@
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/water/aab.png" kind="image" name="aab.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/water/aac.png" kind="image" name="aac.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/water/aad.png" kind="image" name="aad.png" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/water/aaa.png" kind="image" name="aaa.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/water/aab.png" kind="image" name="aab.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/water/aac.png" kind="image" name="aac.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/water/aad.png" kind="image" name="aad.png2" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/water/aae.png" kind="image" name="aae.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/water/aaf.png" kind="image" name="aaf.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/water/aag.png" kind="image" name="aag.png" smoothed="true" userAdded="false" />
@@ -909,26 +905,31 @@
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/BITMAP/400-653.png" kind="image" name="400-653.png2" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/placeholderz/dipfull.png" kind="image" name="dipfull.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/placeholderz/dipmap1.png" kind="image" name="dipmap1.png" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aaa.png" kind="image" name="aaa.png3" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aab.png" kind="image" name="aab.png3" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aac.png" kind="image" name="aac.png3" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aad.png" kind="image" name="aad.png3" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aae.png" kind="image" name="aae.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aaf.png" kind="image" name="aaf.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aaf.png" kind="image" name="aaf.png3" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aag.png" kind="image" name="aag.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aah.png" kind="image" name="aah.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aai.png" kind="image" name="aai.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aaj.png" kind="image" name="aaj.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aak.png" kind="image" name="aak.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aal.png" kind="image" name="aal.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aam.png" kind="image" name="aam.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aan.png" kind="image" name="aan.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aao.png" kind="image" name="aao.png2" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/aap.png" kind="image" name="aap.png2" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/placeholderz/combatstart.png" kind="image" name="combatstart.png3" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/placeholderz/mainframe.png" kind="image" name="mainframe.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/5050.png" kind="image" name="5050.png18" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/5050.png" kind="image" name="5050.png19" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaaa.png" kind="image" name="zaaa.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaap.png" kind="image" name="zaap.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/northdevronorange.png" kind="image" name="northdevronorange.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/northdevronred.png" kind="image" name="northdevronred.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaao.png" kind="image" name="zaao.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaan.png" kind="image" name="zaan.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaam.png" kind="image" name="zaam.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaam.png" kind="image" name="zaam.png2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaal.png" kind="image" name="zaal.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaaa.png" kind="image" name="zaaa.png2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaab.png" kind="image" name="zaab.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaac.png" kind="image" name="zaac.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaad.png" kind="image" name="zaad.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaae.png" kind="image" name="zaae.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaaf.png" kind="image" name="zaaf.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaag.png" kind="image" name="zaag.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaah.png" kind="image" name="zaah.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaai.png" kind="image" name="zaai.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaaj.png" kind="image" name="zaaj.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaak.png" kind="image" name="zaak.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaal.png" kind="image" name="zaal.png2" smoothed="true" userAdded="false" />
         </resources>
         <resourceFolders />
     </resources>
@@ -12619,7 +12620,7 @@
             <behaviorsSharedData />
         </layout>
         <layout b="209" disableInputWhenNotFocused="true" mangledName="map1" name="map1" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
-            <uiSettings grid="false" gridB="192" gridG="192" gridHeight="64" gridOffsetX="0" gridOffsetY="0" gridR="192" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.500000" />
+            <uiSettings grid="false" gridB="192" gridG="192" gridHeight="64" gridOffsetX="0" gridOffsetY="0" gridR="192" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.500000" />
             <objectsGroups />
             <variables>
                 <variable name="NewVariable" value="0" />
@@ -13701,6 +13702,131 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject" width="0.000000" x="410.000000" y="155.000000" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject7" width="0.000000" x="572.666687" y="261.000000" zOrder="2">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject5" width="0.000000" x="388.000000" y="295.666656" zOrder="3">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject" width="0.000000" x="74.500000" y="60.999996" zOrder="4">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject" width="0.000000" x="51.499996" y="379.000000" zOrder="5">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject" width="0.000000" x="234.500000" y="185.000000" zOrder="6">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject145" width="0.000000" x="0.000000" y="0.000000" zOrder="7">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject147" width="0.000000" x="-128.000000" y="128.000000" zOrder="9">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject148" width="0.000000" x="-448.000000" y="-192.000000" zOrder="10">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject146" width="0.000000" x="-576.000000" y="128.000000" zOrder="11">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject149" width="0.000000" x="-896.000000" y="-64.000000" zOrder="12">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject150" width="0.000000" x="0.000000" y="-384.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject151" width="0.000000" x="-320.000000" y="-384.000000" zOrder="14">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject152" width="0.000000" x="-704.000000" y="-384.000000" zOrder="15">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject153" width="0.000000" x="-1088.000000" y="-384.000000" zOrder="16">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject154" width="0.000000" x="-1472.000000" y="-384.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject155" width="0.000000" x="256.000000" y="128.000000" zOrder="18">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject156" width="0.000000" x="-1856.000000" y="128.000000" zOrder="19">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject157" width="0.000000" x="-1856.000000" y="-192.000000" zOrder="20">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject158" width="0.000000" x="-1856.000000" y="-384.000000" zOrder="21">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject160" width="0.000000" x="-1024.000000" y="128.000000" zOrder="23">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject155" width="0.000000" x="-1472.000000" y="128.000000" zOrder="18">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject154" width="0.000000" x="256.000000" y="-384.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject159" width="0.000000" x="384.000000" y="-192.000000" zOrder="22">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject159" width="0.000000" x="-1344.000000" y="-192.000000" zOrder="2">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
             </instances>
             <objects>
                 <object name="NewObject2" type="Sprite">
@@ -14334,13 +14460,13 @@
                                         <sprite hasCustomCollisionMask="false" image="aaa.png2">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="256.000000" y="224.000000" />
+                                            <centerPoint automatic="true" name="centre" x="50.000000" y="50.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="448.000000" />
-                                                    <vertice x="0.000000" y="448.000000" />
+                                                    <vertice x="100.000000" y="0.000000" />
+                                                    <vertice x="100.000000" y="100.000000" />
+                                                    <vertice x="0.000000" y="100.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -14361,13 +14487,13 @@
                                         <sprite hasCustomCollisionMask="false" image="aab.png2">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="256.000000" y="224.000000" />
+                                            <centerPoint automatic="true" name="centre" x="50.000000" y="50.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="448.000000" />
-                                                    <vertice x="0.000000" y="448.000000" />
+                                                    <vertice x="100.000000" y="0.000000" />
+                                                    <vertice x="100.000000" y="100.000000" />
+                                                    <vertice x="0.000000" y="100.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -14388,13 +14514,13 @@
                                         <sprite hasCustomCollisionMask="false" image="aac.png2">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="256.000000" y="224.000000" />
+                                            <centerPoint automatic="true" name="centre" x="50.000000" y="50.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="448.000000" />
-                                                    <vertice x="0.000000" y="448.000000" />
+                                                    <vertice x="100.000000" y="0.000000" />
+                                                    <vertice x="100.000000" y="100.000000" />
+                                                    <vertice x="0.000000" y="100.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -14415,13 +14541,13 @@
                                         <sprite hasCustomCollisionMask="false" image="aad.png2">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="256.000000" y="224.000000" />
+                                            <centerPoint automatic="true" name="centre" x="50.000000" y="50.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="448.000000" />
-                                                    <vertice x="0.000000" y="448.000000" />
+                                                    <vertice x="100.000000" y="0.000000" />
+                                                    <vertice x="100.000000" y="100.000000" />
+                                                    <vertice x="0.000000" y="100.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -17515,7 +17641,21 @@
                         <animation name="" useMultipleDirections="false">
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites />
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="5050.png19">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
                                 </direction>
                             </directions>
                         </animation>
@@ -17599,7 +17739,7 @@
                         </animation>
                     </animations>
                 </object>
-                <object name="NewObject145" type="Sprite">
+                <object name="NewObject137" type="Sprite">
                     <variables />
                     <behaviors />
                     <animations>
@@ -17607,16 +17747,16 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aaa.png3">
+                                        <sprite hasCustomCollisionMask="false" image="mainframe.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="256.000000" y="224.000000" />
+                                            <centerPoint automatic="true" name="centre" x="320.000000" y="240.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="448.000000" />
-                                                    <vertice x="0.000000" y="448.000000" />
+                                                    <vertice x="640.000000" y="0.000000" />
+                                                    <vertice x="640.000000" y="480.000000" />
+                                                    <vertice x="0.000000" y="480.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -17626,7 +17766,7 @@
                         </animation>
                     </animations>
                 </object>
-                <object name="NewObject146" type="Sprite">
+                <object name="NewObject145" type="Sprite">
                     <variables />
                     <behaviors />
                     <animations>
@@ -17634,16 +17774,16 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aab.png3">
+                                        <sprite hasCustomCollisionMask="false" image="zaap.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="256.000000" y="224.000000" />
+                                            <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="448.000000" />
-                                                    <vertice x="0.000000" y="448.000000" />
+                                                    <vertice x="511.000000" y="0.000000" />
+                                                    <vertice x="511.000000" y="447.000000" />
+                                                    <vertice x="0.000000" y="447.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -17661,16 +17801,16 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aac.png3">
+                                        <sprite hasCustomCollisionMask="false" image="zaao.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="256.000000" y="224.000000" />
+                                            <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="448.000000" />
-                                                    <vertice x="0.000000" y="448.000000" />
+                                                    <vertice x="511.000000" y="0.000000" />
+                                                    <vertice x="511.000000" y="447.000000" />
+                                                    <vertice x="0.000000" y="447.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -17688,16 +17828,43 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aad.png3">
+                                        <sprite hasCustomCollisionMask="false" image="zaan.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="256.000000" y="224.000000" />
+                                            <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="448.000000" />
-                                                    <vertice x="0.000000" y="448.000000" />
+                                                    <vertice x="511.000000" y="0.000000" />
+                                                    <vertice x="511.000000" y="447.000000" />
+                                                    <vertice x="0.000000" y="447.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject146" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="zaam.png2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="511.000000" y="0.000000" />
+                                                    <vertice x="511.000000" y="447.000000" />
+                                                    <vertice x="0.000000" y="447.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -17715,16 +17882,16 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aae.png2">
+                                        <sprite hasCustomCollisionMask="false" image="zaal.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="256.000000" y="224.000000" />
+                                            <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="0.000000" />
-                                                    <vertice x="512.000000" y="448.000000" />
-                                                    <vertice x="0.000000" y="448.000000" />
+                                                    <vertice x="511.000000" y="0.000000" />
+                                                    <vertice x="511.000000" y="447.000000" />
+                                                    <vertice x="0.000000" y="447.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -17742,7 +17909,7 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aaf.png3">
+                                        <sprite hasCustomCollisionMask="false" image="zaaa.png2">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
@@ -17769,7 +17936,7 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aag.png2">
+                                        <sprite hasCustomCollisionMask="false" image="zaab.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
@@ -17796,16 +17963,16 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aah.png2">
+                                        <sprite hasCustomCollisionMask="false" image="zaac.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
+                                            <centerPoint automatic="true" name="centre" x="256.000000" y="224.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="511.000000" y="0.000000" />
-                                                    <vertice x="511.000000" y="447.000000" />
-                                                    <vertice x="0.000000" y="447.000000" />
+                                                    <vertice x="512.000000" y="0.000000" />
+                                                    <vertice x="512.000000" y="448.000000" />
+                                                    <vertice x="0.000000" y="448.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -17823,7 +17990,7 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aai.png2">
+                                        <sprite hasCustomCollisionMask="false" image="zaad.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
@@ -17850,7 +18017,7 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aaj.png2">
+                                        <sprite hasCustomCollisionMask="false" image="zaae.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
@@ -17877,7 +18044,7 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aak.png2">
+                                        <sprite hasCustomCollisionMask="false" image="zaaf.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
@@ -17904,7 +18071,7 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aal.png2">
+                                        <sprite hasCustomCollisionMask="false" image="zaag.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
@@ -17931,7 +18098,7 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aam.png2">
+                                        <sprite hasCustomCollisionMask="false" image="zaah.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
@@ -17958,7 +18125,7 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aan.png2">
+                                        <sprite hasCustomCollisionMask="false" image="zaai.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
@@ -17985,7 +18152,7 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aao.png2">
+                                        <sprite hasCustomCollisionMask="false" image="zaaj.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
@@ -18012,7 +18179,7 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="aap.png2">
+                                        <sprite hasCustomCollisionMask="false" image="zaak.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
@@ -18031,7 +18198,7 @@
                         </animation>
                     </animations>
                 </object>
-                <object name="NewObject137" type="Sprite">
+                <object name="NewObject161" type="Sprite">
                     <variables />
                     <behaviors />
                     <animations>
@@ -18039,16 +18206,16 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="mainframe.png">
+                                        <sprite hasCustomCollisionMask="false" image="zaal.png2">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="320.000000" y="240.000000" />
+                                            <centerPoint automatic="true" name="centre" x="255.500000" y="223.500000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="640.000000" y="0.000000" />
-                                                    <vertice x="640.000000" y="480.000000" />
-                                                    <vertice x="0.000000" y="480.000000" />
+                                                    <vertice x="511.000000" y="0.000000" />
+                                                    <vertice x="511.000000" y="447.000000" />
+                                                    <vertice x="0.000000" y="447.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -18124,6 +18291,12 @@
                             <subActions />
                         </action>
                     </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions />
+                    <actions />
                     <events />
                 </event>
                 <event disabled="false" folded="false">
@@ -18223,8 +18396,8 @@
                             <parameters>
                                 <parameter></parameter>
                                 <parameter>=</parameter>
-                                <parameter>CameraX(&quot;&quot;,0) - 4</parameter>
-                                <parameter></parameter>
+                                <parameter>CameraX(&quot;New layer 1&quot;,0) - 4</parameter>
+                                <parameter>&quot;New layer 1&quot;</parameter>
                                 <parameter></parameter>
                             </parameters>
                             <subActions />
@@ -18235,13 +18408,44 @@
                                 <parameter></parameter>
                                 <parameter>=</parameter>
                                 <parameter>CameraX(&quot;&quot;,0) - 4</parameter>
-                                <parameter>&quot;New layer 1&quot;</parameter>
+                                <parameter></parameter>
                                 <parameter></parameter>
                             </parameters>
                             <subActions />
                         </action>
                     </actions>
-                    <events />
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="true" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>-1520</parameter>
+                                        <parameter>&quot;New layer 1&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>180</parameter>
+                                        <parameter>&quot;New layer 1&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
                 </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
@@ -18264,8 +18468,8 @@
                             <parameters>
                                 <parameter></parameter>
                                 <parameter>=</parameter>
-                                <parameter>CameraX(&quot;&quot;,0) + 4</parameter>
-                                <parameter></parameter>
+                                <parameter>CameraX(&quot;New layer 1&quot;,0) + 4</parameter>
+                                <parameter>&quot;New layer 1&quot;</parameter>
                                 <parameter></parameter>
                             </parameters>
                             <subActions />
@@ -18276,13 +18480,44 @@
                                 <parameter></parameter>
                                 <parameter>=</parameter>
                                 <parameter>CameraX(&quot;&quot;,0) + 4</parameter>
-                                <parameter>&quot;New layer 1&quot;</parameter>
+                                <parameter></parameter>
                                 <parameter></parameter>
                             </parameters>
                             <subActions />
                         </action>
                     </actions>
-                    <events />
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="true" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>520</parameter>
+                                        <parameter>&quot;New layer 1&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>-1200</parameter>
+                                        <parameter>&quot;New layer 1&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
                 </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
@@ -18294,17 +18529,6 @@
                                 <parameter>&lt;</parameter>
                                 <parameter>10</parameter>
                                 <parameter>&quot;New layer&quot;</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="SourisY" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&gt;</parameter>
-                                <parameter>1777</parameter>
-                                <parameter></parameter>
                                 <parameter></parameter>
                             </parameters>
                             <subConditions />
@@ -18323,7 +18547,38 @@
                             <subActions />
                         </action>
                     </actions>
-                    <events />
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraY" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>-168</parameter>
+                                        <parameter>&quot;New layer 1&quot;</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="CameraY" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>CameraY(&quot;New layer 1&quot;,0) - 4</parameter>
+                                        <parameter>&quot;New layer 1&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
                 </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
@@ -18335,17 +18590,6 @@
                                 <parameter>&gt;</parameter>
                                 <parameter>470</parameter>
                                 <parameter>&quot;New layer&quot;</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="SourisY" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&lt;</parameter>
-                                <parameter>5630</parameter>
-                                <parameter></parameter>
                                 <parameter></parameter>
                             </parameters>
                             <subConditions />
@@ -18364,67 +18608,38 @@
                             <subActions />
                         </action>
                     </actions>
-                    <events />
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="SourisX" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&lt;</parameter>
-                                <parameter>2500</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="CameraX" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>=</parameter>
-                                <parameter>9450</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="SourisX" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&gt;</parameter>
-                                <parameter>9500</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="CameraX" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>=</parameter>
-                                <parameter>2543</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraY" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>346</parameter>
+                                        <parameter>&quot;New layer 1&quot;</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="CameraY" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>CameraY(&quot;New layer 1&quot;,0) + 4</parameter>
+                                        <parameter>&quot;New layer 1&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
                 </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Comment</type>
@@ -18476,6 +18691,28 @@
                                     <parameters>
                                         <parameter></parameter>
                                         <parameter>&quot;New layer 1&quot;</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>200</parameter>
+                                        <parameter>&quot;New layer 1&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="CameraY" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>200</parameter>
+                                        <parameter>&quot;New layer 1&quot;</parameter>
+                                        <parameter></parameter>
                                     </parameters>
                                     <subActions />
                                 </action>
@@ -19037,23 +19274,23 @@
                             </actions>
                             <events />
                         </event>
-                        <event disabled="false" folded="false">
-                            <type>BuiltinCommonInstructions::Comment</type>
-                            <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
-                            <comment>scrolzom</comment>
-                            <comment2></comment2>
-                        </event>
                     </events>
                 </event>
             </events>
             <layers>
-                <layer name="" visibility="true">
+                <layer name="" visibility="false">
                     <cameras>
                         <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
                     </cameras>
                     <effects />
                 </layer>
-                <layer name="New layer" visibility="true">
+                <layer name="New layer 1" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="New layer" visibility="false">
                     <cameras>
                         <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
                     </cameras>
