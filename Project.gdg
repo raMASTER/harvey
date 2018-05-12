@@ -911,8 +911,6 @@
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/5050.png" kind="image" name="5050.png19" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaaa.png" kind="image" name="zaaa.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaap.png" kind="image" name="zaap.png" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/northdevronorange.png" kind="image" name="northdevronorange.png" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/northdevronred.png" kind="image" name="northdevronred.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaao.png" kind="image" name="zaao.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaan.png" kind="image" name="zaan.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaam.png" kind="image" name="zaam.png" smoothed="true" userAdded="false" />
@@ -930,6 +928,17 @@
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaaj.png" kind="image" name="zaaj.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaak.png" kind="image" name="zaak.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/zaal.png" kind="image" name="zaal.png2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/f000.png" kind="image" name="f000.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/f002.png" kind="image" name="f002.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/f004.png" kind="image" name="f004.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/f006.png" kind="image" name="f006.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/f008.png" kind="image" name="f008.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/f010.png" kind="image" name="f010.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/f012.png" kind="image" name="f012.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/f014.png" kind="image" name="f014.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/f000b.png" kind="image" name="f000b.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/f001b.png" kind="image" name="f001b.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/zoomedmap1/taravalblue.png" kind="image" name="taravalblue.png" smoothed="true" userAdded="false" />
         </resources>
         <resourceFolders />
     </resources>
@@ -1419,6 +1428,16 @@
                 </variable>
                 <variable name="movepassaic" value="0" />
                 <variable name="movesissa" value="0" />
+            </children>
+        </variable>
+        <variable name="province">
+            <children>
+                <variable name="taraval">
+                    <children>
+                        <variable name="fort" value="0" />
+                        <variable name="owner" value="player" />
+                    </children>
+                </variable>
             </children>
         </variable>
     </variables>
@@ -12620,8 +12639,14 @@
             <behaviorsSharedData />
         </layout>
         <layout b="209" disableInputWhenNotFocused="true" mangledName="map1" name="map1" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
-            <uiSettings grid="false" gridB="192" gridG="192" gridHeight="64" gridOffsetX="0" gridOffsetY="0" gridR="192" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.500000" />
-            <objectsGroups />
+            <uiSettings grid="false" gridB="192" gridG="192" gridHeight="64" gridOffsetX="0" gridOffsetY="0" gridR="192" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.500000" />
+            <objectsGroups>
+                <group name="tinyflagz">
+                    <objects>
+                        <object name="NewObject162" />
+                    </objects>
+                </group>
+            </objectsGroups>
             <variables>
                 <variable name="NewVariable" value="0" />
                 <variable name="NewVariable2" value="0" />
@@ -13732,7 +13757,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject145" width="0.000000" x="0.000000" y="0.000000" zOrder="7">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject145" width="0.000000" x="0.000000" y="0.000000" zOrder="19">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -13823,6 +13848,21 @@
                     <initialVariables />
                 </instance>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject159" width="0.000000" x="-1344.000000" y="-192.000000" zOrder="2">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject162" width="0.000000" x="360.000000" y="224.000000" zOrder="26">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="mouzez" width="0.000000" x="241.000000" y="220.000000" zOrder="15">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject162" width="0.000000" x="-1368.000000" y="224.000000" zOrder="27">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -18225,6 +18265,158 @@
                         </animation>
                     </animations>
                 </object>
+                <object name="NewObject162" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="f000.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="8.000000" y="8.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="16.000000" />
+                                                    <vertice x="0.000000" y="16.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="f002.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="8.000000" y="8.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="16.000000" />
+                                                    <vertice x="0.000000" y="16.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="f004.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="8.000000" y="8.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="16.000000" />
+                                                    <vertice x="0.000000" y="16.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="f006.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="8.000000" y="8.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="16.000000" />
+                                                    <vertice x="0.000000" y="16.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="f008.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="8.000000" y="8.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="16.000000" />
+                                                    <vertice x="0.000000" y="16.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="f010.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="8.000000" y="8.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="16.000000" />
+                                                    <vertice x="0.000000" y="16.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="f012.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="8.000000" y="8.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="16.000000" />
+                                                    <vertice x="0.000000" y="16.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="f014.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="8.000000" y="8.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="16.000000" />
+                                                    <vertice x="0.000000" y="16.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="true" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="f000b.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="8.000000" y="8.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="16.000000" />
+                                                    <vertice x="0.000000" y="16.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="f001b.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="8.000000" y="8.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="0.000000" />
+                                                    <vertice x="16.000000" y="16.000000" />
+                                                    <vertice x="0.000000" y="16.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
             </objects>
             <events>
                 <event disabled="false" folded="false">
@@ -18272,6 +18464,20 @@
                             </parameters>
                             <subActions />
                         </action>
+                        <action>
+                            <type inverted="false" value="PauseAnimation" />
+                            <parameters>
+                                <parameter>tinyflagz</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PauseAnimation" />
+                            <parameters>
+                                <parameter>mouzez</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
                     </actions>
                     <events />
                 </event>
@@ -18284,9 +18490,9 @@
                             <parameters>
                                 <parameter>mouzez</parameter>
                                 <parameter>=</parameter>
-                                <parameter>MouseX(&quot;New layer&quot;,0) - 16</parameter>
+                                <parameter>MouseX(&quot;New layer&quot;,0) - 8</parameter>
                                 <parameter>=</parameter>
-                                <parameter>MouseY(&quot;New layer&quot;,0) - 16</parameter>
+                                <parameter>MouseY(&quot;New layer&quot;,0) - 8</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -18556,7 +18762,7 @@
                                     <parameters>
                                         <parameter></parameter>
                                         <parameter>&gt;</parameter>
-                                        <parameter>-168</parameter>
+                                        <parameter>-165</parameter>
                                         <parameter>&quot;New layer 1&quot;</parameter>
                                         <parameter>0</parameter>
                                     </parameters>
@@ -19275,6 +19481,114 @@
                             <events />
                         </event>
                     </events>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Comment</type>
+                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                    <comment>motf</comment>
+                    <comment2></comment2>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject162</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="VarGlobalTxt" />
+                            <parameters>
+                                <parameter>province.taraval.owner</parameter>
+                                <parameter>=</parameter>
+                                <parameter>&quot;player&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>mouzez</parameter>
+                                <parameter>=</parameter>
+                                <parameter>8</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="SourisBouton" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ChangeAnimation" />
+                                    <parameters>
+                                        <parameter>NewObject162</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PlayAnimation" />
+                                    <parameters>
+                                        <parameter>NewObject162</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="true" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>tinyflagz</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ChangeSprite" />
+                            <parameters>
+                                <parameter>mouzez</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions />
+                    <actions />
+                    <events />
                 </event>
             </events>
             <layers>
