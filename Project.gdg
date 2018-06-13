@@ -1093,6 +1093,13 @@
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/minimapz/mm-43.png" kind="image" name="mm-43.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/minimapz/mm-44.png" kind="image" name="mm-44.png" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/minimapz/mm-45.png" kind="image" name="mm-45.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/placeholderz/mapfirst.png" kind="image" name="mapfirst.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/minimapz/mm-46.png" kind="image" name="mm-46.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/minimapz/mm-47.png" kind="image" name="mm-47.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/minimapz/mm-48.png" kind="image" name="mm-48.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/minimapz/mm-49.png" kind="image" name="mm-49.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/minimapz/mm-50.png" kind="image" name="mm-50.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/minimapz/mm-51.png" kind="image" name="mm-51.png" smoothed="true" userAdded="false" />
         </resources>
         <resourceFolders />
     </resources>
@@ -12928,10 +12935,10 @@
                 <variable name="NewVariable" value="0" />
                 <variable name="NewVariable2" value="0" />
                 <variable name="NewVariable3" value="0" />
-                <variable name="rectangletoplefttX" value="0" />
-                <variable name="rectangletopleftY" value="0" />
-                <variable name="rectanglelowrightX" value="0" />
-                <variable name="rectanglelowrightY" value="0" />
+                <variable name="rectangletoplefttX" value="568" />
+                <variable name="rectangletopleftY" value="72" />
+                <variable name="rectanglelowrightX" value="587" />
+                <variable name="rectanglelowrightY" value="90" />
             </variables>
             <instances>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject2" width="0.000000" x="384.000000" y="0.000000" zOrder="1">
@@ -14460,6 +14467,36 @@
                     <initialVariables />
                 </instance>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 2" locked="true" name="NewObject214" width="0.000000" x="651.000000" y="33.000000" zOrder="1172">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 2" locked="true" name="NewObject215" width="0.000000" x="654.000000" y="33.000000" zOrder="1139">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 2" locked="true" name="NewObject216" width="0.000000" x="657.000000" y="33.000000" zOrder="1173">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 2" locked="true" name="NewObject217" width="0.000000" x="660.000000" y="33.000000" zOrder="1174">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 2" locked="true" name="NewObject218" width="0.000000" x="663.000000" y="33.000000" zOrder="1175">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 2" locked="true" name="NewObject219" width="0.000000" x="666.000000" y="33.000000" zOrder="1176">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 2" locked="true" name="NewObject220" width="0.000000" x="669.000000" y="33.000000" zOrder="1177">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -21312,6 +21349,168 @@
                         </animation>
                     </animations>
                 </object>
+                <object name="NewObject215" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="mm-46.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject216" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="mm-47.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject217" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="mm-48.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject218" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="mm-49.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject219" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="mm-50.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject220" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="mm-51.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
             </objects>
             <events>
                 <event disabled="false" folded="false">
@@ -21377,6 +21576,14 @@
                                 <parameter>CameraY(&quot;New layer 1&quot;,0) - 50</parameter>
                                 <parameter>&quot;New layer 1&quot;</parameter>
                                 <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;beginz&quot;</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -21581,6 +21788,15 @@
                                 <parameter>10</parameter>
                                 <parameter>&quot;New layer&quot;</parameter>
                                 <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>1</parameter>
+                                <parameter>&quot;beginz&quot;</parameter>
                             </parameters>
                             <subConditions />
                         </condition>
@@ -21959,6 +22175,444 @@
                             <events />
                         </event>
                         <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>353</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject183</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>356</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject165</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>359</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject168</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>362</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject169</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>365</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject184</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>368</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject185</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>371</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject186</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>374</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject187</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>377</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject188</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>380</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject189</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>383</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject190</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>386</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject191</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>389</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject192</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>392</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject193</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>395</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject194</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>398</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Montre" />
+                                    <parameters>
+                                        <parameter>NewObject195</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Comment</type>
+                            <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                            <comment>scrollleft</comment>
+                            <comment2></comment2>
+                        </event>
+                        <event disabled="false" folded="false">
                             <type>BuiltinCommonInstructions::Comment</type>
                             <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                             <comment>scroolright</comment>
@@ -21969,6 +22623,15 @@
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>1</parameter>
+                                <parameter>&quot;beginz&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
                         <condition>
                             <type inverted="false" value="SourisX" />
                             <parameters>
@@ -23117,6 +23780,240 @@
                                     <parameters>
                                         <parameter></parameter>
                                         <parameter>&gt;</parameter>
+                                        <parameter>447</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Cache" />
+                                    <parameters>
+                                        <parameter>NewObject211</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>450</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Cache" />
+                                    <parameters>
+                                        <parameter>NewObject212</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>453</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Cache" />
+                                    <parameters>
+                                        <parameter>NewObject213</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>456</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Cache" />
+                                    <parameters>
+                                        <parameter>NewObject214</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>459</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Cache" />
+                                    <parameters>
+                                        <parameter>NewObject215</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>461</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Cache" />
+                                    <parameters>
+                                        <parameter>NewObject216</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>464</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Cache" />
+                                    <parameters>
+                                        <parameter>NewObject217</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>467</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Cache" />
+                                    <parameters>
+                                        <parameter>NewObject218</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>470</parameter>
+                                        <parameter>&quot;New layer 2&quot;</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Cache" />
+                                    <parameters>
+                                        <parameter>NewObject219</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CameraX" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>&gt;</parameter>
                                         <parameter>520</parameter>
                                         <parameter>&quot;New layer 2&quot;</parameter>
                                         <parameter></parameter>
@@ -23194,6 +24091,26 @@
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>1</parameter>
+                                <parameter>&quot;beginz&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="CameraY" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&gt;</parameter>
+                                <parameter>224</parameter>
+                                <parameter>&quot;New layer 2&quot;</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
                             <type inverted="false" value="SourisY" />
                             <parameters>
                                 <parameter></parameter>
@@ -23207,6 +24124,35 @@
                     </conditions>
                     <actions>
                         <action>
+                            <type inverted="false" value="ModVarScene" />
+                            <parameters>
+                                <parameter>rectangletopleftY</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Variable(rectangletopleftY) - 0.35</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarScene" />
+                            <parameters>
+                                <parameter>rectanglelowrightY</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Variable(rectanglelowrightY) - 0.35</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="CameraY" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>=</parameter>
+                                <parameter>CameraY(&quot;New layer 2&quot;,0) - 0.6</parameter>
+                                <parameter>&quot;New layer 2&quot;</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
                             <type inverted="false" value="CameraY" />
                             <parameters>
                                 <parameter></parameter>
@@ -23219,7 +24165,7 @@
                         </action>
                     </actions>
                     <events>
-                        <event disabled="false" folded="false">
+                        <event disabled="true" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
@@ -23249,7 +24195,7 @@
                             </actions>
                             <events />
                         </event>
-                        <event disabled="false" folded="false">
+                        <event disabled="true" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
@@ -23264,19 +24210,7 @@
                                     <subConditions />
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action>
-                                    <type inverted="false" value="CameraY" />
-                                    <parameters>
-                                        <parameter></parameter>
-                                        <parameter>=</parameter>
-                                        <parameter>CameraY(&quot;New layer 2&quot;,0) - 0.6</parameter>
-                                        <parameter>&quot;New layer 2&quot;</parameter>
-                                        <parameter></parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                            </actions>
+                            <actions />
                             <events />
                         </event>
                     </events>
@@ -23284,6 +24218,26 @@
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
+                        <condition>
+                            <type inverted="false" value="CameraY" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>279</parameter>
+                                <parameter>&quot;New layer 2&quot;</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>1</parameter>
+                                <parameter>&quot;beginz&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
                         <condition>
                             <type inverted="false" value="SourisY" />
                             <parameters>
@@ -23308,9 +24262,38 @@
                             </parameters>
                             <subActions />
                         </action>
+                        <action>
+                            <type inverted="false" value="CameraY" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>=</parameter>
+                                <parameter>CameraY(&quot;New layer 2&quot;,0) + 0.6</parameter>
+                                <parameter>&quot;New layer 2&quot;</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarScene" />
+                            <parameters>
+                                <parameter>rectangletopleftY</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Variable(rectangletopleftY) + 0.35</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarScene" />
+                            <parameters>
+                                <parameter>rectanglelowrightY</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Variable(rectanglelowrightY) + 0.35</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
                     </actions>
                     <events>
-                        <event disabled="false" folded="false">
+                        <event disabled="true" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
@@ -23340,7 +24323,7 @@
                             </actions>
                             <events />
                         </event>
-                        <event disabled="false" folded="false">
+                        <event disabled="true" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
@@ -23355,20 +24338,14 @@
                                     <subConditions />
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action>
-                                    <type inverted="false" value="CameraY" />
-                                    <parameters>
-                                        <parameter></parameter>
-                                        <parameter>=</parameter>
-                                        <parameter>CameraY(&quot;New layer 2&quot;,0) + 0.6</parameter>
-                                        <parameter>&quot;New layer 2&quot;</parameter>
-                                        <parameter></parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                            </actions>
+                            <actions />
                             <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Comment</type>
+                            <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                            <comment>scrolldown</comment>
+                            <comment2></comment2>
                         </event>
                     </events>
                 </event>
@@ -23568,7 +24545,7 @@
                                     <parameters>
                                         <parameter>rectangletoplefttX</parameter>
                                         <parameter>=</parameter>
-                                        <parameter>553</parameter>
+                                        <parameter>568</parameter>
                                     </parameters>
                                     <subActions />
                                 </action>
@@ -23577,7 +24554,7 @@
                                     <parameters>
                                         <parameter>rectangletopleftY</parameter>
                                         <parameter>=</parameter>
-                                        <parameter>61</parameter>
+                                        <parameter>73</parameter>
                                     </parameters>
                                     <subActions />
                                 </action>
@@ -23586,7 +24563,7 @@
                                     <parameters>
                                         <parameter>rectanglelowrightX</parameter>
                                         <parameter>=</parameter>
-                                        <parameter>597</parameter>
+                                        <parameter>587</parameter>
                                     </parameters>
                                     <subActions />
                                 </action>
@@ -23595,7 +24572,7 @@
                                     <parameters>
                                         <parameter>rectanglelowrightY</parameter>
                                         <parameter>=</parameter>
-                                        <parameter>97</parameter>
+                                        <parameter>90</parameter>
                                     </parameters>
                                     <subActions />
                                 </action>
