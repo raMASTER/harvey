@@ -1355,6 +1355,8 @@
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile028.png" kind="image" name="tile028.png5" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile029.png" kind="image" name="tile029.png5" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/flagorange.png" kind="image" name="flagorange.png4" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictenu/.rsrc/BITMAP/2111.BMP.bmp" kind="image" name="2111.BMP.bmp7" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictenu/.rsrc/BITMAP/2113.BMP.bmp" kind="image" name="2113.BMP.bmp6" smoothed="true" userAdded="false" />
         </resources>
         <resourceFolders />
     </resources>
@@ -1715,7 +1717,7 @@
                 <variable name="paperz" value="900" />
                 <variable name="shirtz" value="1262" />
                 <variable name="timber" value="0" />
-                <variable name="tools" value="900" />
+                <variable name="toolz" value="900" />
                 <variable name="weapons" value="900" />
             </children>
         </variable>
@@ -1964,6 +1966,7 @@
                 <variable name="chairz" value="0" />
                 <variable name="paperz" value="0" />
                 <variable name="shirtz" value="0" />
+                <variable name="toolz" value="0" />
             </children>
         </variable>
         <variable name="rez">
@@ -1973,6 +1976,7 @@
                 <variable name="merchantmarine" value="8" />
                 <variable name="paperz" value="11" />
                 <variable name="shirtz" value="22" />
+                <variable name="toolz" value="10" />
             </children>
         </variable>
     </variables>
@@ -2245,7 +2249,7 @@
             <behaviorsSharedData />
         </layout>
         <layout b="209" disableInputWhenNotFocused="true" mangledName="settrade" name="settrade" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.500000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
             <objectsGroups>
                 <group name="hiddenz">
                     <objects>
@@ -2259,6 +2263,7 @@
                         <object name="NewObject76" />
                         <object name="NewObject78" />
                         <object name="NewObject79" />
+                        <object name="NewObject80" />
                     </objects>
                 </group>
                 <group name="lineshirts">
@@ -2291,6 +2296,7 @@
                         <object name="NewObject30" />
                         <object name="NewObject29" />
                         <object name="NewObject28" />
+                        <object name="NewObject81" />
                     </objects>
                 </group>
                 <group name="lineweapons">
@@ -2336,6 +2342,8 @@
                         <object name="NewObject5" />
                         <object name="NewObject22" />
                         <object name="NewObject25" />
+                        <object name="NewObject31" />
+                        <object name="NewObject33" />
                     </objects>
                 </group>
             </objectsGroups>
@@ -2479,7 +2487,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject31" width="0.000000" x="433.000000" y="142.999985" zOrder="33">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject31" width="0.000000" x="434.000000" y="142.999985" zOrder="33">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -2730,6 +2738,16 @@
                     <initialVariables />
                 </instance>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject79" width="0.000000" x="166.000000" y="118.000000" zOrder="303">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject80" width="0.000000" x="133.000000" y="137.999985" zOrder="304">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject81" width="0.000000" x="166.000000" y="137.999985" zOrder="305">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -3289,19 +3307,6 @@
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="bid.png4">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="34.000000" y="9.500000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="68.000000" y="0.000000" />
-                                                    <vertice x="68.000000" y="19.000000" />
-                                                    <vertice x="0.000000" y="19.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
                                     </sprites>
                                 </direction>
                             </directions>
@@ -3326,19 +3331,6 @@
                                                     <vertice x="17.000000" y="0.000000" />
                                                     <vertice x="17.000000" y="20.000000" />
                                                     <vertice x="0.000000" y="20.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="offer.png3">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="33.000000" y="9.500000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="66.000000" y="0.000000" />
-                                                    <vertice x="66.000000" y="19.000000" />
-                                                    <vertice x="0.000000" y="19.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -3394,19 +3386,6 @@
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="2122.BMP.bmp5">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="8.000000" y="5.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="16.000000" y="0.000000" />
-                                                    <vertice x="16.000000" y="10.000000" />
-                                                    <vertice x="0.000000" y="10.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="2121.BMP.bmp10">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="8.000000" y="5.000000" />
@@ -3482,19 +3461,6 @@
                                                     <vertice x="0.000000" y="0.000000" />
                                                     <vertice x="16.000000" y="0.000000" />
                                                     <vertice x="16.000000" y="10.000000" />
-                                                    <vertice x="0.000000" y="10.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="2123.BMP.bmp6">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="7.500000" y="5.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="15.000000" y="0.000000" />
-                                                    <vertice x="15.000000" y="10.000000" />
                                                     <vertice x="0.000000" y="10.000000" />
                                                 </polygon>
                                             </customCollisionMask>
@@ -4724,6 +4690,60 @@
                         </animation>
                     </animations>
                 </object>
+                <object name="NewObject80" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="2111.BMP.bmp7">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.500000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="65.000000" y="0.000000" />
+                                                    <vertice x="65.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject81" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="2113.BMP.bmp6">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.500000" y="10.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="65.000000" y="0.000000" />
+                                                    <vertice x="65.000000" y="20.000000" />
+                                                    <vertice x="0.000000" y="20.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
             </objects>
             <events>
                 <event disabled="false" folded="false">
@@ -4996,6 +5016,87 @@
                             <type inverted="false" value="Montre" />
                             <parameters>
                                 <parameter>NewObject78</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject26</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.3</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Visible" />
+                            <parameters>
+                                <parameter>NewObject26</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>NewObject26</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>NewObject27</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>sell.toolz</parameter>
+                                <parameter>=</parameter>
+                                <parameter>-1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject80</parameter>
                                 <parameter></parameter>
                             </parameters>
                             <subActions />
@@ -5509,6 +5610,88 @@
                         <condition>
                             <type inverted="false" value="SourisSurObjet" />
                             <parameters>
+                                <parameter>NewObject80</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.3</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Visible" />
+                            <parameters>
+                                <parameter>NewObject80</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>NewObject80</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>sell.toolz</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject26</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject27</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
                                 <parameter>NewObject56</parameter>
                                 <parameter></parameter>
                                 <parameter></parameter>
@@ -5678,176 +5861,6 @@
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                     <comment>short offer buttons</comment>
                     <comment2></comment2>
-                </event>
-                <event disabled="true" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="SourisSurObjet" />
-                            <parameters>
-                                <parameter>NewObject35</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="MouseButtonReleased" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>Left</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="Timer" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>0.1</parameter>
-                                <parameter>&quot;&quot;</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="Cache" />
-                            <parameters>
-                                <parameter>NewObject35</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="Montre" />
-                            <parameters>
-                                <parameter>lineweapons</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="TextObject::String" />
-                            <parameters>
-                                <parameter>NewObject37</parameter>
-                                <parameter>=</parameter>
-                                <parameter>&quot;$&quot; + GlobalVariableString(prices.weapons)</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="TextObject::String" />
-                            <parameters>
-                                <parameter>NewObject39</parameter>
-                                <parameter>=</parameter>
-                                <parameter>GlobalVariableString(buysell.weapons)</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="TextObject::String" />
-                            <parameters>
-                                <parameter>NewObject38</parameter>
-                                <parameter>=</parameter>
-                                <parameter>GlobalVariableString(resources.weapons)</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="ResetTimer" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&quot;&quot;</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-                <event disabled="true" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="SourisSurObjet" />
-                            <parameters>
-                                <parameter>NewObject46</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="MouseButtonReleased" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>Left</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="Timer" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>0.1</parameter>
-                                <parameter>&quot;a&quot;</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="Cache" />
-                            <parameters>
-                                <parameter>NewObject46</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="Montre" />
-                            <parameters>
-                                <parameter>linecannedfood</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="TextObject::String" />
-                            <parameters>
-                                <parameter>NewObject47</parameter>
-                                <parameter>=</parameter>
-                                <parameter>&quot;$&quot; + GlobalVariableString(prices.cannedfood)</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="TextObject::String" />
-                            <parameters>
-                                <parameter>NewObject48</parameter>
-                                <parameter>=</parameter>
-                                <parameter>GlobalVariableString(resources.cannedfood)</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="TextObject::String" />
-                            <parameters>
-                                <parameter>NewObject49</parameter>
-                                <parameter>=</parameter>
-                                <parameter>GlobalVariableString(buysell.cannedfood)</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="ResetTimer" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&quot;a&quot;</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
                 </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
@@ -6051,6 +6064,114 @@
                                 <parameter>NewObject21</parameter>
                                 <parameter>=</parameter>
                                 <parameter>GlobalVariableString(sell.chairz)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject27</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Visible" />
+                            <parameters>
+                                <parameter>NewObject27</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.3</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>NewObject26</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>NewObject27</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>linetools</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>sell.toolz</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject28</parameter>
+                                <parameter>=</parameter>
+                                <parameter>&quot;$&quot; + GlobalVariableString(prices.toolz)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject29</parameter>
+                                <parameter>=</parameter>
+                                <parameter>GlobalVariableString(rez.toolz)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject30</parameter>
+                                <parameter>=</parameter>
+                                <parameter>GlobalVariableString(sell.toolz)</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -6275,222 +6396,6 @@
                     <comment>long offer buttons</comment>
                     <comment2></comment2>
                 </event>
-                <event disabled="true" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="SourisSurObjet" />
-                            <parameters>
-                                <parameter>NewObject36</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="SourisBouton" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>Left</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="Timer" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>0.1</parameter>
-                                <parameter>&quot;a&quot;</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="Montre" />
-                            <parameters>
-                                <parameter>NewObject35</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="Cache" />
-                            <parameters>
-                                <parameter>lineweapons</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="ModVarGlobal" />
-                            <parameters>
-                                <parameter>buysell.weapons</parameter>
-                                <parameter>=</parameter>
-                                <parameter>0</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="ResetTimer" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&quot;a&quot;</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-                <event disabled="true" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="SourisSurObjet" />
-                            <parameters>
-                                <parameter>NewObject45</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="SourisBouton" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>Left</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="Timer" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>0.1</parameter>
-                                <parameter>&quot;a&quot;</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="Montre" />
-                            <parameters>
-                                <parameter>NewObject46</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="Cache" />
-                            <parameters>
-                                <parameter>linecannedfood</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="ModVarGlobal" />
-                            <parameters>
-                                <parameter>buysell.cannedfood</parameter>
-                                <parameter>=</parameter>
-                                <parameter>0</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="ResetTimer" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&quot;a&quot;</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-                <event disabled="true" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="SourisSurObjet" />
-                            <parameters>
-                                <parameter>NewObject45</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="SourisBouton" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>Left</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="Visible" />
-                            <parameters>
-                                <parameter>NewObject45</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="Timer" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>0.3</parameter>
-                                <parameter>&quot;&quot;</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="Montre" />
-                            <parameters>
-                                <parameter>NewObject10</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="Montre" />
-                            <parameters>
-                                <parameter>NewObject16</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="Cache" />
-                            <parameters>
-                                <parameter>linefoodz</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="ModVarGlobal" />
-                            <parameters>
-                                <parameter>sell.foodz</parameter>
-                                <parameter>=</parameter>
-                                <parameter>0</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="ResetTimer" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&quot;&quot;</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
@@ -6639,6 +6544,88 @@
                             <type inverted="false" value="ModVarGlobal" />
                             <parameters>
                                 <parameter>sell.chairz</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject81</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Visible" />
+                            <parameters>
+                                <parameter>NewObject81</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.3</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject26</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject27</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>linetools</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>sell.toolz</parameter>
                                 <parameter>=</parameter>
                                 <parameter>0</parameter>
                             </parameters>
@@ -6830,95 +6817,6 @@
                     <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
                     <comment>decrease buttons</comment>
                     <comment2></comment2>
-                </event>
-                <event disabled="true" folded="true">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="SourisSurObjet" />
-                            <parameters>
-                                <parameter>NewObject40</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                        <condition>
-                            <type inverted="false" value="SourisBouton" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>Left</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="PlayAnimation" />
-                            <parameters>
-                                <parameter>NewObject40</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="PlaySound" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="ChangeSprite" />
-                            <parameters>
-                                <parameter>NewObject40</parameter>
-                                <parameter>=</parameter>
-                                <parameter>0</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events>
-                        <event disabled="false" folded="false">
-                            <type>BuiltinCommonInstructions::Standard</type>
-                            <conditions>
-                                <condition>
-                                    <type inverted="false" value="VarGlobal" />
-                                    <parameters>
-                                        <parameter>buysell.weapons</parameter>
-                                        <parameter>&gt;</parameter>
-                                        <parameter>0</parameter>
-                                    </parameters>
-                                    <subConditions />
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action>
-                                    <type inverted="false" value="ModVarGlobal" />
-                                    <parameters>
-                                        <parameter>buysell.weapons</parameter>
-                                        <parameter>=</parameter>
-                                        <parameter>GlobalVariable(buysell.weapons) - 1</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="TextObject::String" />
-                                    <parameters>
-                                        <parameter>NewObject39</parameter>
-                                        <parameter>=</parameter>
-                                        <parameter>GlobalVariableString(buysell.weapons)</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                            </actions>
-                            <events />
-                        </event>
-                    </events>
                 </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
@@ -7188,6 +7086,145 @@
                                                 <parameter>NewObject21</parameter>
                                                 <parameter>=</parameter>
                                                 <parameter>GlobalVariableString(sell.chairz)</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                            </events>
+                        </event>
+                    </events>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject31</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Visible" />
+                            <parameters>
+                                <parameter>NewObject31</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="MouseButtonReleased" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ChangeSprite" />
+                                    <parameters>
+                                        <parameter>NewObject31</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="SourisBouton" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ChangeSprite" />
+                                    <parameters>
+                                        <parameter>NewObject31</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="Timer" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>0.1</parameter>
+                                                <parameter>&quot;&quot;</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="false" value="VarGlobal" />
+                                            <parameters>
+                                                <parameter>sell.toolz</parameter>
+                                                <parameter>&gt;</parameter>
+                                                <parameter>1</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ResetTimer" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>&quot;&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PlaySound" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                                <parameter></parameter>
+                                                <parameter></parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="ModVarGlobal" />
+                                            <parameters>
+                                                <parameter>sell.toolz</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>GlobalVariable(sell.toolz) - 1</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="TextObject::String" />
+                                            <parameters>
+                                                <parameter>NewObject30</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>GlobalVariableString(sell.toolz)</parameter>
                                             </parameters>
                                             <subActions />
                                         </action>
@@ -8022,6 +8059,154 @@
                         </event>
                     </events>
                 </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject33</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Visible" />
+                            <parameters>
+                                <parameter>NewObject33</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="MouseButtonReleased" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ChangeSprite" />
+                                    <parameters>
+                                        <parameter>NewObject33</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="SourisBouton" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ChangeSprite" />
+                                    <parameters>
+                                        <parameter>NewObject33</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="Timer" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>0.1</parameter>
+                                                <parameter>&quot;&quot;</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="false" value="VarGlobal" />
+                                            <parameters>
+                                                <parameter>sell.toolz</parameter>
+                                                <parameter>&lt;</parameter>
+                                                <parameter>GlobalVariable(rez.toolz)</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="false" value="VarGlobal" />
+                                            <parameters>
+                                                <parameter>sell.toolz</parameter>
+                                                <parameter>&lt;</parameter>
+                                                <parameter>GlobalVariable(rez.merchantmarine)</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ResetTimer" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>&quot;&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PlaySound" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                                <parameter></parameter>
+                                                <parameter></parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="ModVarGlobal" />
+                                            <parameters>
+                                                <parameter>sell.toolz</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>GlobalVariable(sell.toolz) + 1</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="TextObject::String" />
+                                            <parameters>
+                                                <parameter>NewObject30</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>GlobalVariableString(sell.toolz)</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                            </events>
+                        </event>
+                    </events>
+                </event>
                 <event disabled="true" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
@@ -8674,6 +8859,35 @@
                                 <parameter>NewObject24.Y() + 3</parameter>
                                 <parameter>NewObject24.X() + 5 * GlobalVariable(sell.chairz)</parameter>
                                 <parameter>NewObject24.Y() + 3</parameter>
+                                <parameter>6</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarGlobal" />
+                            <parameters>
+                                <parameter>sell.toolz</parameter>
+                                <parameter>&gt;</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Line" />
+                            <parameters>
+                                <parameter>NewObject23</parameter>
+                                <parameter>NewObject32.X()</parameter>
+                                <parameter>NewObject32.Y() + 3</parameter>
+                                <parameter>NewObject32.X() + 5 * GlobalVariable(sell.toolz)</parameter>
+                                <parameter>NewObject32.Y() + 3</parameter>
                                 <parameter>6</parameter>
                             </parameters>
                             <subActions />
