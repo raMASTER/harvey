@@ -1451,6 +1451,37 @@
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile028.png" kind="image" name="tile028.png8" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile029.png" kind="image" name="tile029.png8" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/flagorange.png" kind="image" name="flagorange.png7" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile000.png" kind="image" name="tile000.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile001.png" kind="image" name="tile001.png10" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile002.png" kind="image" name="tile002.png10" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile003.png" kind="image" name="tile003.png10" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile004.png" kind="image" name="tile004.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile005.png" kind="image" name="tile005.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile006.png" kind="image" name="tile006.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile007.png" kind="image" name="tile007.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile008.png" kind="image" name="tile008.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile009.png" kind="image" name="tile009.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile010.png" kind="image" name="tile010.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile011.png" kind="image" name="tile011.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile012.png" kind="image" name="tile012.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile013.png" kind="image" name="tile013.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile014.png" kind="image" name="tile014.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile015.png" kind="image" name="tile015.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile016.png" kind="image" name="tile016.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile017.png" kind="image" name="tile017.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile018.png" kind="image" name="tile018.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile019.png" kind="image" name="tile019.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile020.png" kind="image" name="tile020.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile021.png" kind="image" name="tile021.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile022.png" kind="image" name="tile022.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile023.png" kind="image" name="tile023.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile024.png" kind="image" name="tile024.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile025.png" kind="image" name="tile025.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile026.png" kind="image" name="tile026.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile027.png" kind="image" name="tile027.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile028.png" kind="image" name="tile028.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile029.png" kind="image" name="tile029.png9" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/flagorange.png" kind="image" name="flagorange.png8" smoothed="true" userAdded="false" />
         </resources>
         <resourceFolders />
     </resources>
@@ -1991,6 +2022,15 @@
                                 <variable name="ide" value="0" />
                                 <variable name="movement" value="4" />
                                 <variable name="mrl" value="10" />
+                            </children>
+                        </variable>
+                        <variable name="5">
+                            <children>
+                                <variable name="exp" value="0" />
+                                <variable name="hpz" value="20" />
+                                <variable name="ide" value="11" />
+                                <variable name="movement" value="5" />
+                                <variable name="mrl" value="20" />
                             </children>
                         </variable>
                     </children>
@@ -9359,6 +9399,7 @@
                         <object name="as2pic" />
                         <object name="aspic3" />
                         <object name="aspic4" />
+                        <object name="aspic5" />
                     </objects>
                 </group>
                 <group name="as1lines">
@@ -16114,6 +16155,469 @@
                     <outlineColor b="0" g="0" r="0" />
                     <absoluteCoordinates>true</absoluteCoordinates>
                 </object>
+                <object name="ascircle4" type="PrimitiveDrawing::Drawer">
+                    <variables />
+                    <behaviors />
+                    <fillOpacity>255</fillOpacity>
+                    <outlineSize>0</outlineSize>
+                    <outlineOpacity>255</outlineOpacity>
+                    <fillColor b="0" g="255" r="0" />
+                    <outlineColor b="0" g="0" r="0" />
+                    <absoluteCoordinates>false</absoluteCoordinates>
+                </object>
+                <object name="aspic5" type="Sprite">
+                    <variables />
+                    <behaviors>
+                        <behavior acceleration="400.000000" allowDiagonals="true" angleOffset="0.000000" angularMaxSpeed="0.000000" cellHeight="30" cellWidth="25" extraBorder="0.000000" maxSpeed="200.000000" name="Pathfinding" rotateObject="false" type="PathfindingBehavior::PathfindingBehavior" />
+                    </behaviors>
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="tile000.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile001.png10">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile002.png10">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile003.png10">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile004.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile005.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile006.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile007.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile008.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile009.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile010.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile011.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile012.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile013.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile014.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile015.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile016.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile017.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile018.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile019.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile020.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile021.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile022.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile023.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile024.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile025.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile026.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile027.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile028.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="tile029.png9">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="asflag5" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="flagorange.png8">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="6.500000" y="5.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="13.000000" y="0.000000" />
+                                                    <vertice x="13.000000" y="10.000000" />
+                                                    <vertice x="0.000000" y="10.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="asline5" type="PrimitiveDrawing::Drawer">
+                    <variables />
+                    <behaviors />
+                    <fillOpacity>255</fillOpacity>
+                    <outlineSize>0</outlineSize>
+                    <outlineOpacity>255</outlineOpacity>
+                    <fillColor b="255" g="255" r="255" />
+                    <outlineColor b="0" g="0" r="0" />
+                    <absoluteCoordinates>true</absoluteCoordinates>
+                </object>
+                <object name="ascircle5" type="PrimitiveDrawing::Drawer">
+                    <variables />
+                    <behaviors />
+                    <fillOpacity>255</fillOpacity>
+                    <outlineSize>0</outlineSize>
+                    <outlineOpacity>255</outlineOpacity>
+                    <fillColor b="255" g="255" r="255" />
+                    <outlineColor b="0" g="0" r="0" />
+                    <absoluteCoordinates>true</absoluteCoordinates>
+                </object>
             </objects>
             <events>
                 <event disabled="false" folded="false">
@@ -17413,6 +17917,151 @@
                                 </event>
                             </events>
                         </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="GlobalVariableChildExists" />
+                                    <parameters>
+                                        <parameter>nordborg.movemomis</parameter>
+                                        <parameter>&quot;5&quot;</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Create" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>aspic5</parameter>
+                                        <parameter>280</parameter>
+                                        <parameter>155</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ChangePlan" />
+                                    <parameters>
+                                        <parameter>aspic5</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>4</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ChangeSprite" />
+                                    <parameters>
+                                        <parameter>aspic5</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>GlobalVariable(nordborg.movemomis.5.ide)</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="Create" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>asflag5</parameter>
+                                        <parameter>280</parameter>
+                                        <parameter>195</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ChangePlan" />
+                                    <parameters>
+                                        <parameter>asflag5</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>3</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="Create" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>asline5</parameter>
+                                        <parameter>280</parameter>
+                                        <parameter>185</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ChangePlan" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>3</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="Create" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>ascircle5</parameter>
+                                        <parameter>280</parameter>
+                                        <parameter>185</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ChangePlan" />
+                                    <parameters>
+                                        <parameter>ascircle5</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>3</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PauseAnimation" />
+                                    <parameters>
+                                        <parameter>soldierz</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="VarGlobal" />
+                                            <parameters>
+                                                <parameter>nordborg.movemomis.5.movement</parameter>
+                                                <parameter>&gt;</parameter>
+                                                <parameter>GlobalVariable(nordborg.movemomis.Variable(selected).movement)</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ModVarScene" />
+                                            <parameters>
+                                                <parameter>selected</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>5</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions />
+                                    <actions />
+                                    <events />
+                                </event>
+                            </events>
+                        </event>
                     </events>
                 </event>
                 <event disabled="false" folded="false">
@@ -18177,6 +18826,143 @@
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
+                                    <type inverted="false" value="VarScene" />
+                                    <parameters>
+                                        <parameter>selected</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>3</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline3</parameter>
+                                        <parameter>aspic3.X() + 25</parameter>
+                                        <parameter>aspic3.Y() - 35</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline3</parameter>
+                                        <parameter>aspic3.X() + 25</parameter>
+                                        <parameter>aspic3.Y() + 95</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline3</parameter>
+                                        <parameter>aspic3.X() + 75</parameter>
+                                        <parameter>aspic3.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline3</parameter>
+                                        <parameter>aspic3.X() - 25</parameter>
+                                        <parameter>aspic3.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline3</parameter>
+                                        <parameter>aspic3.X()</parameter>
+                                        <parameter>aspic3.Y() - 5</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline3</parameter>
+                                        <parameter>aspic3.X() + 50</parameter>
+                                        <parameter>aspic3.Y() - 5</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline3</parameter>
+                                        <parameter>aspic3.X() + 50</parameter>
+                                        <parameter>aspic3.Y() + 55</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline3</parameter>
+                                        <parameter>aspic3.X()</parameter>
+                                        <parameter>aspic3.Y() + 55</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline3</parameter>
+                                        <parameter>aspic3.X() + 125</parameter>
+                                        <parameter>aspic3.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline3</parameter>
+                                        <parameter>aspic3.X() - 75</parameter>
+                                        <parameter>aspic3.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline3</parameter>
+                                        <parameter>aspic3.X() + 175</parameter>
+                                        <parameter>aspic3.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline3</parameter>
+                                        <parameter>aspic3.X() - 125</parameter>
+                                        <parameter>aspic3.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="true" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
                                     <type inverted="false" value="SourisSurObjet" />
                                     <parameters>
                                         <parameter>NewObject4</parameter>
@@ -18369,7 +19155,7 @@
                                     <type inverted="false" value="PrimitiveDrawing::Circle" />
                                     <parameters>
                                         <parameter>asline4</parameter>
-                                        <parameter>aspic4.X() </parameter>
+                                        <parameter>aspic4.X()</parameter>
                                         <parameter>aspic4.Y() - 5</parameter>
                                         <parameter>2</parameter>
                                     </parameters>
@@ -18405,45 +19191,422 @@
                                     </parameters>
                                     <subActions />
                                 </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline4</parameter>
+                                        <parameter>aspic4.X() + 125</parameter>
+                                        <parameter>aspic4.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline4</parameter>
+                                        <parameter>aspic4.X() - 75</parameter>
+                                        <parameter>aspic4.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline4</parameter>
+                                        <parameter>aspic4.X() + 175</parameter>
+                                        <parameter>aspic4.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline4</parameter>
+                                        <parameter>aspic4.X() - 125</parameter>
+                                        <parameter>aspic4.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
                             </actions>
-                            <events />
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="SourisBouton" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>Left</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="false" value="Timer" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>0.2</parameter>
+                                                <parameter>&quot;&quot;</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="false" value="SourisSurObjet" />
+                                            <parameters>
+                                                <parameter>NewObject4</parameter>
+                                                <parameter></parameter>
+                                                <parameter></parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ResetTimer" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>&quot;&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PathfindingBehavior::SetDestination" />
+                                            <parameters>
+                                                <parameter>aspic4</parameter>
+                                                <parameter>Pathfinding</parameter>
+                                                <parameter></parameter>
+                                                <parameter>MouseX(&quot;&quot;,0)</parameter>
+                                                <parameter>MouseY(&quot;&quot;,0)</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions />
+                                    <actions />
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Comment</type>
+                                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                                    <comment>draw4</comment>
+                                    <comment2></comment2>
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Comment</type>
+                                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                                    <comment>draw 5</comment>
+                                    <comment2></comment2>
+                                </event>
+                            </events>
                         </event>
+                    </events>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="GlobalVariableChildExists" />
+                            <parameters>
+                                <parameter>nordborg.movemomis</parameter>
+                                <parameter>&quot;5&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                            <parameters>
+                                <parameter>asline5</parameter>
+                                <parameter>&quot;255;0;0&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Line" />
+                            <parameters>
+                                <parameter>asline5</parameter>
+                                <parameter>aspic5.X() + 15</parameter>
+                                <parameter>aspic5.Y() + 47</parameter>
+                                <parameter>aspic5.X() + 35</parameter>
+                                <parameter>aspic5.Y() + 47</parameter>
+                                <parameter>3</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                            <parameters>
+                                <parameter>asline5</parameter>
+                                <parameter>&quot;255;255;0&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Line" />
+                            <parameters>
+                                <parameter>asline5</parameter>
+                                <parameter>aspic5.X() + 15</parameter>
+                                <parameter>aspic5.Y() + 47</parameter>
+                                <parameter>aspic5.X() + 15 + GlobalVariable(nordborg.movemomis.5.mrl)</parameter>
+                                <parameter>aspic5.Y() + 47</parameter>
+                                <parameter>3</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                            <parameters>
+                                <parameter>asline5</parameter>
+                                <parameter>&quot;0;255;0&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Line" />
+                            <parameters>
+                                <parameter>asline5</parameter>
+                                <parameter>aspic5.X() + 15</parameter>
+                                <parameter>aspic5.Y() + 47</parameter>
+                                <parameter>aspic5.X() + 15 + GlobalVariable(nordborg.movemomis.5.hpz)</parameter>
+                                <parameter>aspic5.Y() + 47</parameter>
+                                <parameter>3</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events>
                         <event disabled="false" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
-                                    <type inverted="false" value="SourisBouton" />
+                                    <type inverted="false" value="VarScene" />
                                     <parameters>
-                                        <parameter></parameter>
-                                        <parameter>Left</parameter>
-                                    </parameters>
-                                    <subConditions />
-                                </condition>
-                                <condition>
-                                    <type inverted="false" value="SourisSurObjet" />
-                                    <parameters>
-                                        <parameter>NewObject4</parameter>
-                                        <parameter></parameter>
-                                        <parameter></parameter>
-                                        <parameter></parameter>
+                                        <parameter>selected</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>5</parameter>
                                     </parameters>
                                     <subConditions />
                                 </condition>
                             </conditions>
                             <actions>
                                 <action>
-                                    <type inverted="false" value="PathfindingBehavior::SetDestination" />
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
                                     <parameters>
-                                        <parameter>aspic4</parameter>
-                                        <parameter>Pathfinding</parameter>
-                                        <parameter></parameter>
-                                        <parameter>aspic4.X() + 11</parameter>
-                                        <parameter>aspic4.Y() + 11</parameter>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X() + 25</parameter>
+                                        <parameter>aspic5.Y() - 35</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X() + 25</parameter>
+                                        <parameter>aspic5.Y() + 95</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X() + 75</parameter>
+                                        <parameter>aspic5.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X() - 25</parameter>
+                                        <parameter>aspic5.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X()</parameter>
+                                        <parameter>aspic5.Y() - 5</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X() + 50</parameter>
+                                        <parameter>aspic5.Y() - 5</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X() + 50</parameter>
+                                        <parameter>aspic5.Y() + 55</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X()</parameter>
+                                        <parameter>aspic5.Y() + 55</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X() + 125</parameter>
+                                        <parameter>aspic5.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X() - 75</parameter>
+                                        <parameter>aspic5.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X() + 175</parameter>
+                                        <parameter>aspic5.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X() - 125</parameter>
+                                        <parameter>aspic5.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline5</parameter>
+                                        <parameter>aspic5.X() + 25</parameter>
+                                        <parameter>aspic5.Y() - 95</parameter>
+                                        <parameter>2</parameter>
                                     </parameters>
                                     <subActions />
                                 </action>
                             </actions>
-                            <events />
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="SourisBouton" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>Left</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="false" value="Timer" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>0.2</parameter>
+                                                <parameter>&quot;&quot;</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="false" value="SourisSurObjet" />
+                                            <parameters>
+                                                <parameter>NewObject4</parameter>
+                                                <parameter></parameter>
+                                                <parameter></parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ResetTimer" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>&quot;&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PathfindingBehavior::SetDestination" />
+                                            <parameters>
+                                                <parameter>aspic5</parameter>
+                                                <parameter>Pathfinding</parameter>
+                                                <parameter></parameter>
+                                                <parameter>MouseX(&quot;&quot;,0)</parameter>
+                                                <parameter>MouseY(&quot;&quot;,0)</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="Cache" />
+                                            <parameters>
+                                                <parameter>ascircle5</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="ModVarScene" />
+                                            <parameters>
+                                                <parameter>selected</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>4</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions />
+                                    <actions />
+                                    <events />
+                                </event>
+                            </events>
                         </event>
                     </events>
                 </event>
@@ -18470,6 +19633,17 @@
                                 <parameter>aspic4.X()</parameter>
                                 <parameter>=</parameter>
                                 <parameter>aspic4.Y() + 40</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="MettreXY" />
+                            <parameters>
+                                <parameter>asflag5</parameter>
+                                <parameter>=</parameter>
+                                <parameter>aspic5.X()</parameter>
+                                <parameter>=</parameter>
+                                <parameter>aspic5.Y() + 40</parameter>
                             </parameters>
                             <subActions />
                         </action>
