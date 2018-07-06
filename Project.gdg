@@ -1962,6 +1962,7 @@
                                 <variable name="exp" value="0" />
                                 <variable name="hpz" value="5" />
                                 <variable name="ide" value="5" />
+                                <variable name="movement" value="1" />
                                 <variable name="mrl" value="10" />
                             </children>
                         </variable>
@@ -1970,6 +1971,7 @@
                                 <variable name="exp" value="0" />
                                 <variable name="hpz" value="5" />
                                 <variable name="ide" value="10" />
+                                <variable name="movement" value="2" />
                                 <variable name="mrl" value="10" />
                             </children>
                         </variable>
@@ -1978,6 +1980,7 @@
                                 <variable name="exp" value="0" />
                                 <variable name="hpz" value="1" />
                                 <variable name="ide" value="3" />
+                                <variable name="movement" value="3" />
                                 <variable name="mrl" value="2" />
                             </children>
                         </variable>
@@ -1986,6 +1989,7 @@
                                 <variable name="exp" value="0" />
                                 <variable name="hpz" value="0" />
                                 <variable name="ide" value="0" />
+                                <variable name="movement" value="4" />
                                 <variable name="mrl" value="10" />
                             </children>
                         </variable>
@@ -5786,6 +5790,88 @@
                         <condition>
                             <type inverted="false" value="SourisSurObjet" />
                             <parameters>
+                                <parameter>NewObject34</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.3</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Visible" />
+                            <parameters>
+                                <parameter>NewObject34</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>NewObject34</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>sell.cannonz</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject13</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject35</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
                                 <parameter>NewObject56</parameter>
                                 <parameter></parameter>
                                 <parameter></parameter>
@@ -6266,6 +6352,114 @@
                                 <parameter>NewObject30</parameter>
                                 <parameter>=</parameter>
                                 <parameter>GlobalVariableString(sell.toolz)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject35</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Visible" />
+                            <parameters>
+                                <parameter>NewObject35</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.3</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>NewObject35</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>NewObject13</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>lineweapons</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>sell.cannonz</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject37</parameter>
+                                <parameter>=</parameter>
+                                <parameter>&quot;$&quot; + GlobalVariableString(prices.cannonz)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject38</parameter>
+                                <parameter>=</parameter>
+                                <parameter>GlobalVariableString(rez.cannonz)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject39</parameter>
+                                <parameter>=</parameter>
+                                <parameter>GlobalVariableString(sell.cannonz)</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -9123,7 +9317,7 @@
             <behaviorsSharedData />
         </layout>
         <layout b="209" disableInputWhenNotFocused="true" mangledName="combat" name="combat" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="1" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="1" snap="true" windowMask="false" zoomFactor="0.500000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="1" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="1" snap="true" windowMask="false" zoomFactor="1.000000" />
             <objectsGroups>
                 <group name="popz">
                     <objects>
@@ -9212,6 +9406,7 @@
                     </children>
                 </variable>
                 <variable name="NewVariable" value="0" />
+                <variable name="selected" value="0" />
             </variables>
             <instances>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="combatframe" width="0.000000" x="0.000000" y="0.000000" zOrder="1">
@@ -15034,7 +15229,7 @@
                 <object name="aspic3" type="Sprite">
                     <variables />
                     <behaviors>
-                        <behavior acceleration="400.000000" allowDiagonals="true" angleOffset="0.000000" angularMaxSpeed="0.000000" cellHeight="25" cellWidth="30" extraBorder="0.000000" maxSpeed="200.000000" name="Pathfinding" rotateObject="false" type="PathfindingBehavior::PathfindingBehavior" />
+                        <behavior acceleration="400.000000" allowDiagonals="true" angleOffset="0.000000" angularMaxSpeed="0.000000" cellHeight="30" cellWidth="25" extraBorder="0.000000" maxSpeed="200.000000" name="Pathfinding" rotateObject="false" type="PathfindingBehavior::PathfindingBehavior" />
                     </behaviors>
                     <animations>
                         <animation name="" useMultipleDirections="false">
@@ -15479,7 +15674,7 @@
                 <object name="aspic4" type="Sprite">
                     <variables />
                     <behaviors>
-                        <behavior acceleration="400.000000" allowDiagonals="true" angleOffset="0.000000" angularMaxSpeed="0.000000" cellHeight="25" cellWidth="30" extraBorder="0.000000" maxSpeed="200.000000" name="Pathfinding" rotateObject="false" type="PathfindingBehavior::PathfindingBehavior" />
+                        <behavior acceleration="400.000000" allowDiagonals="true" angleOffset="0.000000" angularMaxSpeed="0.000000" cellHeight="30" cellWidth="25" extraBorder="0.000000" maxSpeed="200.000000" name="Pathfinding" rotateObject="false" type="PathfindingBehavior::PathfindingBehavior" />
                     </behaviors>
                     <animations>
                         <animation name="" useMultipleDirections="false">
@@ -16837,6 +17032,15 @@
                                     </parameters>
                                     <subActions />
                                 </action>
+                                <action>
+                                    <type inverted="false" value="ModVarScene" />
+                                    <parameters>
+                                        <parameter>selected</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
                             </actions>
                             <events />
                         </event>
@@ -16930,7 +17134,34 @@
                                     <subActions />
                                 </action>
                             </actions>
-                            <events />
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="VarGlobal" />
+                                            <parameters>
+                                                <parameter>nordborg.movemomis.2.movement</parameter>
+                                                <parameter>&gt;</parameter>
+                                                <parameter>GlobalVariable(nordborg.movemomis.Variable(selected).movement)</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ModVarScene" />
+                                            <parameters>
+                                                <parameter>selected</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>2</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                            </events>
                         </event>
                         <event disabled="false" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
@@ -17022,7 +17253,40 @@
                                     <subActions />
                                 </action>
                             </actions>
-                            <events />
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="VarGlobal" />
+                                            <parameters>
+                                                <parameter>nordborg.movemomis.3.movement</parameter>
+                                                <parameter>&gt;</parameter>
+                                                <parameter>GlobalVariable(nordborg.movemomis.Variable(selected).movement)</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ModVarScene" />
+                                            <parameters>
+                                                <parameter>selected</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>3</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions />
+                                    <actions />
+                                    <events />
+                                </event>
+                            </events>
                         </event>
                         <event disabled="false" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
@@ -17114,13 +17378,40 @@
                                     <subActions />
                                 </action>
                             </actions>
-                            <events />
-                        </event>
-                        <event disabled="false" folded="false">
-                            <type>BuiltinCommonInstructions::Standard</type>
-                            <conditions />
-                            <actions />
-                            <events />
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="VarGlobal" />
+                                            <parameters>
+                                                <parameter>nordborg.movemomis.4.movement</parameter>
+                                                <parameter>&gt;</parameter>
+                                                <parameter>GlobalVariable(nordborg.movemomis.Variable(selected).movement)</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ModVarScene" />
+                                            <parameters>
+                                                <parameter>selected</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>4</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions />
+                                    <actions />
+                                    <events />
+                                </event>
+                            </events>
                         </event>
                     </events>
                 </event>
@@ -18020,6 +18311,103 @@
                         </action>
                     </actions>
                     <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="VarScene" />
+                                    <parameters>
+                                        <parameter>selected</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>4</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline4</parameter>
+                                        <parameter>aspic4.X() + 25</parameter>
+                                        <parameter>aspic4.Y() - 35</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline4</parameter>
+                                        <parameter>aspic4.X() + 25</parameter>
+                                        <parameter>aspic4.Y() + 95</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline4</parameter>
+                                        <parameter>aspic4.X() + 75</parameter>
+                                        <parameter>aspic4.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline4</parameter>
+                                        <parameter>aspic4.X() - 25</parameter>
+                                        <parameter>aspic4.Y() + 25</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline4</parameter>
+                                        <parameter>aspic4.X() </parameter>
+                                        <parameter>aspic4.Y() - 5</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline4</parameter>
+                                        <parameter>aspic4.X() + 50</parameter>
+                                        <parameter>aspic4.Y() - 5</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline4</parameter>
+                                        <parameter>aspic4.X() + 50</parameter>
+                                        <parameter>aspic4.Y() + 55</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                    <parameters>
+                                        <parameter>asline4</parameter>
+                                        <parameter>aspic4.X()</parameter>
+                                        <parameter>aspic4.Y() + 55</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
                         <event disabled="false" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
@@ -43753,8 +44141,21 @@
         </layout>
     </layouts>
     <externalEvents>
-        <externalEvents associatedLayout="" lastChangeTimeStamp="1522914367" name="External events">
-            <events />
+        <externalEvents associatedLayout="combat" lastChangeTimeStamp="1522914367" name="External events">
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions />
+                    <actions />
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions />
+                    <actions />
+                    <events />
+                </event>
+            </events>
         </externalEvents>
     </externalEvents>
     <externalLayouts />
