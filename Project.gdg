@@ -33,6 +33,8 @@
             <extension name="TextObject" />
             <extension name="PrimitiveDrawing" />
             <extension name="PathfindingBehavior" />
+            <extension name="LinkedObjects" />
+            <extension name="Inventory" />
         </extensions>
         <platforms>
             <platform name="GDevelop JS platform" />
@@ -1482,6 +1484,7 @@
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile028.png" kind="image" name="tile028.png9" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/tile029.png" kind="image" name="tile029.png9" smoothed="true" userAdded="false" />
             <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/tilemapz/flagorange.png" kind="image" name="flagorange.png8" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Godot_v3.0.2-stable_win32.exe/New Game Project/pictenu/.rsrc/BITMAP/2113.BMP.bmp" kind="image" name="2113.BMP.bmp7" smoothed="true" userAdded="false" />
         </resources>
         <resourceFolders />
     </resources>
@@ -1836,6 +1839,7 @@
             <children>
                 <variable name="boardz" value="900" />
                 <variable name="cannedfood" value="50" />
+                <variable name="cannonz" value="900" />
                 <variable name="chairz" value="900" />
                 <variable name="cloth" value="50" />
                 <variable name="paper" value="0" />
@@ -1843,7 +1847,6 @@
                 <variable name="shirtz" value="1262" />
                 <variable name="timber" value="0" />
                 <variable name="toolz" value="900" />
-                <variable name="weapons" value="900" />
             </children>
         </variable>
         <variable name="blue">
@@ -2101,6 +2104,7 @@
         <variable name="sell">
             <children>
                 <variable name="boardz" value="0" />
+                <variable name="cannonz" value="0" />
                 <variable name="chairz" value="0" />
                 <variable name="paperz" value="0" />
                 <variable name="shirtz" value="0" />
@@ -2110,6 +2114,7 @@
         <variable name="rez">
             <children>
                 <variable name="boardz" value="10" />
+                <variable name="cannonz" value="22" />
                 <variable name="chairz" value="20" />
                 <variable name="merchantmarine" value="8" />
                 <variable name="paperz" value="11" />
@@ -2655,7 +2660,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject36" width="0.000000" x="165.000000" y="159.000000" zOrder="39">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject36" width="0.000000" x="166.000000" y="158.000000" zOrder="39">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -3698,7 +3703,7 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="offer.png5">
+                                        <sprite hasCustomCollisionMask="false" image="2113.BMP.bmp7">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
@@ -3763,19 +3768,6 @@
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="2122.BMP.bmp6">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="2121.BMP.bmp12">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
@@ -6976,6 +6968,88 @@
                         <condition>
                             <type inverted="false" value="SourisSurObjet" />
                             <parameters>
+                                <parameter>NewObject36</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Visible" />
+                            <parameters>
+                                <parameter>NewObject36</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>0.3</parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject13</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>NewObject35</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>lineweapons</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>sell.cannonz</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
                                 <parameter>NewObject55</parameter>
                                 <parameter></parameter>
                                 <parameter></parameter>
@@ -7553,6 +7627,145 @@
                                                 <parameter>NewObject30</parameter>
                                                 <parameter>=</parameter>
                                                 <parameter>GlobalVariableString(sell.toolz)</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                            </events>
+                        </event>
+                    </events>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>NewObject40</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Visible" />
+                            <parameters>
+                                <parameter>NewObject40</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="MouseButtonReleased" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ChangeSprite" />
+                                    <parameters>
+                                        <parameter>NewObject40</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="SourisBouton" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ChangeSprite" />
+                                    <parameters>
+                                        <parameter>NewObject40</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="Timer" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>0.1</parameter>
+                                                <parameter>&quot;&quot;</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="false" value="VarGlobal" />
+                                            <parameters>
+                                                <parameter>sell.cannonz</parameter>
+                                                <parameter>&gt;</parameter>
+                                                <parameter>1</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ResetTimer" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>&quot;&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PlaySound" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>E:\ultimate\wave\.rsrc\WAVE\7000.wav</parameter>
+                                                <parameter></parameter>
+                                                <parameter></parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="ModVarGlobal" />
+                                            <parameters>
+                                                <parameter>sell.cannonz</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>GlobalVariable(sell.cannonz) - 1</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="TextObject::String" />
+                                            <parameters>
+                                                <parameter>NewObject39</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>GlobalVariableString(sell.cannonz)</parameter>
                                             </parameters>
                                             <subActions />
                                         </action>
@@ -9393,13 +9606,13 @@
                     <objects>
                         <object name="asoldier1" />
                         <object name="asoldier2" />
-                        <object name="ds1pic" />
                         <object name="ds2pic" />
                         <object name="as1pic" />
                         <object name="as2pic" />
                         <object name="aspic3" />
                         <object name="aspic4" />
                         <object name="aspic5" />
+                        <object name="dspic1" />
                     </objects>
                 </group>
                 <group name="as1lines">
@@ -9411,10 +9624,10 @@
                 </group>
                 <group name="ds1g">
                     <objects>
-                        <object name="ds1pic" />
                         <object name="ds1rl" />
                         <object name="ds1yl" />
                         <object name="ds1gl" />
+                        <object name="dspic1" />
                     </objects>
                 </group>
                 <group name="as2">
@@ -9448,6 +9661,33 @@
                 </variable>
                 <variable name="NewVariable" value="0" />
                 <variable name="selected" value="0" />
+                <variable name="danger">
+                    <children>
+                        <variable name="25-95" value="0" />
+                    </children>
+                </variable>
+                <variable name="grid">
+                    <children>
+                        <variable name="10570" value="0" />
+                        <variable name="15570" value="0" />
+                        <variable name="20570" value="0" />
+                        <variable name="5570" value="0" />
+                    </children>
+                </variable>
+                <variable name="gridx">
+                    <children>
+                        <variable name="105" value="0" />
+                        <variable name="155" value="0" />
+                        <variable name="55" value="0" />
+                    </children>
+                </variable>
+                <variable name="gridy">
+                    <children>
+                        <variable name="100" value="0" />
+                        <variable name="130" value="0" />
+                        <variable name="70" value="0" />
+                    </children>
+                </variable>
             </variables>
             <instances>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer" locked="false" name="combatframe" width="0.000000" x="0.000000" y="0.000000" zOrder="1">
@@ -13409,7 +13649,7 @@
                         </animation>
                     </animations>
                 </object>
-                <object name="ds1pic" type="Sprite">
+                <object name="dspic1" type="Sprite">
                     <variables />
                     <behaviors />
                     <animations>
@@ -16598,7 +16838,7 @@
                         </animation>
                     </animations>
                 </object>
-                <object name="asline5" type="PrimitiveDrawing::Drawer">
+                <object name="aspaint5" type="PrimitiveDrawing::Drawer">
                     <variables />
                     <behaviors />
                     <fillOpacity>255</fillOpacity>
@@ -16615,6 +16855,16 @@
                     <outlineSize>0</outlineSize>
                     <outlineOpacity>255</outlineOpacity>
                     <fillColor b="255" g="255" r="255" />
+                    <outlineColor b="0" g="0" r="0" />
+                    <absoluteCoordinates>true</absoluteCoordinates>
+                </object>
+                <object name="dscircle1" type="PrimitiveDrawing::Drawer">
+                    <variables />
+                    <behaviors />
+                    <fillOpacity>255</fillOpacity>
+                    <outlineSize>0</outlineSize>
+                    <outlineOpacity>255</outlineOpacity>
+                    <fillColor b="0" g="0" r="255" />
                     <outlineColor b="0" g="0" r="0" />
                     <absoluteCoordinates>true</absoluteCoordinates>
                 </object>
@@ -16747,7 +16997,7 @@
                                     <type inverted="false" value="Create" />
                                     <parameters>
                                         <parameter></parameter>
-                                        <parameter>ds1pic</parameter>
+                                        <parameter>dspic1</parameter>
                                         <parameter>1200</parameter>
                                         <parameter>65</parameter>
                                         <parameter></parameter>
@@ -16757,7 +17007,7 @@
                                 <action>
                                     <type inverted="false" value="ChangePlan" />
                                     <parameters>
-                                        <parameter>ds1pic</parameter>
+                                        <parameter>dspic1</parameter>
                                         <parameter>=</parameter>
                                         <parameter>4</parameter>
                                     </parameters>
@@ -16766,7 +17016,7 @@
                                 <action>
                                     <type inverted="false" value="ChangeSprite" />
                                     <parameters>
-                                        <parameter>ds1pic</parameter>
+                                        <parameter>dspic1</parameter>
                                         <parameter>=</parameter>
                                         <parameter>GlobalVariable(momis.1.ide)</parameter>
                                     </parameters>
@@ -16854,6 +17104,26 @@
                                     <type inverted="false" value="ChangePlan" />
                                     <parameters>
                                         <parameter>ds1gl</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>8</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="Create" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>dscircle1</parameter>
+                                        <parameter>1215</parameter>
+                                        <parameter>105</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ChangePlan" />
+                                    <parameters>
+                                        <parameter>dscircle1</parameter>
                                         <parameter>=</parameter>
                                         <parameter>8</parameter>
                                     </parameters>
@@ -17322,6 +17592,143 @@
                                 <parameter>CameraX(&quot;&quot;,0) + 2</parameter>
                                 <parameter></parameter>
                                 <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarScene" />
+                            <parameters>
+                                <parameter>selected</parameter>
+                                <parameter>=</parameter>
+                                <parameter>3</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                            <parameters>
+                                <parameter>asline3</parameter>
+                                <parameter>aspic3.X() + 25</parameter>
+                                <parameter>aspic3.Y() - 35</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                            <parameters>
+                                <parameter>asline3</parameter>
+                                <parameter>aspic3.X() + 25</parameter>
+                                <parameter>aspic3.Y() + 95</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                            <parameters>
+                                <parameter>asline3</parameter>
+                                <parameter>aspic3.X() + 75</parameter>
+                                <parameter>aspic3.Y() + 25</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                            <parameters>
+                                <parameter>asline3</parameter>
+                                <parameter>aspic3.X() - 25</parameter>
+                                <parameter>aspic3.Y() + 25</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                            <parameters>
+                                <parameter>asline3</parameter>
+                                <parameter>aspic3.X()</parameter>
+                                <parameter>aspic3.Y() - 5</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                            <parameters>
+                                <parameter>asline3</parameter>
+                                <parameter>aspic3.X() + 50</parameter>
+                                <parameter>aspic3.Y() - 5</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                            <parameters>
+                                <parameter>asline3</parameter>
+                                <parameter>aspic3.X() + 50</parameter>
+                                <parameter>aspic3.Y() + 55</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                            <parameters>
+                                <parameter>asline3</parameter>
+                                <parameter>aspic3.X()</parameter>
+                                <parameter>aspic3.Y() + 55</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                            <parameters>
+                                <parameter>asline3</parameter>
+                                <parameter>aspic3.X() + 125</parameter>
+                                <parameter>aspic3.Y() + 25</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                            <parameters>
+                                <parameter>asline3</parameter>
+                                <parameter>aspic3.X() - 75</parameter>
+                                <parameter>aspic3.Y() + 25</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                            <parameters>
+                                <parameter>asline3</parameter>
+                                <parameter>aspic3.X() + 175</parameter>
+                                <parameter>aspic3.Y() + 25</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                            <parameters>
+                                <parameter>asline3</parameter>
+                                <parameter>aspic3.X() - 125</parameter>
+                                <parameter>aspic3.Y() + 25</parameter>
+                                <parameter>2</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -17983,7 +18390,7 @@
                                     <type inverted="false" value="Create" />
                                     <parameters>
                                         <parameter></parameter>
-                                        <parameter>asline5</parameter>
+                                        <parameter>aspaint5</parameter>
                                         <parameter>280</parameter>
                                         <parameter>185</parameter>
                                         <parameter></parameter>
@@ -17993,27 +18400,7 @@
                                 <action>
                                     <type inverted="false" value="ChangePlan" />
                                     <parameters>
-                                        <parameter>asline5</parameter>
-                                        <parameter>=</parameter>
-                                        <parameter>3</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="Create" />
-                                    <parameters>
-                                        <parameter></parameter>
-                                        <parameter>ascircle5</parameter>
-                                        <parameter>280</parameter>
-                                        <parameter>185</parameter>
-                                        <parameter></parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="ChangePlan" />
-                                    <parameters>
-                                        <parameter>ascircle5</parameter>
+                                        <parameter>aspaint5</parameter>
                                         <parameter>=</parameter>
                                         <parameter>3</parameter>
                                     </parameters>
@@ -18496,10 +18883,10 @@
                             <type inverted="false" value="PrimitiveDrawing::Line" />
                             <parameters>
                                 <parameter>ds1rl</parameter>
-                                <parameter>ds1pic.X() + 15</parameter>
-                                <parameter>ds1pic.Y() + 48</parameter>
-                                <parameter>ds1pic.X() + 35</parameter>
-                                <parameter>ds1pic.Y() + 48</parameter>
+                                <parameter>dspic1.X() + 15</parameter>
+                                <parameter>dspic1.Y() + 48</parameter>
+                                <parameter>dspic1.X() + 35</parameter>
+                                <parameter>dspic1.Y() + 48</parameter>
                                 <parameter>3</parameter>
                             </parameters>
                             <subActions />
@@ -18508,10 +18895,10 @@
                             <type inverted="false" value="PrimitiveDrawing::Line" />
                             <parameters>
                                 <parameter>ds1yl</parameter>
-                                <parameter>ds1pic.X() + 15</parameter>
-                                <parameter>ds1pic.Y() + 48</parameter>
-                                <parameter>ds1pic.X() + ( GlobalVariable(momis.1.mrl) / 3 )</parameter>
-                                <parameter>ds1pic.Y() + 48</parameter>
+                                <parameter>dspic1.X() + 15</parameter>
+                                <parameter>dspic1.Y() + 48</parameter>
+                                <parameter>dspic1.X() + ( GlobalVariable(momis.1.mrl) / 3 )</parameter>
+                                <parameter>dspic1.Y() + 48</parameter>
                                 <parameter>3</parameter>
                             </parameters>
                             <subActions />
@@ -18520,10 +18907,10 @@
                             <type inverted="false" value="PrimitiveDrawing::Line" />
                             <parameters>
                                 <parameter>ds1gl</parameter>
-                                <parameter>ds1pic.X() + 15</parameter>
-                                <parameter>ds1pic.Y() + 48</parameter>
-                                <parameter>ds1pic.X() + ( GlobalVariable(momis.1.hpz) / 3 )</parameter>
-                                <parameter>ds1pic.Y() + 48</parameter>
+                                <parameter>dspic1.X() + 15</parameter>
+                                <parameter>dspic1.Y() + 48</parameter>
+                                <parameter>dspic1.X() + ( GlobalVariable(momis.1.hpz) / 3 )</parameter>
+                                <parameter>dspic1.Y() + 48</parameter>
                                 <parameter>3</parameter>
                             </parameters>
                             <subActions />
@@ -18822,143 +19209,6 @@
                         </action>
                     </actions>
                     <events>
-                        <event disabled="false" folded="false">
-                            <type>BuiltinCommonInstructions::Standard</type>
-                            <conditions>
-                                <condition>
-                                    <type inverted="false" value="VarScene" />
-                                    <parameters>
-                                        <parameter>selected</parameter>
-                                        <parameter>=</parameter>
-                                        <parameter>3</parameter>
-                                    </parameters>
-                                    <subConditions />
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline3</parameter>
-                                        <parameter>aspic3.X() + 25</parameter>
-                                        <parameter>aspic3.Y() - 35</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline3</parameter>
-                                        <parameter>aspic3.X() + 25</parameter>
-                                        <parameter>aspic3.Y() + 95</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline3</parameter>
-                                        <parameter>aspic3.X() + 75</parameter>
-                                        <parameter>aspic3.Y() + 25</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline3</parameter>
-                                        <parameter>aspic3.X() - 25</parameter>
-                                        <parameter>aspic3.Y() + 25</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline3</parameter>
-                                        <parameter>aspic3.X()</parameter>
-                                        <parameter>aspic3.Y() - 5</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline3</parameter>
-                                        <parameter>aspic3.X() + 50</parameter>
-                                        <parameter>aspic3.Y() - 5</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline3</parameter>
-                                        <parameter>aspic3.X() + 50</parameter>
-                                        <parameter>aspic3.Y() + 55</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline3</parameter>
-                                        <parameter>aspic3.X()</parameter>
-                                        <parameter>aspic3.Y() + 55</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline3</parameter>
-                                        <parameter>aspic3.X() + 125</parameter>
-                                        <parameter>aspic3.Y() + 25</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline3</parameter>
-                                        <parameter>aspic3.X() - 75</parameter>
-                                        <parameter>aspic3.Y() + 25</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline3</parameter>
-                                        <parameter>aspic3.X() + 175</parameter>
-                                        <parameter>aspic3.Y() + 25</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline3</parameter>
-                                        <parameter>aspic3.X() - 125</parameter>
-                                        <parameter>aspic3.Y() + 25</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                            </actions>
-                            <events />
-                        </event>
                         <event disabled="true" folded="false">
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
@@ -19279,8 +19529,8 @@
                                                 <parameter>aspic4</parameter>
                                                 <parameter>Pathfinding</parameter>
                                                 <parameter></parameter>
-                                                <parameter>MouseX(&quot;&quot;,0)</parameter>
-                                                <parameter>MouseY(&quot;&quot;,0)</parameter>
+                                                <parameter>MouseX(&quot;&quot;,0) - 25</parameter>
+                                                <parameter>MouseY(&quot;&quot;,0) - 25</parameter>
                                             </parameters>
                                             <subActions />
                                         </action>
@@ -19325,7 +19575,7 @@
                         <action>
                             <type inverted="false" value="PrimitiveDrawing::FillColor" />
                             <parameters>
-                                <parameter>asline5</parameter>
+                                <parameter>aspaint5</parameter>
                                 <parameter>&quot;255;0;0&quot;</parameter>
                             </parameters>
                             <subActions />
@@ -19333,7 +19583,7 @@
                         <action>
                             <type inverted="false" value="PrimitiveDrawing::Line" />
                             <parameters>
-                                <parameter>asline5</parameter>
+                                <parameter>aspaint5</parameter>
                                 <parameter>aspic5.X() + 15</parameter>
                                 <parameter>aspic5.Y() + 47</parameter>
                                 <parameter>aspic5.X() + 35</parameter>
@@ -19345,7 +19595,7 @@
                         <action>
                             <type inverted="false" value="PrimitiveDrawing::FillColor" />
                             <parameters>
-                                <parameter>asline5</parameter>
+                                <parameter>aspaint5</parameter>
                                 <parameter>&quot;255;255;0&quot;</parameter>
                             </parameters>
                             <subActions />
@@ -19353,7 +19603,7 @@
                         <action>
                             <type inverted="false" value="PrimitiveDrawing::Line" />
                             <parameters>
-                                <parameter>asline5</parameter>
+                                <parameter>aspaint5</parameter>
                                 <parameter>aspic5.X() + 15</parameter>
                                 <parameter>aspic5.Y() + 47</parameter>
                                 <parameter>aspic5.X() + 15 + GlobalVariable(nordborg.movemomis.5.mrl)</parameter>
@@ -19365,7 +19615,7 @@
                         <action>
                             <type inverted="false" value="PrimitiveDrawing::FillColor" />
                             <parameters>
-                                <parameter>asline5</parameter>
+                                <parameter>aspaint5</parameter>
                                 <parameter>&quot;0;255;0&quot;</parameter>
                             </parameters>
                             <subActions />
@@ -19373,7 +19623,7 @@
                         <action>
                             <type inverted="false" value="PrimitiveDrawing::Line" />
                             <parameters>
-                                <parameter>asline5</parameter>
+                                <parameter>aspaint5</parameter>
                                 <parameter>aspic5.X() + 15</parameter>
                                 <parameter>aspic5.Y() + 47</parameter>
                                 <parameter>aspic5.X() + 15 + GlobalVariable(nordborg.movemomis.5.hpz)</parameter>
@@ -19401,7 +19651,7 @@
                                 <action>
                                     <type inverted="false" value="PrimitiveDrawing::Circle" />
                                     <parameters>
-                                        <parameter>asline5</parameter>
+                                        <parameter>aspaint5</parameter>
                                         <parameter>aspic5.X() + 25</parameter>
                                         <parameter>aspic5.Y() - 35</parameter>
                                         <parameter>2</parameter>
@@ -19411,7 +19661,7 @@
                                 <action>
                                     <type inverted="false" value="PrimitiveDrawing::Circle" />
                                     <parameters>
-                                        <parameter>asline5</parameter>
+                                        <parameter>aspaint5</parameter>
                                         <parameter>aspic5.X() + 25</parameter>
                                         <parameter>aspic5.Y() + 95</parameter>
                                         <parameter>2</parameter>
@@ -19421,7 +19671,7 @@
                                 <action>
                                     <type inverted="false" value="PrimitiveDrawing::Circle" />
                                     <parameters>
-                                        <parameter>asline5</parameter>
+                                        <parameter>aspaint5</parameter>
                                         <parameter>aspic5.X() + 75</parameter>
                                         <parameter>aspic5.Y() + 25</parameter>
                                         <parameter>2</parameter>
@@ -19431,7 +19681,7 @@
                                 <action>
                                     <type inverted="false" value="PrimitiveDrawing::Circle" />
                                     <parameters>
-                                        <parameter>asline5</parameter>
+                                        <parameter>aspaint5</parameter>
                                         <parameter>aspic5.X() - 25</parameter>
                                         <parameter>aspic5.Y() + 25</parameter>
                                         <parameter>2</parameter>
@@ -19441,7 +19691,7 @@
                                 <action>
                                     <type inverted="false" value="PrimitiveDrawing::Circle" />
                                     <parameters>
-                                        <parameter>asline5</parameter>
+                                        <parameter>aspaint5</parameter>
                                         <parameter>aspic5.X()</parameter>
                                         <parameter>aspic5.Y() - 5</parameter>
                                         <parameter>2</parameter>
@@ -19451,7 +19701,7 @@
                                 <action>
                                     <type inverted="false" value="PrimitiveDrawing::Circle" />
                                     <parameters>
-                                        <parameter>asline5</parameter>
+                                        <parameter>aspaint5</parameter>
                                         <parameter>aspic5.X() + 50</parameter>
                                         <parameter>aspic5.Y() - 5</parameter>
                                         <parameter>2</parameter>
@@ -19461,7 +19711,7 @@
                                 <action>
                                     <type inverted="false" value="PrimitiveDrawing::Circle" />
                                     <parameters>
-                                        <parameter>asline5</parameter>
+                                        <parameter>aspaint5</parameter>
                                         <parameter>aspic5.X() + 50</parameter>
                                         <parameter>aspic5.Y() + 55</parameter>
                                         <parameter>2</parameter>
@@ -19471,7 +19721,7 @@
                                 <action>
                                     <type inverted="false" value="PrimitiveDrawing::Circle" />
                                     <parameters>
-                                        <parameter>asline5</parameter>
+                                        <parameter>aspaint5</parameter>
                                         <parameter>aspic5.X()</parameter>
                                         <parameter>aspic5.Y() + 55</parameter>
                                         <parameter>2</parameter>
@@ -19481,7 +19731,7 @@
                                 <action>
                                     <type inverted="false" value="PrimitiveDrawing::Circle" />
                                     <parameters>
-                                        <parameter>asline5</parameter>
+                                        <parameter>aspaint5</parameter>
                                         <parameter>aspic5.X() + 125</parameter>
                                         <parameter>aspic5.Y() + 25</parameter>
                                         <parameter>2</parameter>
@@ -19491,45 +19741,231 @@
                                 <action>
                                     <type inverted="false" value="PrimitiveDrawing::Circle" />
                                     <parameters>
-                                        <parameter>asline5</parameter>
+                                        <parameter>aspaint5</parameter>
                                         <parameter>aspic5.X() - 75</parameter>
                                         <parameter>aspic5.Y() + 25</parameter>
                                         <parameter>2</parameter>
                                     </parameters>
                                     <subActions />
                                 </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline5</parameter>
-                                        <parameter>aspic5.X() + 175</parameter>
-                                        <parameter>aspic5.Y() + 25</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline5</parameter>
-                                        <parameter>aspic5.X() - 125</parameter>
-                                        <parameter>aspic5.Y() + 25</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>asline5</parameter>
-                                        <parameter>aspic5.X() + 25</parameter>
-                                        <parameter>aspic5.Y() - 95</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
                             </actions>
                             <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="Distance" />
+                                            <parameters>
+                                                <parameter>aspic5</parameter>
+                                                <parameter>dspic1</parameter>
+                                                <parameter>200</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>&quot;255;0;0&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>aspic5.X() + 25</parameter>
+                                                <parameter>aspic5.Y() - 95</parameter>
+                                                <parameter>2</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="true" value="Distance" />
+                                            <parameters>
+                                                <parameter>aspic5</parameter>
+                                                <parameter>dspic1</parameter>
+                                                <parameter>200</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>&quot;0;255;0&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>aspic5.X() + 25</parameter>
+                                                <parameter>aspic5.Y() - 95</parameter>
+                                                <parameter>2</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="Distance" />
+                                            <parameters>
+                                                <parameter>aspic5</parameter>
+                                                <parameter>dspic1</parameter>
+                                                <parameter>200</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                                            <parameters>
+                                                <parameter>ascircle5</parameter>
+                                                <parameter>&quot;255;0;0&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>aspic5.X() - 125</parameter>
+                                                <parameter>aspic5.Y() + 25</parameter>
+                                                <parameter>2</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="true" value="Distance" />
+                                            <parameters>
+                                                <parameter>aspic5</parameter>
+                                                <parameter>dspic1</parameter>
+                                                <parameter>200</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>&quot;0;255;0&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>aspic5.X() - 125</parameter>
+                                                <parameter>aspic5.Y() + 25</parameter>
+                                                <parameter>2</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="Distance" />
+                                            <parameters>
+                                                <parameter>aspic5</parameter>
+                                                <parameter>dspic1</parameter>
+                                                <parameter>2200</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>&quot;255;0;0&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>aspic5.X() + 175</parameter>
+                                                <parameter>aspic5.Y() + 25</parameter>
+                                                <parameter>2</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="true" value="Distance" />
+                                            <parameters>
+                                                <parameter>aspic5</parameter>
+                                                <parameter>dspic1</parameter>
+                                                <parameter>2200</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>&quot;0;255;0&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>aspic5.X() + 175</parameter>
+                                                <parameter>aspic5.Y() + 25</parameter>
+                                                <parameter>2</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
                                 <event disabled="false" folded="false">
                                     <type>BuiltinCommonInstructions::Standard</type>
                                     <conditions>
@@ -19576,8 +20012,8 @@
                                                 <parameter>aspic5</parameter>
                                                 <parameter>Pathfinding</parameter>
                                                 <parameter></parameter>
-                                                <parameter>MouseX(&quot;&quot;,0)</parameter>
-                                                <parameter>MouseY(&quot;&quot;,0)</parameter>
+                                                <parameter>MouseX(&quot;&quot;,0) - 25</parameter>
+                                                <parameter>MouseY(&quot;&quot;,0) -  25</parameter>
                                             </parameters>
                                             <subActions />
                                         </action>
@@ -19648,6 +20084,12 @@
                             <subActions />
                         </action>
                     </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions />
+                    <actions />
                     <events />
                 </event>
             </events>
