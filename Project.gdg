@@ -9571,7 +9571,7 @@
             <behaviorsSharedData />
         </layout>
         <layout b="209" disableInputWhenNotFocused="true" mangledName="combat" name="combat" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
-            <uiSettings grid="true" gridB="255" gridG="180" gridHeight="30" gridOffsetX="30" gridOffsetY="115" gridR="158" gridWidth="25" snap="true" windowMask="false" zoomFactor="1.000000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="30" gridOffsetX="30" gridOffsetY="115" gridR="158" gridWidth="25" snap="true" windowMask="false" zoomFactor="0.500000" />
             <objectsGroups>
                 <group name="popz">
                     <objects>
@@ -9607,13 +9607,13 @@
                     <objects>
                         <object name="asoldier1" />
                         <object name="asoldier2" />
-                        <object name="ds2pic" />
                         <object name="as1pic" />
                         <object name="as2pic" />
                         <object name="aspic3" />
                         <object name="aspic4" />
                         <object name="aspic5" />
                         <object name="dspic1" />
+                        <object name="dspic2" />
                     </objects>
                 </group>
                 <group name="as1lines">
@@ -9727,11 +9727,6 @@
                     <initialVariables />
                 </instance>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject10" width="0.000000" x="435.500000" y="-4.000013" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="NewObject11" width="0.000000" x="83.000000" y="98.999977" zOrder="4">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -9927,11 +9922,6 @@
                     <initialVariables />
                 </instance>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="true" name="gridrect" width="0.000000" x="230.000000" y="175.000000" zOrder="43">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="New layer 1" locked="false" name="gridrect" width="0.000000" x="205.000000" y="145.000000" zOrder="40">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -14426,7 +14416,7 @@
                         </animation>
                     </animations>
                 </object>
-                <object name="ds2pic" type="Sprite">
+                <object name="dspic2" type="Sprite">
                     <variables />
                     <behaviors />
                     <animations>
@@ -17499,7 +17489,7 @@
                                     <type inverted="false" value="Create" />
                                     <parameters>
                                         <parameter></parameter>
-                                        <parameter>ds2pic</parameter>
+                                        <parameter>dspic2</parameter>
                                         <parameter>1200</parameter>
                                         <parameter>125</parameter>
                                         <parameter></parameter>
@@ -17509,7 +17499,7 @@
                                 <action>
                                     <type inverted="false" value="ChangePlan" />
                                     <parameters>
-                                        <parameter>ds2pic</parameter>
+                                        <parameter>dspic2</parameter>
                                         <parameter>=</parameter>
                                         <parameter>4</parameter>
                                     </parameters>
@@ -17518,7 +17508,7 @@
                                 <action>
                                     <type inverted="false" value="ChangeSprite" />
                                     <parameters>
-                                        <parameter>ds2pic</parameter>
+                                        <parameter>dspic2</parameter>
                                         <parameter>=</parameter>
                                         <parameter>GlobalVariable(momis.2.ide)</parameter>
                                     </parameters>
@@ -20123,28 +20113,222 @@
                                     </parameters>
                                     <subActions />
                                 </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>aspaint5</parameter>
-                                        <parameter>aspic5.X() + 125</parameter>
-                                        <parameter>aspic5.Y() + 25</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                                <action>
-                                    <type inverted="false" value="PrimitiveDrawing::Circle" />
-                                    <parameters>
-                                        <parameter>aspaint5</parameter>
-                                        <parameter>aspic5.X() - 75</parameter>
-                                        <parameter>aspic5.Y() + 25</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
                             </actions>
                             <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="BuiltinCommonInstructions::Or" />
+                                            <parameters />
+                                            <subConditions>
+                                                <condition>
+                                                    <type inverted="false" value="Distance" />
+                                                    <parameters>
+                                                        <parameter>aspic5</parameter>
+                                                        <parameter>dspic2</parameter>
+                                                        <parameter>333</parameter>
+                                                        <parameter></parameter>
+                                                    </parameters>
+                                                    <subConditions />
+                                                </condition>
+                                                <condition>
+                                                    <type inverted="false" value="Distance" />
+                                                    <parameters>
+                                                        <parameter>aspic5</parameter>
+                                                        <parameter>dspic1</parameter>
+                                                        <parameter>333</parameter>
+                                                        <parameter></parameter>
+                                                    </parameters>
+                                                    <subConditions />
+                                                </condition>
+                                                <condition>
+                                                    <type inverted="false" value="VarScene" />
+                                                    <parameters>
+                                                        <parameter>selected</parameter>
+                                                        <parameter>=</parameter>
+                                                        <parameter>5</parameter>
+                                                    </parameters>
+                                                    <subConditions />
+                                                </condition>
+                                            </subConditions>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>&quot;255;0;0&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>280 + 125</parameter>
+                                                <parameter>155 + 35</parameter>
+                                                <parameter>2</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="true" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="true" value="Distance" />
+                                            <parameters>
+                                                <parameter>aspic5</parameter>
+                                                <parameter>dspic2</parameter>
+                                                <parameter>200</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="true" value="Distance" />
+                                            <parameters>
+                                                <parameter>aspic5</parameter>
+                                                <parameter>dspic1</parameter>
+                                                <parameter>200</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>&quot;0;255;0&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>aspic5.X() + 125</parameter>
+                                                <parameter>aspic5.Y() + 35</parameter>
+                                                <parameter>2</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="VarScene" />
+                                            <parameters>
+                                                <parameter>selected</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>5</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="false" value="BuiltinCommonInstructions::Or" />
+                                            <parameters />
+                                            <subConditions>
+                                                <condition>
+                                                    <type inverted="false" value="Distance" />
+                                                    <parameters>
+                                                        <parameter>aspic5</parameter>
+                                                        <parameter>dspic1</parameter>
+                                                        <parameter>200</parameter>
+                                                        <parameter></parameter>
+                                                    </parameters>
+                                                    <subConditions />
+                                                </condition>
+                                                <condition>
+                                                    <type inverted="false" value="Distance" />
+                                                    <parameters>
+                                                        <parameter>aspic5</parameter>
+                                                        <parameter>dspic2</parameter>
+                                                        <parameter>200</parameter>
+                                                        <parameter></parameter>
+                                                    </parameters>
+                                                    <subConditions />
+                                                </condition>
+                                            </subConditions>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>&quot;255;0;0&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>280 - 75</parameter>
+                                                <parameter>155 + 35</parameter>
+                                                <parameter>2</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="true" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="true" value="Distance" />
+                                            <parameters>
+                                                <parameter>aspic5</parameter>
+                                                <parameter>dspic1</parameter>
+                                                <parameter>200</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="true" value="Distance" />
+                                            <parameters>
+                                                <parameter>aspic5</parameter>
+                                                <parameter>dspic2</parameter>
+                                                <parameter>200</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::FillColor" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>&quot;0;255;0&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PrimitiveDrawing::Circle" />
+                                            <parameters>
+                                                <parameter>aspaint5</parameter>
+                                                <parameter>aspic5.X() - 75</parameter>
+                                                <parameter>aspic5.Y() + 35</parameter>
+                                                <parameter>2</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
                                 <event disabled="false" folded="false">
                                     <type>BuiltinCommonInstructions::Standard</type>
                                     <conditions>
@@ -20173,7 +20357,7 @@
                                             <parameters>
                                                 <parameter>aspaint5</parameter>
                                                 <parameter>aspic5.X() + 25</parameter>
-                                                <parameter>aspic5.Y() - 95</parameter>
+                                                <parameter>aspic5.Y() - 85</parameter>
                                                 <parameter>2</parameter>
                                             </parameters>
                                             <subActions />
@@ -20209,7 +20393,7 @@
                                             <parameters>
                                                 <parameter>aspaint5</parameter>
                                                 <parameter>aspic5.X() + 25</parameter>
-                                                <parameter>aspic5.Y() - 95</parameter>
+                                                <parameter>aspic5.Y() - 85</parameter>
                                                 <parameter>2</parameter>
                                             </parameters>
                                             <subActions />
@@ -20245,7 +20429,7 @@
                                             <parameters>
                                                 <parameter>aspaint5</parameter>
                                                 <parameter>aspic5.X() - 125</parameter>
-                                                <parameter>aspic5.Y() + 25</parameter>
+                                                <parameter>aspic5.Y() + 35</parameter>
                                                 <parameter>2</parameter>
                                             </parameters>
                                             <subActions />
@@ -20281,7 +20465,7 @@
                                             <parameters>
                                                 <parameter>aspaint5</parameter>
                                                 <parameter>aspic5.X() - 125</parameter>
-                                                <parameter>aspic5.Y() + 25</parameter>
+                                                <parameter>aspic5.Y() + 35</parameter>
                                                 <parameter>2</parameter>
                                             </parameters>
                                             <subActions />
@@ -20317,7 +20501,7 @@
                                             <parameters>
                                                 <parameter>aspaint5</parameter>
                                                 <parameter>aspic5.X() + 175</parameter>
-                                                <parameter>aspic5.Y() + 25</parameter>
+                                                <parameter>aspic5.Y() + 35</parameter>
                                                 <parameter>2</parameter>
                                             </parameters>
                                             <subActions />
@@ -20353,7 +20537,7 @@
                                             <parameters>
                                                 <parameter>aspaint5</parameter>
                                                 <parameter>aspic5.X() + 175</parameter>
-                                                <parameter>aspic5.Y() + 25</parameter>
+                                                <parameter>aspic5.Y() + 35</parameter>
                                                 <parameter>2</parameter>
                                             </parameters>
                                             <subActions />
@@ -20407,8 +20591,8 @@
                                                 <parameter>aspic5</parameter>
                                                 <parameter>Pathfinding</parameter>
                                                 <parameter></parameter>
-                                                <parameter>MouseX(&quot;&quot;,0) - 25</parameter>
-                                                <parameter>MouseY(&quot;&quot;,0) - 25</parameter>
+                                                <parameter>MouseX(&quot;&quot;,0)</parameter>
+                                                <parameter>MouseY(&quot;&quot;,0)</parameter>
                                             </parameters>
                                             <subActions />
                                         </action>
@@ -20546,13 +20730,13 @@
                     </cameras>
                     <effects />
                 </layer>
-                <layer name="New layer" visibility="false">
+                <layer name="New layer" visibility="true">
                     <cameras>
                         <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
                     </cameras>
                     <effects />
                 </layer>
-                <layer name="New layer 1" visibility="false">
+                <layer name="New layer 1" visibility="true">
                     <cameras>
                         <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
                     </cameras>
