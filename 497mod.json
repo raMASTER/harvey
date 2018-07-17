@@ -11670,6 +11670,14 @@
         "kind": "audio",
         "name": "Track02.mp3",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "placeholderz/combat1stmovecutout.png",
+        "kind": "image",
+        "name": "combat1stmovecutout.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -26053,22 +26061,27 @@
           "name": "pauzez",
           "objects": [
             {
-              "name": "aspic5"
-            },
-            {
               "name": "dspic1"
             },
             {
               "name": "dspic2"
             },
             {
-              "name": "aspic4"
-            },
-            {
               "name": "aspic1"
             },
             {
               "name": "aspic2"
+            }
+          ]
+        },
+        {
+          "name": "ds",
+          "objects": [
+            {
+              "name": "dspic1"
+            },
+            {
+              "name": "dspic2"
             },
             {
               "name": "dspic3"
@@ -26233,7 +26246,7 @@
           "locked": true,
           "name": "NewObject4",
           "width": 0,
-          "x": 0,
+          "x": 5,
           "y": 25,
           "zOrder": 1,
           "numberProperties": [],
@@ -26278,8 +26291,8 @@
           "locked": false,
           "name": "NewObject7",
           "width": 0,
-          "x": 92.5,
-          "y": 341,
+          "x": 97,
+          "y": 351,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -26823,9 +26836,9 @@
           "locked": false,
           "name": "asred1",
           "width": 0,
-          "x": 62,
-          "y": 414,
-          "zOrder": 46,
+          "x": 141,
+          "y": 518,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26838,9 +26851,9 @@
           "locked": false,
           "name": "asyellow1",
           "width": 0,
-          "x": 162,
-          "y": 406,
-          "zOrder": 47,
+          "x": 245,
+          "y": 518,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26853,9 +26866,9 @@
           "locked": false,
           "name": "asgreen1",
           "width": 0,
-          "x": 289,
-          "y": 421,
-          "zOrder": 48,
+          "x": 322,
+          "y": 520,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26871,6 +26884,231 @@
           "x": -190.429,
           "y": 198,
           "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 330,
+          "y": 115,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "width": 0,
+          "x": 370.328,
+          "y": 422,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 1175,
+          "y": 295,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 1155,
+          "y": 325,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 1125,
+          "y": 295,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 275,
+          "y": 175,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 255,
+          "y": 145,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 200,
+          "y": 145,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 305,
+          "y": 145,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 330,
+          "y": 175,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 302,
+          "y": 205,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 355,
+          "y": 145,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 280,
+          "y": 115,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 230,
+          "y": 115,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 180,
+          "y": 115,
+          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -43750,6 +43988,138 @@
             "r": 0
           },
           "absoluteCoordinates": true
+        },
+        {
+          "name": "5030",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "5030.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NewObject",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "NewObject2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "combat1stmovecutout.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "combat1stmove.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -44368,8 +44738,8 @@
                   },
                   "parameters": [
                     "aspic1",
-                    "dspic1",
-                    "50",
+                    "ds",
+                    "66",
                     ""
                   ],
                   "subInstructions": []
@@ -44383,8 +44753,8 @@
                   },
                   "parameters": [
                     "asred1",
-                    "aspic1.X() - 25",
-                    "aspic1.Y() - 25",
+                    "aspic1.X()",
+                    "aspic1.Y() - 5",
                     "2"
                   ],
                   "subInstructions": []
@@ -44401,9 +44771,96 @@
                     "2"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asred1",
+                    "aspic1.X() - 25",
+                    "aspic1.Y() + 25",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asred1",
+                    "aspic1.X() + 25",
+                    "aspic1.Y() + 85",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asred1",
+                    "aspic1.X()",
+                    "aspic1.Y() + 55",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asred1",
+                    "aspic1.X() + 75",
+                    "aspic1.Y() + 25",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asred1",
+                    "aspic1.X() + 50",
+                    "aspic1.Y() - 5",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asred1",
+                    "aspic1.X() + 50",
+                    "aspic1.Y() + 55",
+                    "2"
+                  ],
+                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -44417,8 +44874,8 @@
                   },
                   "parameters": [
                     "aspic1",
-                    "dspic1",
-                    "50",
+                    "ds",
+                    "66",
                     ""
                   ],
                   "subInstructions": []
@@ -44432,8 +44889,8 @@
                   },
                   "parameters": [
                     "asgreen1",
-                    "aspic1.X() - 25",
-                    "aspic1.Y() - 25",
+                    "aspic1.X()",
+                    "aspic1.Y() - 5",
                     "2"
                   ],
                   "subInstructions": []
@@ -44450,8 +44907,265 @@
                     "2"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asgreen1",
+                    "aspic1.X() - 25",
+                    "aspic1.Y() + 25",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asgreen1",
+                    "aspic1.X() + 25",
+                    "aspic1.Y() + 85",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asgreen1",
+                    "aspic1.X()",
+                    "aspic1.Y() + 55",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asgreen1",
+                    "aspic1.X() + 75",
+                    "aspic1.Y() + 25",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asgreen1",
+                    "aspic1.X() + 50",
+                    "aspic1.Y() - 5",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asgreen1",
+                    "aspic1.X() + 50",
+                    "aspic1.Y() + 55",
+                    "2"
+                  ],
+                  "subInstructions": []
                 }
               ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "aspic1",
+                "dspic1",
+                "122",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "aspic1",
+                "dspic2",
+                "122",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "asred1",
+                "aspic1.X() - 25",
+                "aspic1.Y() - 35",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "asred1",
+                "aspic1.X() + 50",
+                "aspic1.Y() - 65",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "aspic1",
+                "dspic1",
+                "122",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "aspic1",
+                "dspic2",
+                "122",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "asgreen1",
+                "aspic1.X() - 25",
+                "aspic1.Y() - 35",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "asgreen1",
+                "aspic1.X() + 25",
+                "aspic1.Y() - 95",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "asgreen1",
+                "aspic1.X() + 50",
+                "aspic1.Y() - 65",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "selected",
+                "=",
+                "aspic1.Distance(dspic4)  "
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewObject",
+                "=",
+                "VariableString(selected)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
               "events": []
             }
           ]
@@ -47272,7 +47986,7 @@
         },
         {
           "name": "New layer",
-          "visibility": true,
+          "visibility": false,
           "cameras": [
             {
               "defaultSize": true,
@@ -47289,7 +48003,7 @@
         },
         {
           "name": "New layer 1",
-          "visibility": true,
+          "visibility": false,
           "cameras": [
             {
               "defaultSize": true,
