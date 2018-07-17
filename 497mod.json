@@ -13164,15 +13164,19 @@
           "children": [
             {
               "name": "boardz",
-              "value": "11"
+              "value": "10"
             },
             {
               "name": "cannonz",
-              "value": "11"
+              "value": "10"
             },
             {
               "name": "chairz",
-              "value": "11"
+              "value": "10"
+            },
+            {
+              "name": "shirtz",
+              "value": "10"
             }
           ]
         },
@@ -13181,19 +13185,11 @@
           "value": "8"
         },
         {
-          "name": "paperz",
-          "value": "11"
-        },
-        {
           "name": "prices",
           "children": [
             {
               "name": "boardz",
               "value": "900"
-            },
-            {
-              "name": "cannedfood",
-              "value": "50"
             },
             {
               "name": "cannonz",
@@ -13205,27 +13201,51 @@
             },
             {
               "name": "cloth",
-              "value": "50"
+              "value": "300"
             },
             {
-              "name": "paper",
-              "value": "0"
+              "name": "coal",
+              "value": "100"
+            },
+            {
+              "name": "cotton",
+              "value": "100"
+            },
+            {
+              "name": "foodz",
+              "value": "100"
+            },
+            {
+              "name": "horsez",
+              "value": "300"
+            },
+            {
+              "name": "milk",
+              "value": "300"
+            },
+            {
+              "name": "ore",
+              "value": "100"
             },
             {
               "name": "paperz",
-              "value": "900"
+              "value": "300"
+            },
+            {
+              "name": "sheepz",
+              "value": "100"
             },
             {
               "name": "shirtz",
-              "value": "1262"
-            },
-            {
-              "name": "timber",
-              "value": "0"
+              "value": "900"
             },
             {
               "name": "toolz",
               "value": "900"
+            },
+            {
+              "name": "treez",
+              "value": "100"
             }
           ]
         },
@@ -13261,14 +13281,6 @@
               "value": "0"
             }
           ]
-        },
-        {
-          "name": "shirtz",
-          "value": "22"
-        },
-        {
-          "name": "toolz",
-          "value": "10"
         }
       ]
     },
@@ -14083,6 +14095,12 @@
             },
             {
               "name": "NewObject42"
+            },
+            {
+              "name": "NewObject52"
+            },
+            {
+              "name": "NewObject50"
             }
           ]
         },
@@ -14109,6 +14127,23 @@
             },
             {
               "name": "NewObject52"
+            }
+          ]
+        },
+        {
+          "name": "buttonz",
+          "objects": [
+            {
+              "name": "NewObject3"
+            },
+            {
+              "name": "NewObject22"
+            },
+            {
+              "name": "NewObject31"
+            },
+            {
+              "name": "NewObject40"
             }
           ]
         }
@@ -14783,8 +14818,8 @@
           "locked": false,
           "name": "NewObject47",
           "width": 0,
-          "x": 263,
-          "y": 181,
+          "x": 266,
+          "y": 180,
           "zOrder": 264,
           "numberProperties": [],
           "stringProperties": [],
@@ -17714,7 +17749,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2122.BMP.bmp7",
+                      "image": "2121.BMP.bmp13",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17750,7 +17785,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2121.BMP.bmp13",
+                      "image": "2122.BMP.bmp7",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17864,7 +17899,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2124.BMP.bmp5",
+                      "image": "2123.BMP.bmp10",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17900,7 +17935,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2123.BMP.bmp10",
+                      "image": "2124.BMP.bmp5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19857,7 +19892,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.shirtz",
+                "rez.sell.shirtz",
                 "=",
                 "-1"
               ],
@@ -19967,7 +20002,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.chairz",
+                "rez.sell.chairz",
                 "=",
                 "-1"
               ],
@@ -20077,7 +20112,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.toolz",
+                "rez.sell.toolz",
                 "=",
                 "-1"
               ],
@@ -20187,7 +20222,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.cannonz",
+                "rez.sell.cannonz",
                 "=",
                 "-1"
               ],
@@ -20297,7 +20332,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.foodz",
+                "rez.sell.foodz",
                 "=",
                 "-1"
               ],
@@ -20407,7 +20442,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.boardz",
+                "rez.sell.boardz",
                 "=",
                 "-1"
               ],
@@ -20517,7 +20552,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.paperz",
+                "rez.sell.paperz",
                 "=",
                 "-1"
               ],
@@ -20640,7 +20675,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.shirtz",
+                "rez.sell.shirtz",
                 "=",
                 "0"
               ],
@@ -20751,7 +20786,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.chairz",
+                "rez.sell.chairz",
                 "=",
                 "0"
               ],
@@ -20862,7 +20897,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.toolz",
+                "rez.sell.toolz",
                 "=",
                 "0"
               ],
@@ -20973,7 +21008,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.cannonz",
+                "rez.sell.cannonz",
                 "=",
                 "0"
               ],
@@ -21084,7 +21119,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.foodz",
+                "rez.sell.foodz",
                 "=",
                 "0"
               ],
@@ -21195,7 +21230,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.boardz",
+                "rez.sell.boardz",
                 "=",
                 "0"
               ],
@@ -21306,7 +21341,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.paperz",
+                "rez.sell.paperz",
                 "=",
                 "0"
               ],
@@ -21450,7 +21485,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.shirtz",
+                "rez.sell.shirtz",
                 "=",
                 "1"
               ],
@@ -21464,7 +21499,7 @@
               "parameters": [
                 "NewObject9",
                 "=",
-                "\"$\" + GlobalVariableString(prices.shirtz)"
+                "\"$\" + GlobalVariableString(rez.prices.shirtz)"
               ],
               "subInstructions": []
             },
@@ -21476,7 +21511,7 @@
               "parameters": [
                 "NewObject11",
                 "=",
-                "GlobalVariableString(rez.shirtz)"
+                "GlobalVariableString(rez.current.shirtz)"
               ],
               "subInstructions": []
             },
@@ -21488,7 +21523,7 @@
               "parameters": [
                 "NewObject12",
                 "=",
-                "GlobalVariableString(sell.shirtz)"
+                "GlobalVariableString(rez.sell.shirtz)"
               ],
               "subInstructions": []
             },
@@ -21596,7 +21631,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.chairz",
+                "rez.sell.chairz",
                 "=",
                 "1"
               ],
@@ -21610,7 +21645,7 @@
               "parameters": [
                 "NewObject19",
                 "=",
-                "\"$\" + GlobalVariableString(prices.chairz)"
+                "\"$\" + GlobalVariableString(rez.prices.chairz)"
               ],
               "subInstructions": []
             },
@@ -21622,7 +21657,7 @@
               "parameters": [
                 "NewObject20",
                 "=",
-                "GlobalVariableString(rez.chairz)"
+                "GlobalVariableString(rez.current.chairz)"
               ],
               "subInstructions": []
             },
@@ -21634,7 +21669,7 @@
               "parameters": [
                 "NewObject21",
                 "=",
-                "GlobalVariableString(sell.chairz)"
+                "GlobalVariableString(rez.sell.chairz)"
               ],
               "subInstructions": []
             },
@@ -21742,7 +21777,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.toolz",
+                "rez.sell.toolz",
                 "=",
                 "1"
               ],
@@ -21756,7 +21791,7 @@
               "parameters": [
                 "NewObject28",
                 "=",
-                "\"$\" + GlobalVariableString(prices.toolz)"
+                "\"$\" + GlobalVariableString(rez.prices.toolz)"
               ],
               "subInstructions": []
             },
@@ -21768,7 +21803,7 @@
               "parameters": [
                 "NewObject29",
                 "=",
-                "GlobalVariableString(rez.toolz)"
+                "GlobalVariableString(rez.current.toolz)"
               ],
               "subInstructions": []
             },
@@ -21780,7 +21815,7 @@
               "parameters": [
                 "NewObject30",
                 "=",
-                "GlobalVariableString(sell.toolz)"
+                "GlobalVariableString(rez.sell.toolz)"
               ],
               "subInstructions": []
             },
@@ -21888,7 +21923,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.cannonz",
+                "rez.sell.cannonz",
                 "=",
                 "1"
               ],
@@ -21902,7 +21937,7 @@
               "parameters": [
                 "NewObject37",
                 "=",
-                "\"$\" + GlobalVariableString(prices.cannonz)"
+                "\"$\" + GlobalVariableString(rez.prices.cannonz)"
               ],
               "subInstructions": []
             },
@@ -21914,7 +21949,7 @@
               "parameters": [
                 "NewObject38",
                 "=",
-                "GlobalVariableString(rez.cannonz)"
+                "GlobalVariableString(rez.current.cannonz)"
               ],
               "subInstructions": []
             },
@@ -21926,7 +21961,7 @@
               "parameters": [
                 "NewObject39",
                 "=",
-                "GlobalVariableString(sell.cannonz)"
+                "GlobalVariableString(rez.sell.cannonz)"
               ],
               "subInstructions": []
             },
@@ -22034,7 +22069,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.foodz",
+                "rez.sell.foodz",
                 "=",
                 "1"
               ],
@@ -22048,7 +22083,7 @@
               "parameters": [
                 "NewObject47",
                 "=",
-                "\"$\" + GlobalVariableString(prices.foodz)"
+                "\"$\" + GlobalVariableString(rez.prices.foodz)"
               ],
               "subInstructions": []
             },
@@ -22060,7 +22095,7 @@
               "parameters": [
                 "NewObject48",
                 "=",
-                "GlobalVariableString(rez.foodz)"
+                "GlobalVariableString(rez.current.foodz)"
               ],
               "subInstructions": []
             },
@@ -22072,7 +22107,7 @@
               "parameters": [
                 "NewObject49",
                 "=",
-                "GlobalVariableString(sell.foodz)"
+                "GlobalVariableString(rez.sell.foodz)"
               ],
               "subInstructions": []
             },
@@ -22182,7 +22217,7 @@
               "parameters": [
                 "NewObject66",
                 "=",
-                "\"$\" + GlobalVariableString(prices.boardz)"
+                "\"$\" + GlobalVariableString(rez.prices.boardz)"
               ],
               "subInstructions": []
             },
@@ -22194,7 +22229,7 @@
               "parameters": [
                 "NewObject67",
                 "=",
-                "GlobalVariableString(rez.boardz)"
+                "GlobalVariableString(rez.current.boardz)"
               ],
               "subInstructions": []
             },
@@ -22206,7 +22241,7 @@
               "parameters": [
                 "NewObject68",
                 "=",
-                "GlobalVariableString(sell.boardz)"
+                "GlobalVariableString(rez.sell.boardz)"
               ],
               "subInstructions": []
             },
@@ -22316,7 +22351,7 @@
               "parameters": [
                 "NewObject70",
                 "=",
-                "\"$\" + GlobalVariableString(prices.paperz)"
+                "\"$\" + GlobalVariableString(rez.prices.paperz)"
               ],
               "subInstructions": []
             },
@@ -22328,7 +22363,7 @@
               "parameters": [
                 "NewObject71",
                 "=",
-                "GlobalVariableString(rez.paperz)"
+                "GlobalVariableString(rez.current.paperz)"
               ],
               "subInstructions": []
             },
@@ -22340,7 +22375,7 @@
               "parameters": [
                 "NewObject72",
                 "=",
-                "GlobalVariableString(sell.paperz)"
+                "GlobalVariableString(rez.sell.paperz)"
               ],
               "subInstructions": []
             },
@@ -22472,7 +22507,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.shirtz",
+                "rez.sell.shirtz",
                 "=",
                 "0"
               ],
@@ -22583,7 +22618,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.chairz",
+                "rez.sell.chairz",
                 "=",
                 "0"
               ],
@@ -22694,7 +22729,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.toolz",
+                "rez.sell.toolz",
                 "=",
                 "0"
               ],
@@ -22805,7 +22840,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.cannonz",
+                "rez.sell.cannonz",
                 "=",
                 "0"
               ],
@@ -22916,7 +22951,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.foodz",
+                "rez.sell.foodz",
                 "=",
                 "0"
               ],
@@ -23027,7 +23062,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.boardz",
+                "rez.sell.boardz",
                 "=",
                 "0"
               ],
@@ -23138,7 +23173,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "sell.paperz",
+                "rez.sell.paperz",
                 "=",
                 "0"
               ],
@@ -23189,10 +23224,78 @@
             {
               "type": {
                 "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "buttonz",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "NewObject3",
+                "buttonz",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "buttonz",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "buttonz",
                 "",
                 "",
                 ""
@@ -23202,15 +23305,76 @@
             {
               "type": {
                 "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Visible"
               },
               "parameters": [
-                "NewObject3"
+                "buttonz"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "0.1",
+                "\"\""
               ],
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "buttonz",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "E:\\ultimate\\wave\\.rsrc\\WAVE\\7000.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -23220,25 +23384,51 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeSprite"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "NewObject3",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "rez.sell.shirtz",
+                    ">",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "rez.sell.shirtz",
+                    "-",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewObject12",
                     "=",
-                    "0"
+                    "GlobalVariableString(rez.sell.shirtz)"
                   ],
                   "subInstructions": []
                 }
@@ -23253,175 +23443,51 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "NewObject3",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Timer"
-                      },
-                      "parameters": [
-                        "",
-                        "0.1",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarGlobal"
-                      },
-                      "parameters": [
-                        "sell.shirtz",
-                        ">",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "E:\\ultimate\\wave\\.rsrc\\WAVE\\7000.wav",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "sell.shirtz",
-                        "=",
-                        "GlobalVariable(sell.shirtz) - 1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "NewObject12",
-                        "=",
-                        "GlobalVariableString(sell.shirtz)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "NewObject22",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Visible"
-              },
-              "parameters": [
-                "NewObject22"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeSprite"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "NewObject22",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "rez.sell.chairz",
+                    ">",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "rez.sell.chairz",
+                    "-",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewObject21",
                     "=",
-                    "0"
+                    "GlobalVariableString(rez.sell.chairz)"
                   ],
                   "subInstructions": []
                 }
@@ -23436,11 +23502,25 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisBouton"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
+                    "NewObject31",
                     "",
-                    "Left"
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "rez.sell.toolz",
+                    ">",
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -23449,101 +23529,88 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeSprite"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "NewObject22",
+                    "rez.sell.toolz",
+                    "-",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewObject30",
                     "=",
+                    "GlobalVariableString(rez.sell.toolz)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject40",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "rez.sell.cannonz",
+                    ">",
                     "1"
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": [
+              "actions": [
                 {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Timer"
-                      },
-                      "parameters": [
-                        "",
-                        "0.1",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarGlobal"
-                      },
-                      "parameters": [
-                        "sell.chairz",
-                        ">",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "rez.sell.cannonz",
+                    "-",
+                    "1"
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "E:\\ultimate\\wave\\.rsrc\\WAVE\\7000.wav",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "sell.chairz",
-                        "=",
-                        "GlobalVariable(sell.chairz) - 1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "NewObject21",
-                        "=",
-                        "GlobalVariableString(sell.chairz)"
-                      ],
-                      "subInstructions": []
-                    }
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewObject39",
+                    "=",
+                    "GlobalVariableString(rez.sell.cannonz)"
                   ],
-                  "events": []
+                  "subInstructions": []
                 }
-              ]
+              ],
+              "events": []
             }
           ]
         },
@@ -23551,367 +23618,19 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "NewObject31",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Visible"
-              },
-              "parameters": [
-                "NewObject31"
-              ],
-              "subInstructions": []
-            }
-          ],
+          "conditions": [],
           "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "NewObject31",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "NewObject31",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Timer"
-                      },
-                      "parameters": [
-                        "",
-                        "0.1",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarGlobal"
-                      },
-                      "parameters": [
-                        "sell.toolz",
-                        ">",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "E:\\ultimate\\wave\\.rsrc\\WAVE\\7000.wav",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "sell.toolz",
-                        "=",
-                        "GlobalVariable(sell.toolz) - 1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "NewObject30",
-                        "=",
-                        "GlobalVariableString(sell.toolz)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            }
-          ]
+          "events": []
         },
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "NewObject40",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Visible"
-              },
-              "parameters": [
-                "NewObject40"
-              ],
-              "subInstructions": []
-            }
-          ],
+          "infiniteLoopWarning": true,
+          "type": "BuiltinCommonInstructions::While",
+          "whileConditions": [],
+          "conditions": [],
           "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "NewObject40",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "NewObject40",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Timer"
-                      },
-                      "parameters": [
-                        "",
-                        "0.1",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarGlobal"
-                      },
-                      "parameters": [
-                        "sell.cannonz",
-                        ">",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "E:\\ultimate\\wave\\.rsrc\\WAVE\\7000.wav",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "sell.cannonz",
-                        "=",
-                        "GlobalVariable(sell.cannonz) - 1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "NewObject39",
-                        "=",
-                        "GlobalVariableString(sell.cannonz)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            }
-          ]
+          "events": []
         },
         {
           "disabled": false,
@@ -23970,7 +23689,7 @@
                   "parameters": [
                     "NewObject50",
                     "=",
-                    "1"
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -24003,7 +23722,7 @@
                   "parameters": [
                     "NewObject50",
                     "=",
-                    "0"
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -24032,7 +23751,7 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "sell.foodz",
+                        "rez.sell.foodz",
                         ">",
                         "1"
                       ],
@@ -24071,7 +23790,7 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "sell.foodz",
+                        "rez.sell.foodz",
                         "=",
                         "- 1"
                       ],
@@ -24085,7 +23804,7 @@
                       "parameters": [
                         "NewObject49",
                         "=",
-                        "GlobalVariableString(sell.foodz)"
+                        "GlobalVariableString(rez.sell.foodz)"
                       ],
                       "subInstructions": []
                     }
@@ -24097,7 +23816,7 @@
           ]
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -24209,7 +23928,7 @@
                     "value": "VarGlobal"
                   },
                   "parameters": [
-                    "sell.boardz",
+                    "rez.sell.boardz",
                     ">",
                     "0"
                   ],
@@ -24223,9 +23942,9 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "sell.boardz",
+                    "rez.sell.boardz",
                     "=",
-                    "GlobalVariable(sell.boardz) - 1"
+                    "GlobalVariable(rez.sell.boardz) - 1"
                   ],
                   "subInstructions": []
                 },
@@ -24237,7 +23956,7 @@
                   "parameters": [
                     "NewObject68",
                     "=",
-                    "GlobalVariableString(sell.boardz)"
+                    "GlobalVariableString(rez.sell.boardz)"
                   ],
                   "subInstructions": []
                 }
@@ -24247,7 +23966,7 @@
           ]
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -24359,7 +24078,7 @@
                     "value": "VarGlobal"
                   },
                   "parameters": [
-                    "sell.paperz",
+                    "rez.sell.paperz",
                     ">",
                     "0"
                   ],
@@ -24373,9 +24092,9 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "sell.paperz",
+                    "rez.sell.paperz",
                     "=",
-                    "GlobalVariable(sell.paperz) - 1"
+                    "GlobalVariable(rez.sell.paperz) - 1"
                   ],
                   "subInstructions": []
                 },
@@ -24387,7 +24106,7 @@
                   "parameters": [
                     "NewObject72",
                     "=",
-                    "GlobalVariableString(sell.paperz)"
+                    "GlobalVariableString(rez.sell.paperz)"
                   ],
                   "subInstructions": []
                 }
@@ -24538,9 +24257,9 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "sell.shirtz",
+                        "rez.sell.shirtz",
                         "<",
-                        "GlobalVariable(rez.shirtz)"
+                        "GlobalVariable(rez.current.shirtz)"
                       ],
                       "subInstructions": []
                     },
@@ -24550,7 +24269,7 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "sell.shirtz",
+                        "rez.sell.shirtz",
                         "<",
                         "GlobalVariable(rez.merchantmarine)"
                       ],
@@ -24589,9 +24308,9 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "sell.shirtz",
+                        "rez.sell.shirtz",
                         "=",
-                        "GlobalVariable(sell.shirtz) + 1"
+                        "GlobalVariable(rez.sell.shirtz) + 1"
                       ],
                       "subInstructions": []
                     },
@@ -24603,7 +24322,7 @@
                       "parameters": [
                         "NewObject12",
                         "=",
-                        "GlobalVariableString(sell.shirtz)"
+                        "GlobalVariableString(rez.sell.shirtz)"
                       ],
                       "subInstructions": []
                     }
@@ -24733,9 +24452,9 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "sell.chairz",
+                        "rez.sell.chairz",
                         "<",
-                        "GlobalVariable(rez.chairz)"
+                        "GlobalVariable(rez.current.chairz)"
                       ],
                       "subInstructions": []
                     },
@@ -24745,7 +24464,7 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "sell.chairz",
+                        "rez.sell.chairz",
                         "<",
                         "GlobalVariable(rez.merchantmarine)"
                       ],
@@ -24784,9 +24503,9 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "sell.chairz",
+                        "rez.sell.chairz",
                         "=",
-                        "GlobalVariable(sell.chairz) + 1"
+                        "GlobalVariable(rez.sell.chairz) + 1"
                       ],
                       "subInstructions": []
                     },
@@ -24798,7 +24517,7 @@
                       "parameters": [
                         "NewObject21",
                         "=",
-                        "GlobalVariableString(sell.chairz)"
+                        "GlobalVariableString(rez.sell.chairz)"
                       ],
                       "subInstructions": []
                     }
@@ -24928,9 +24647,9 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "sell.toolz",
+                        "rez.sell.toolz",
                         "<",
-                        "GlobalVariable(rez.toolz)"
+                        "GlobalVariable(rez.current.toolz)"
                       ],
                       "subInstructions": []
                     },
@@ -24940,7 +24659,7 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "sell.toolz",
+                        "rez.sell.toolz",
                         "<",
                         "GlobalVariable(rez.merchantmarine)"
                       ],
@@ -24979,9 +24698,9 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "sell.toolz",
+                        "rez.sell.toolz",
                         "=",
-                        "GlobalVariable(sell.toolz) + 1"
+                        "GlobalVariable(rez.sell.toolz) + 1"
                       ],
                       "subInstructions": []
                     },
@@ -24993,7 +24712,7 @@
                       "parameters": [
                         "NewObject30",
                         "=",
-                        "GlobalVariableString(sell.toolz)"
+                        "GlobalVariableString(rez.sell.toolz)"
                       ],
                       "subInstructions": []
                     }
@@ -25123,9 +24842,9 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "sell.cannonz",
+                        "rez.sell.cannonz",
                         "<",
-                        "GlobalVariable(rez.cannonz)"
+                        "GlobalVariable(rez.current.cannonz)"
                       ],
                       "subInstructions": []
                     },
@@ -25135,7 +24854,7 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "sell.cannonz",
+                        "rez.sell.cannonz",
                         "<",
                         "GlobalVariable(rez.merchantmarine)"
                       ],
@@ -25174,9 +24893,9 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "sell.cannonz",
+                        "rez.sell.cannonz",
                         "=",
-                        "GlobalVariable(sell.cannonz) + 1"
+                        "+1"
                       ],
                       "subInstructions": []
                     },
@@ -25256,7 +24975,7 @@
                   "parameters": [
                     "NewObject52",
                     "=",
-                    "1"
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -25289,7 +25008,7 @@
                   "parameters": [
                     "NewObject52",
                     "=",
-                    "0"
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -25318,9 +25037,9 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "sell.foodz",
+                        "rez.sell.foodz",
                         "<",
-                        "GlobalVariable(rez.foodz)"
+                        "GlobalVariable(rez.current.foodz)"
                       ],
                       "subInstructions": []
                     },
@@ -25330,7 +25049,7 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "sell.foodz",
+                        "rez.sell.foodz",
                         "<",
                         "GlobalVariable(rez.merchantmarine)"
                       ],
@@ -25369,9 +25088,9 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "sell.foodz",
+                        "rez.sell.foodz",
                         "=",
-                        " + 1"
+                        "++"
                       ],
                       "subInstructions": []
                     },
@@ -25383,7 +25102,7 @@
                       "parameters": [
                         "NewObject49",
                         "=",
-                        "GlobalVariableString(sell.foodz)"
+                        "GlobalVariableString(rez.sell.foodz)"
                       ],
                       "subInstructions": []
                     }
@@ -25395,7 +25114,7 @@
           ]
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -25507,7 +25226,7 @@
                     "value": "VarGlobal"
                   },
                   "parameters": [
-                    "sell.boardz",
+                    "rez.sell.boardz",
                     "<",
                     "GlobalVariable(rez.merchantmarine)"
                   ],
@@ -25519,9 +25238,9 @@
                     "value": "VarGlobal"
                   },
                   "parameters": [
-                    "sell.boardz",
+                    "rez.sell.boardz",
                     "<",
-                    "GlobalVariable(rez.boardz)"
+                    "GlobalVariable(rez.current.boardz)"
                   ],
                   "subInstructions": []
                 }
@@ -25533,9 +25252,9 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "sell.boardz",
+                    "rez.sell.boardz",
                     "=",
-                    "GlobalVariable(sell.boardz) + 1"
+                    "+ 1"
                   ],
                   "subInstructions": []
                 },
@@ -25547,7 +25266,7 @@
                   "parameters": [
                     "NewObject68",
                     "=",
-                    "GlobalVariableString(sell.boardz)"
+                    "GlobalVariableString(rez.sell.boardz)"
                   ],
                   "subInstructions": []
                 }
@@ -25557,7 +25276,7 @@
           ]
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -25669,7 +25388,7 @@
                     "value": "VarGlobal"
                   },
                   "parameters": [
-                    "sell.paperz",
+                    "rez.sell.paperz",
                     "<",
                     "GlobalVariable(rez.merchantmarine)"
                   ],
@@ -25681,9 +25400,9 @@
                     "value": "VarGlobal"
                   },
                   "parameters": [
-                    "sell.paperz",
+                    "rez.sell.paperz",
                     "<",
-                    "GlobalVariable(rez.paperz)"
+                    "GlobalVariable(rez.current.paperz)"
                   ],
                   "subInstructions": []
                 }
@@ -25695,9 +25414,9 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "sell.paperz",
+                    "rez.sell.paperz",
                     "=",
-                    "GlobalVariable(sell.paperz) + 1"
+                    "+ 1"
                   ],
                   "subInstructions": []
                 },
@@ -25709,7 +25428,7 @@
                   "parameters": [
                     "NewObject72",
                     "=",
-                    "GlobalVariableString(sell.paperz)"
+                    "GlobalVariableString(rez.sell.paperz)"
                   ],
                   "subInstructions": []
                 }
@@ -25752,7 +25471,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "sell.shirtz",
+                "rez.sell.shirtz",
                 ">",
                 "0"
               ],
@@ -25769,7 +25488,7 @@
                 "NewObject23",
                 "NewObject2.X()",
                 "NewObject2.Y() + 3",
-                "NewObject2.X() + 5 * GlobalVariable(sell.shirtz)",
+                "NewObject2.X() + 5 * GlobalVariable(rez.sell.shirtz)",
                 "NewObject2.Y() + 3",
                 "6"
               ],
@@ -25789,7 +25508,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "sell.chairz",
+                "rez.sell.chairz",
                 ">",
                 "0"
               ],
@@ -25806,7 +25525,7 @@
                 "NewObject23",
                 "NewObject24.X()",
                 "NewObject24.Y() + 3",
-                "NewObject24.X() + 5 * GlobalVariable(sell.chairz)",
+                "NewObject24.X() + 5 * GlobalVariable(rez.sell.chairz)",
                 "NewObject24.Y() + 3",
                 "6"
               ],
@@ -25826,7 +25545,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "sell.toolz",
+                "rez.sell.toolz",
                 ">",
                 "0"
               ],
@@ -25843,7 +25562,7 @@
                 "NewObject23",
                 "NewObject32.X()",
                 "NewObject32.Y() + 3",
-                "NewObject32.X() + 5 * GlobalVariable(sell.toolz)",
+                "NewObject32.X() + 5 * GlobalVariable(rez.sell.toolz)",
                 "NewObject32.Y() + 3",
                 "6"
               ],
@@ -25863,7 +25582,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "buysell.cannedfood",
+                "rez.sell.foodz",
                 ">",
                 "0"
               ],
@@ -25880,7 +25599,7 @@
                 "NewObject23",
                 "NewObject51.X()",
                 "NewObject51.Y() + 3",
-                "NewObject51.X() + 5 * GlobalVariable(buysell.cannedfood)",
+                "NewObject51.X() + 5 * GlobalVariable(rez.sell.foodz)",
                 "NewObject51.Y() + 3",
                 "6"
               ],
@@ -25900,7 +25619,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "sell.cannonz",
+                "rez.sell.cannonz",
                 ">",
                 "0"
               ],
@@ -25917,7 +25636,7 @@
                 "NewObject23",
                 "NewObject41.X()",
                 "NewObject41.Y() + 3",
-                "NewObject41.X() + 5 * GlobalVariable(sell.cannonz)",
+                "NewObject41.X() + 5 * GlobalVariable(rez.sell.cannonz)",
                 "NewObject41.Y() + 3",
                 "6"
               ],
@@ -25937,7 +25656,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "sell.boardz",
+                "rez.sell.boardz",
                 ">",
                 "0"
               ],
@@ -25954,7 +25673,7 @@
                 "NewObject23",
                 "NewObject61.X()",
                 "NewObject61.Y() + 4",
-                "NewObject61.X() + 5 * GlobalVariable(sell.boardz)",
+                "NewObject61.X() + 5 * GlobalVariable(rez.sell.boardz)",
                 "NewObject61.Y() + 4",
                 "5"
               ],
@@ -25974,7 +25693,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "sell.paperz",
+                "rez.sell.paperz",
                 ">",
                 "0"
               ],
@@ -25991,7 +25710,7 @@
                 "NewObject23",
                 "NewObject74.X()",
                 "NewObject74.Y() + 4",
-                "NewObject74.X() + 5 * GlobalVariable(sell.paperz)",
+                "NewObject74.X() + 5 * GlobalVariable(rez.sell.paperz)",
                 "NewObject74.Y() + 4",
                 "5"
               ],
@@ -26088,6 +25807,17 @@
             },
             {
               "name": "dspic4"
+            }
+          ]
+        },
+        {
+          "name": "as",
+          "objects": [
+            {
+              "name": "aspic1"
+            },
+            {
+              "name": "aspic2"
             }
           ]
         }
@@ -26893,21 +26623,6 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "locked": true,
-          "name": "5030",
-          "width": 0,
-          "x": 330,
-          "y": 115,
-          "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "locked": false,
           "name": "NewObject",
           "width": 0,
@@ -26926,9 +26641,9 @@
           "locked": true,
           "name": "5030",
           "width": 0,
-          "x": 1175,
-          "y": 295,
-          "zOrder": 55,
+          "x": 330,
+          "y": 115,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26941,39 +26656,39 @@
           "locked": true,
           "name": "5030",
           "width": 0,
-          "x": 1155,
-          "y": 325,
-          "zOrder": 56,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": true,
-          "name": "5030",
-          "width": 0,
-          "x": 1125,
-          "y": 295,
-          "zOrder": 57,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": true,
-          "name": "5030",
-          "width": 0,
-          "x": 275,
+          "x": 380,
           "y": 175,
-          "zOrder": 59,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 355,
+          "y": 205,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 280,
+          "y": 175,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26988,7 +26703,7 @@
           "width": 0,
           "x": 255,
           "y": 145,
-          "zOrder": 60,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27001,9 +26716,9 @@
           "locked": true,
           "name": "5030",
           "width": 0,
-          "x": 200,
+          "x": 205,
           "y": 145,
-          "zOrder": 61,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27018,7 +26733,7 @@
           "width": 0,
           "x": 305,
           "y": 145,
-          "zOrder": 62,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27033,7 +26748,7 @@
           "width": 0,
           "x": 330,
           "y": 175,
-          "zOrder": 63,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27046,9 +26761,9 @@
           "locked": true,
           "name": "5030",
           "width": 0,
-          "x": 302,
+          "x": 305,
           "y": 205,
-          "zOrder": 64,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27063,7 +26778,7 @@
           "width": 0,
           "x": 355,
           "y": 145,
-          "zOrder": 65,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27078,7 +26793,7 @@
           "width": 0,
           "x": 280,
           "y": 115,
-          "zOrder": 66,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27093,7 +26808,7 @@
           "width": 0,
           "x": 230,
           "y": 115,
-          "zOrder": 67,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27108,7 +26823,52 @@
           "width": 0,
           "x": 180,
           "y": 115,
-          "zOrder": 68,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 255,
+          "y": 205,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 280,
+          "y": 235,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "5030",
+          "width": 0,
+          "x": 330,
+          "y": 235,
+          "zOrder": 71,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -42290,7 +42050,21 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 1,
+              "cellHeight": 30,
+              "cellWidth": 25,
+              "extraBorder": 0,
+              "maxSpeed": 200,
+              "name": "Pathfinding",
+              "rotateObject": false,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -42301,7 +42075,7 @@
                   "timeBetweenFrames": 1,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "5050.png",
                       "points": [],
                       "originPoint": {
@@ -42315,10 +42089,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile000.png",
                       "points": [],
                       "originPoint": {
@@ -42332,10 +42125,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile001.png",
                       "points": [],
                       "originPoint": {
@@ -42349,10 +42161,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile002.png",
                       "points": [],
                       "originPoint": {
@@ -42366,10 +42197,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile003.png",
                       "points": [],
                       "originPoint": {
@@ -42383,10 +42233,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile004.png",
                       "points": [],
                       "originPoint": {
@@ -42400,10 +42269,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile005.png",
                       "points": [],
                       "originPoint": {
@@ -42417,10 +42305,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile006.png",
                       "points": [],
                       "originPoint": {
@@ -42434,10 +42341,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile007.png",
                       "points": [],
                       "originPoint": {
@@ -42451,10 +42377,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile008.png",
                       "points": [],
                       "originPoint": {
@@ -42468,10 +42413,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile009.png",
                       "points": [],
                       "originPoint": {
@@ -42485,10 +42449,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile010.png",
                       "points": [],
                       "originPoint": {
@@ -42502,10 +42485,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile011.png",
                       "points": [],
                       "originPoint": {
@@ -42519,10 +42521,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile012.png",
                       "points": [],
                       "originPoint": {
@@ -42536,10 +42557,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile013.png",
                       "points": [],
                       "originPoint": {
@@ -42553,10 +42593,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile014.png",
                       "points": [],
                       "originPoint": {
@@ -42570,10 +42629,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile015.png",
                       "points": [],
                       "originPoint": {
@@ -42587,10 +42665,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile016.png",
                       "points": [],
                       "originPoint": {
@@ -42604,10 +42701,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile017.png",
                       "points": [],
                       "originPoint": {
@@ -42621,10 +42737,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile018.png",
                       "points": [],
                       "originPoint": {
@@ -42638,10 +42773,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile019.png",
                       "points": [],
                       "originPoint": {
@@ -42655,10 +42809,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile020.png",
                       "points": [],
                       "originPoint": {
@@ -42672,10 +42845,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile021.png",
                       "points": [],
                       "originPoint": {
@@ -42689,10 +42881,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile022.png",
                       "points": [],
                       "originPoint": {
@@ -42706,10 +42917,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile023.png",
                       "points": [],
                       "originPoint": {
@@ -42723,10 +42953,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile024.png",
                       "points": [],
                       "originPoint": {
@@ -42740,10 +42989,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile025.png",
                       "points": [],
                       "originPoint": {
@@ -42757,10 +43025,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile026.png",
                       "points": [],
                       "originPoint": {
@@ -42774,10 +43061,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile027.png",
                       "points": [],
                       "originPoint": {
@@ -42791,10 +43097,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile028.png",
                       "points": [],
                       "originPoint": {
@@ -42808,10 +43133,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile029.png",
                       "points": [],
                       "originPoint": {
@@ -42825,7 +43169,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 20
+                          },
+                          {
+                            "x": 50,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -44203,6 +44566,16 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "5030"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ChangeSprite"
               },
               "parameters": [
@@ -44754,7 +45127,7 @@
                   "parameters": [
                     "asred1",
                     "aspic1.X()",
-                    "aspic1.Y() - 5",
+                    "aspic1.Y() + 5",
                     "2"
                   ],
                   "subInstructions": []
@@ -44767,7 +45140,7 @@
                   "parameters": [
                     "asred1",
                     "aspic1.X() + 25",
-                    "aspic1.Y() - 35",
+                    "aspic1.Y() - 25",
                     "2"
                   ],
                   "subInstructions": []
@@ -44890,7 +45263,7 @@
                   "parameters": [
                     "asgreen1",
                     "aspic1.X()",
-                    "aspic1.Y() - 5",
+                    "aspic1.Y() + 5",
                     "2"
                   ],
                   "subInstructions": []
@@ -44903,7 +45276,7 @@
                   "parameters": [
                     "asgreen1",
                     "aspic1.X() + 25",
-                    "aspic1.Y() - 35",
+                    "aspic1.Y() - 25",
                     "2"
                   ],
                   "subInstructions": []
@@ -44916,7 +45289,7 @@
                   "parameters": [
                     "asgreen1",
                     "aspic1.X() - 25",
-                    "aspic1.Y() + 25",
+                    "aspic1.Y() + 35",
                     "2"
                   ],
                   "subInstructions": []
@@ -44929,7 +45302,7 @@
                   "parameters": [
                     "asgreen1",
                     "aspic1.X() + 25",
-                    "aspic1.Y() + 85",
+                    "aspic1.Y() + 95",
                     "2"
                   ],
                   "subInstructions": []
@@ -44942,7 +45315,7 @@
                   "parameters": [
                     "asgreen1",
                     "aspic1.X()",
-                    "aspic1.Y() + 55",
+                    "aspic1.Y() + 65",
                     "2"
                   ],
                   "subInstructions": []
@@ -44955,7 +45328,7 @@
                   "parameters": [
                     "asgreen1",
                     "aspic1.X() + 75",
-                    "aspic1.Y() + 25",
+                    "aspic1.Y() + 35",
                     "2"
                   ],
                   "subInstructions": []
@@ -44968,7 +45341,7 @@
                   "parameters": [
                     "asgreen1",
                     "aspic1.X() + 50",
-                    "aspic1.Y() - 5",
+                    "aspic1.Y() + 5",
                     "2"
                   ],
                   "subInstructions": []
@@ -44981,191 +45354,284 @@
                   "parameters": [
                     "asgreen1",
                     "aspic1.X() + 50",
-                    "aspic1.Y() + 55",
+                    "aspic1.Y() + 65",
                     "2"
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Distance"
-              },
-              "parameters": [
-                "aspic1",
-                "dspic1",
-                "122",
-                ""
-              ],
-              "subInstructions": []
             },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Distance"
-              },
-              "parameters": [
-                "aspic1",
-                "dspic2",
-                "122",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PrimitiveDrawing::Circle"
-              },
-              "parameters": [
-                "asred1",
-                "aspic1.X() - 25",
-                "aspic1.Y() - 35",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PrimitiveDrawing::Circle"
-              },
-              "parameters": [
-                "asred1",
-                "aspic1.X() + 50",
-                "aspic1.Y() - 65",
-                "2"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
             {
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "dspic1",
+                    "122",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "dspic2",
+                    "122",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asred1",
+                    "aspic1.X() - 25",
+                    "aspic1.Y() - 35",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asred1",
+                    "aspic1.X() + 50",
+                    "aspic1.Y() - 65",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "dspic1",
+                    "122",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "dspic2",
+                    "122",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asgreen1",
+                    "aspic1.X() - 25",
+                    "aspic1.Y() - 25",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asgreen1",
+                    "aspic1.X() + 25",
+                    "aspic1.Y() - 85",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "asgreen1",
+                    "aspic1.X() + 50",
+                    "aspic1.Y() - 55",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "selected",
+                    "=",
+                    "aspic1.Distance(dspic4)  "
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewObject",
+                    "=",
+                    "VariableString(selected)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "5030",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "",
+                    "no",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "aspic2",
+                    "",
+                    "no",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "5030",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "Distance"
-              },
-              "parameters": [
-                "aspic1",
-                "dspic1",
-                "122",
-                ""
-              ],
-              "subInstructions": []
             },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Distance"
-              },
-              "parameters": [
-                "aspic1",
-                "dspic2",
-                "122",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PrimitiveDrawing::Circle"
-              },
-              "parameters": [
-                "asgreen1",
-                "aspic1.X() - 25",
-                "aspic1.Y() - 35",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PrimitiveDrawing::Circle"
-              },
-              "parameters": [
-                "asgreen1",
-                "aspic1.X() + 25",
-                "aspic1.Y() - 95",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PrimitiveDrawing::Circle"
-              },
-              "parameters": [
-                "asgreen1",
-                "aspic1.X() + 50",
-                "aspic1.Y() - 65",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "selected",
-                "=",
-                "aspic1.Distance(dspic4)  "
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "NewObject",
-                "=",
-                "VariableString(selected)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
             {
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "5030",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "5030"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             }
           ]
@@ -47986,7 +48452,7 @@
         },
         {
           "name": "New layer",
-          "visibility": false,
+          "visibility": true,
           "cameras": [
             {
               "defaultSize": true,
@@ -48003,7 +48469,7 @@
         },
         {
           "name": "New layer 1",
-          "visibility": false,
+          "visibility": true,
           "cameras": [
             {
               "defaultSize": true,
