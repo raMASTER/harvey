@@ -11678,6 +11678,18 @@
         "name": "combat1stmovecutout.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "E:/ultimate/wave/.rsrc/WAVE/1000.wav",
+        "kind": "audio",
+        "name": "1000.wav",
+        "userAdded": true
+      },
+      {
+        "file": "E:/ultimate/wave/.rsrc/WAVE/15000.wav",
+        "kind": "audio",
+        "name": "15000.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -12952,8 +12964,12 @@
                   "name": "1",
                   "children": [
                     {
-                      "name": "dmg",
+                      "name": "defense",
                       "value": "11"
+                    },
+                    {
+                      "name": "dmg",
+                      "value": "1"
                     },
                     {
                       "name": "hpz",
@@ -12962,6 +12978,14 @@
                     {
                       "name": "ide",
                       "value": "1"
+                    },
+                    {
+                      "name": "melee",
+                      "value": "11"
+                    },
+                    {
+                      "name": "movement",
+                      "value": "4"
                     },
                     {
                       "name": "mrl",
@@ -12979,6 +13003,10 @@
                     {
                       "name": "ide",
                       "value": "2"
+                    },
+                    {
+                      "name": "movement",
+                      "value": "3"
                     }
                   ]
                 }
@@ -12996,6 +13024,10 @@
                     },
                     {
                       "name": "ide",
+                      "value": "1"
+                    },
+                    {
+                      "name": "movement",
                       "value": "1"
                     },
                     {
@@ -13017,6 +13049,10 @@
                     },
                     {
                       "name": "ide",
+                      "value": "2"
+                    },
+                    {
+                      "name": "movement",
                       "value": "2"
                     },
                     {
@@ -27542,6 +27578,21 @@
           "x": 509,
           "y": 531,
           "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject9",
+          "width": 0,
+          "x": 1055.87,
+          "y": 421,
+          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -45237,6 +45288,24 @@
             "r": 0
           },
           "absoluteCoordinates": true
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NewObject9",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -45883,6 +45952,48 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "province.momis.standing.3.hpz",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "dspic3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "dsflag3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "inverted": false,
                 "value": "VarGlobal"
               },
@@ -46448,8 +46559,8 @@
                   },
                   "parameters": [
                     "asgreen1",
-                    "aspic1.X() - 225",
-                    "aspic1.Y() - 15",
+                    "aspic1.X() - 200",
+                    "aspic1.Y() + 5",
                     "2"
                   ],
                   "subInstructions": []
@@ -46461,7 +46572,7 @@
                   },
                   "parameters": [
                     "asgreen1",
-                    "aspic1.X() - 225",
+                    "aspic1.X() - 200",
                     "aspic1.Y() + 65",
                     "2"
                   ],
@@ -46469,114 +46580,6 @@
                 }
               ],
               "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "aspic1",
-                    "dspic1",
-                    "122",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "aspic1",
-                    "dspic2",
-                    "122",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "asgreen1",
-                    "aspic1.X() - 25",
-                    "aspic1.Y() - 25",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "asgreen1",
-                    "aspic1.X() + 25",
-                    "aspic1.Y() - 85",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "asgreen1",
-                    "aspic1.X() + 50",
-                    "aspic1.Y() - 55",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "selected",
-                    "=",
-                    "aspic1.Distance(dspic4)  "
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "NewObject",
-                    "=",
-                    "VariableString(selected)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [],
-                  "events": []
-                }
-              ]
             },
             {
               "disabled": false,
@@ -46733,6 +46736,18 @@
                     "\"\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "selected",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -46794,6 +46809,18 @@
                         "2"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NewObject9",
+                        "=",
+                        "ToString(111*GlobalVariable(province.momis.movemoraga.1.rng))"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": [
@@ -46836,10 +46863,22 @@
                           },
                           "parameters": [
                             "",
-                            "Track02.mp3",
+                            "15000.wav",
                             "",
                             "",
                             ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "selected",
+                            "=",
+                            "2"
                           ],
                           "subInstructions": []
                         }
@@ -46863,32 +46902,9 @@
                             ""
                           ],
                           "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Timer"
-                          },
-                          "parameters": [
-                            "",
-                            "0.1",
-                            "\"\""
-                          ],
-                          "subInstructions": []
                         }
                       ],
                       "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ResetTimer"
-                          },
-                          "parameters": [
-                            "",
-                            "\"\""
-                          ],
-                          "subInstructions": []
-                        },
                         {
                           "type": {
                             "inverted": false,
@@ -46908,10 +46924,22 @@
                           },
                           "parameters": [
                             "",
-                            "Track02.mp3",
+                            "15000.wav",
                             "",
                             "",
                             ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "selected",
+                            "=",
+                            "2"
                           ],
                           "subInstructions": []
                         }
@@ -46946,32 +46974,9 @@
                             "Left"
                           ],
                           "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Timer"
-                          },
-                          "parameters": [
-                            "",
-                            "0.1",
-                            "\"\""
-                          ],
-                          "subInstructions": []
                         }
                       ],
                       "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ResetTimer"
-                          },
-                          "parameters": [
-                            "",
-                            "\"\""
-                          ],
-                          "subInstructions": []
-                        },
                         {
                           "type": {
                             "inverted": false,
@@ -46991,10 +46996,22 @@
                           },
                           "parameters": [
                             "",
-                            "Track02.mp3",
+                            "15000.wav",
                             "",
                             "",
                             ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "selected",
+                            "=",
+                            "2"
                           ],
                           "subInstructions": []
                         }
@@ -47287,9 +47304,67 @@
                 "GlobalVariable(province.momis.movemoraga.2.ide)"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "selected",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewObject",
+                "=",
+                "GlobalVariableString(province.momis.movemoraga[VariableString(selected)].movement)"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
+            {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "province.momis.movemoraga.2.movement",
+                    ">",
+                    "GlobalVariable(province.momis.movemoraga.Variable(selected).movement)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "selected",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "disabled": true,
               "folded": false,
@@ -47330,54 +47405,6 @@
                   },
                   "parameters": [
                     "asflag1",
-                    "=",
-                    "5"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "province.momis.movemoraga.2.ide",
-                    ">",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "asflag2",
-                    "255",
-                    "225",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "asflag2",
                     "=",
                     "5"
                   ],
@@ -47993,6 +48020,14 @@
                   "events": []
                 }
               ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
             },
             {
               "disabled": false,
