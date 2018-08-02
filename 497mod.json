@@ -11706,6 +11706,14 @@
         "name": "400-369.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BITMAP/400-276.png",
+        "kind": "image",
+        "name": "400-276.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13983,9 +13991,6 @@
               "name": "NewObject6"
             },
             {
-              "name": "NewObject8"
-            },
-            {
               "name": "NewObject34"
             },
             {
@@ -14360,36 +14365,6 @@
           "x": 0,
           "y": 0,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject7",
-          "width": 0,
-          "x": 48,
-          "y": 33,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": true,
-          "name": "NewObject8",
-          "width": 0,
-          "x": 0,
-          "y": 0,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15779,11 +15754,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0,
+                  "timeBetweenFrames": 1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2101.BMP.bmp2",
+                      "image": "400-276.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15796,26 +15771,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -15840,7 +15796,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2120.BMP.bmp",
+                      "image": "400-279.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15897,7 +15853,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2121.BMP.bmp3",
+                      "image": "400-280.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15933,7 +15889,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2122.BMP.bmp2",
+                      "image": "400-281.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15990,7 +15946,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2123.BMP.bmp",
+                      "image": "400-282.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16026,7 +15982,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2124.BMP.bmp",
+                      "image": "400-283.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16083,7 +16039,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2121.BMP.bmp5",
+                      "image": "400-280.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16119,43 +16075,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2122.BMP.bmp3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "2121.BMP.bmp6",
+                      "image": "400-281.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16212,64 +16132,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2120.BMP.bmp2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "NewObject7",
-          "type": "Sprite",
-          "updateIfNotVisible": true,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "tradetitle.png",
+                      "image": "400-279.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16326,63 +16189,6 @@
             "g": 255,
             "r": 255
           }
-        },
-        {
-          "name": "NewObject8",
-          "type": "Sprite",
-          "updateIfNotVisible": true,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "tradeplaceholder.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "name": "NewObject10",
@@ -16530,7 +16336,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2126.BMP.bmp",
+                      "image": "400-285.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16587,7 +16393,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2114.BMP.bmp2",
+                      "image": "400-277.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16698,7 +16504,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2121.BMP.bmp7",
+                      "image": "400-280.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16734,7 +16540,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2122.BMP.bmp4",
+                      "image": "400-281.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16816,7 +16622,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2120.BMP.bmp3",
+                      "image": "400-279.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27511,8 +27317,8 @@
           "locked": false,
           "name": "aspic2",
           "width": 0,
-          "x": 555,
-          "y": 175,
+          "x": 680,
+          "y": 155,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -30579,6 +30385,111 @@
           "x": 1380,
           "y": 235,
           "zOrder": 255,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "5030",
+          "width": 0,
+          "x": 830,
+          "y": 175,
+          "zOrder": 256,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "5030",
+          "width": 0,
+          "x": 855,
+          "y": 205,
+          "zOrder": 257,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "5030",
+          "width": 0,
+          "x": 855,
+          "y": 145,
+          "zOrder": 258,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "5030",
+          "width": 0,
+          "x": 905,
+          "y": 205,
+          "zOrder": 259,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "5030",
+          "width": 0,
+          "x": 880,
+          "y": 175,
+          "zOrder": 260,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "5030",
+          "width": 0,
+          "x": 805,
+          "y": 145,
+          "zOrder": 261,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "5030",
+          "width": 0,
+          "x": 905,
+          "y": 145,
+          "zOrder": 262,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -40679,7 +40590,7 @@
                   "timeBetweenFrames": 1,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "5050.png",
                       "points": [],
                       "originPoint": {
@@ -40697,11 +40608,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -40715,7 +40626,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile000.png6",
                       "points": [],
                       "originPoint": {
@@ -40733,11 +40644,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -40751,7 +40662,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile001.png7",
                       "points": [],
                       "originPoint": {
@@ -40769,11 +40680,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -40787,7 +40698,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile002.png7",
                       "points": [],
                       "originPoint": {
@@ -40805,11 +40716,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -40823,7 +40734,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile003.png7",
                       "points": [],
                       "originPoint": {
@@ -40841,11 +40752,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -40859,7 +40770,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile004.png6",
                       "points": [],
                       "originPoint": {
@@ -40877,11 +40788,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -40895,7 +40806,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile005.png6",
                       "points": [],
                       "originPoint": {
@@ -40913,11 +40824,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -40931,7 +40842,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile006.png6",
                       "points": [],
                       "originPoint": {
@@ -40949,11 +40860,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -40967,7 +40878,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile007.png6",
                       "points": [],
                       "originPoint": {
@@ -40985,11 +40896,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41003,7 +40914,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile008.png6",
                       "points": [],
                       "originPoint": {
@@ -41021,11 +40932,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41039,7 +40950,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile009.png6",
                       "points": [],
                       "originPoint": {
@@ -41057,11 +40968,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41075,7 +40986,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile010.png6",
                       "points": [],
                       "originPoint": {
@@ -41093,11 +41004,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41111,7 +41022,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile011.png6",
                       "points": [],
                       "originPoint": {
@@ -41129,11 +41040,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41147,7 +41058,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile012.png6",
                       "points": [],
                       "originPoint": {
@@ -41165,11 +41076,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41183,7 +41094,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile013.png6",
                       "points": [],
                       "originPoint": {
@@ -41201,11 +41112,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41219,7 +41130,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile014.png6",
                       "points": [],
                       "originPoint": {
@@ -41237,11 +41148,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41255,7 +41166,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile015.png6",
                       "points": [],
                       "originPoint": {
@@ -41273,11 +41184,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41291,7 +41202,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile016.png6",
                       "points": [],
                       "originPoint": {
@@ -41309,11 +41220,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41327,7 +41238,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile017.png6",
                       "points": [],
                       "originPoint": {
@@ -41345,11 +41256,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41363,7 +41274,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile018.png6",
                       "points": [],
                       "originPoint": {
@@ -41381,11 +41292,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41399,7 +41310,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile019.png6",
                       "points": [],
                       "originPoint": {
@@ -41417,11 +41328,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41435,7 +41346,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile020.png6",
                       "points": [],
                       "originPoint": {
@@ -41453,11 +41364,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41471,7 +41382,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile021.png6",
                       "points": [],
                       "originPoint": {
@@ -41489,11 +41400,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41507,7 +41418,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile022.png6",
                       "points": [],
                       "originPoint": {
@@ -41525,11 +41436,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41543,7 +41454,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile023.png6",
                       "points": [],
                       "originPoint": {
@@ -41561,11 +41472,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41579,7 +41490,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile024.png6",
                       "points": [],
                       "originPoint": {
@@ -41597,11 +41508,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41615,7 +41526,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile025.png6",
                       "points": [],
                       "originPoint": {
@@ -41633,11 +41544,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41651,7 +41562,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile026.png6",
                       "points": [],
                       "originPoint": {
@@ -41669,11 +41580,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41687,7 +41598,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile027.png6",
                       "points": [],
                       "originPoint": {
@@ -41705,11 +41616,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41723,7 +41634,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile028.png6",
                       "points": [],
                       "originPoint": {
@@ -41741,11 +41652,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -41759,7 +41670,7 @@
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tile029.png6",
                       "points": [],
                       "originPoint": {
@@ -41777,11 +41688,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
-                            "y": 0
+                            "y": 20
                           },
                           {
                             "x": 50,
@@ -49098,7 +49009,7 @@
               "parameters": [
                 "selected",
                 "=",
-                "1"
+                "111"
               ],
               "subInstructions": []
             }
@@ -49156,19 +49067,6 @@
                   "parameters": [
                     "aspaint1",
                     "\"0;255;0\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 175",
-                    "aspic1.Y() + 35",
-                    "2"
                   ],
                   "subInstructions": []
                 }
@@ -49237,7 +49135,41 @@
                     "\"255;0;0\""
                   ],
                   "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "aspic1.X() - 175",
+                    "aspic1.Y() + 35"
+                  ],
+                  "subInstructions": []
                 },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic2",
+                    "aspic1.X() - 175",
+                    "aspic1.Y() + 35"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "inverted": false,
@@ -49252,7 +49184,23 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "150",
+                  "comment2": ""
+                }
+              ]
             },
             {
               "disabled": false,
@@ -49305,32 +49253,6 @@
                   "parameters": [
                     "aspaint1",
                     "\"0;255;0\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 150",
-                    "aspic1.Y() + 5",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 150",
-                    "aspic1.Y() + 65",
-                    "2"
                   ],
                   "subInstructions": []
                 }
@@ -49399,7 +49321,41 @@
                     "\"255;0;0\""
                   ],
                   "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "aspic1.X() - 150",
+                    "aspic1.Y() + 5"
+                  ],
+                  "subInstructions": []
                 },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic2",
+                    "aspic1.X() - 150",
+                    "aspic1.Y() + 5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "inverted": false,
@@ -49412,7 +49368,41 @@
                     "2"
                   ],
                   "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "aspic1.X() - 150",
+                    "aspic1.Y() + 65"
+                  ],
+                  "subInstructions": []
                 },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic2",
+                    "aspic1.X() - 150",
+                    "aspic1.Y() + 65"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "inverted": false,
@@ -49482,45 +49472,6 @@
                     "\"0;255;0\""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 125",
-                    "aspic1.Y() + 35",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 125",
-                    "aspic1.Y() - 25",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 125",
-                    "aspic1.Y() + 95",
-                    "2"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -49587,7 +49538,41 @@
                     "\"255;0;0\""
                   ],
                   "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "aspic1.X() - 125",
+                    "aspic1.Y() + 35"
+                  ],
+                  "subInstructions": []
                 },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic2",
+                    "aspic1.X() - 125",
+                    "aspic1.Y() + 35"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "inverted": false,
@@ -49600,20 +49585,41 @@
                     "2"
                   ],
                   "subInstructions": []
-                },
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
+                    "inverted": true,
+                    "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "aspaint1",
+                    "aspic1",
                     "aspic1.X() - 125",
-                    "aspic1.Y() + 95",
-                    "2"
+                    "aspic1.Y() - 25"
                   ],
                   "subInstructions": []
                 },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic2",
+                    "aspic1.X() - 125",
+                    "aspic1.Y() - 25"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "inverted": false,
@@ -49623,6 +49629,53 @@
                     "aspaint1",
                     "aspic1.X() - 125",
                     "aspic1.Y() - 25",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "aspic1.X() - 125",
+                    "aspic1.Y() + 95"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic2",
+                    "aspic1.X() - 125",
+                    "aspic1.Y() + 95"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "aspaint1",
+                    "aspic1.X() - 125",
+                    "aspic1.Y() + 95",
                     "2"
                   ],
                   "subInstructions": []
@@ -49681,58 +49734,6 @@
                   "parameters": [
                     "aspaint1",
                     "\"0;255;0\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 100",
-                    "aspic1.Y() + 5",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 100",
-                    "aspic1.Y() + 65",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 100",
-                    "aspic1.Y() + 125",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 100",
-                    "aspic1.Y() - 55",
-                    "2"
                   ],
                   "subInstructions": []
                 }
@@ -49801,7 +49802,41 @@
                     "\"255;0;0\""
                   ],
                   "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "aspic1.X() - 100",
+                    "aspic1.Y() + 5"
+                  ],
+                  "subInstructions": []
                 },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic2",
+                    "aspic1.X() - 100",
+                    "aspic1.Y() + 5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "inverted": false,
@@ -49810,11 +49845,45 @@
                   "parameters": [
                     "aspaint1",
                     "aspic1.X() - 100",
-                    "aspic1.Y() + 125",
+                    "aspic1.Y() + 5",
                     "2"
                   ],
                   "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "aspic1.X() - 100",
+                    "aspic1.Y() + 65"
+                  ],
+                  "subInstructions": []
                 },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic2",
+                    "aspic1.X() - 100",
+                    "aspic1.Y() + 65"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "inverted": false,
@@ -49827,7 +49896,88 @@
                     "2"
                   ],
                   "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "aspic1.X() - 100",
+                    "aspic1.Y() + 125"
+                  ],
+                  "subInstructions": []
                 },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic2",
+                    "aspic1.X() - 100",
+                    "aspic1.Y() + 125"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "aspaint1",
+                    "aspic1.X() - 100",
+                    "aspic1.Y() + 125",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "aspic1.X() - 100",
+                    "aspic1.Y() - 55"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic2",
+                    "aspic1.X() - 100",
+                    "aspic1.Y() - 55"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "inverted": false,
@@ -49837,19 +49987,6 @@
                     "aspaint1",
                     "aspic1.X() - 100",
                     "aspic1.Y() - 55",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 100",
-                    "aspic1.Y() + 5",
                     "2"
                   ],
                   "subInstructions": []
@@ -50119,48 +50256,6 @@
               "events": []
             },
             {
-              "disabled": true,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic1",
-                    "aspic1.X() - 175",
-                    "aspic1.Y() + 35"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic2",
-                    "aspic1.X() - 175",
-                    "aspic1.Y() + 35"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [],
-                  "events": []
-                }
-              ]
-            },
-            {
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
@@ -50357,7 +50452,7 @@
                               "parameters": [
                                 "aspic1",
                                 "ds",
-                                "(111*GlobalVariable(province.momis.movemoraga.1.rng))",
+                                "(1*GlobalVariable(province.momis.movemoraga.1.rng))",
                                 ""
                               ],
                               "subInstructions": []
@@ -50379,12 +50474,12 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "TextObject::String"
+                                "value": "ModVarScene"
                               },
                               "parameters": [
-                                "NewObject9",
+                                "selected",
                                 "=",
-                                "ToString(11*GlobalVariable(province.momis.movemoraga.1.rng))"
+                                "112"
                               ],
                               "subInstructions": []
                             }
@@ -50601,16 +50696,32 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "shooting",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "SourisBouton"
+                "value": "VarScene"
               },
               "parameters": [
-                "",
-                "Left"
+                "selected",
+                "=",
+                "112"
               ],
               "subInstructions": []
             }
@@ -50841,7 +50952,7 @@
               "parameters": [
                 "selected",
                 "=",
-                "1"
+                "111"
               ],
               "subInstructions": []
             },
