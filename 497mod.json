@@ -11714,6 +11714,20 @@
         "name": "400-276.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "../../../Imperialism/Data/wave/.rsrc/WAVE/7000",
+        "kind": "audio",
+        "name": "7000",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BITMAP/400-506.png",
+        "kind": "image",
+        "name": "400-506.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13275,6 +13289,10 @@
               "value": "10"
             },
             {
+              "name": "milk",
+              "value": "10"
+            },
+            {
               "name": "paperz",
               "value": "10"
             },
@@ -14242,6 +14260,12 @@
             },
             {
               "name": "NewObject50"
+            },
+            {
+              "name": "NewObject8"
+            },
+            {
+              "name": "NewObject96"
             }
           ]
         },
@@ -14321,6 +14345,12 @@
             },
             {
               "name": "NewObject73"
+            },
+            {
+              "name": "NewObject8"
+            },
+            {
+              "name": "NewObject96"
             }
           ]
         },
@@ -14338,6 +14368,15 @@
             },
             {
               "name": "NewObject94"
+            },
+            {
+              "name": "NewObject96"
+            },
+            {
+              "name": "NewObject7"
+            },
+            {
+              "name": "NewObject8"
             }
           ]
         }
@@ -15464,7 +15503,7 @@
           "width": 0,
           "x": 133,
           "y": 118,
-          "zOrder": 302,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15735,6 +15774,66 @@
           "x": 434,
           "y": 263,
           "zOrder": 320,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject7",
+          "width": 0,
+          "x": 450,
+          "y": 264,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject8",
+          "width": 0,
+          "x": 550,
+          "y": 263,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject97",
+          "width": 0,
+          "x": 133,
+          "y": 278,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject98",
+          "width": 0,
+          "x": 133,
+          "y": 278,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16220,26 +16319,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -16336,7 +16416,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "400-285.png",
+                      "image": "400-277.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16349,26 +16429,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -16393,7 +16454,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "400-277.png",
+                      "image": "400-278.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16406,26 +16467,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -16679,7 +16721,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2123.BMP.bmp3",
+                      "image": "400-282.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16715,7 +16757,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2124.BMP.bmp2",
+                      "image": "400-283.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16772,7 +16814,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2112.BMP.bmp2",
+                      "image": "400-277.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16785,26 +16827,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -16829,7 +16852,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2114.BMP.bmp3",
+                      "image": "400-278.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16842,26 +16865,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -16940,7 +16944,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2121.BMP.bmp9",
+                      "image": "400-280.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16976,7 +16980,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2122.BMP.bmp5",
+                      "image": "400-281.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17033,7 +17037,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2120.BMP.bmp4",
+                      "image": "400-279.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17090,7 +17094,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2123.BMP.bmp5",
+                      "image": "400-282.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17126,7 +17130,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2124.BMP.bmp3",
+                      "image": "400-283.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17183,7 +17187,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2126.BMP.bmp2",
+                      "image": "400-277.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17196,26 +17200,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -17278,7 +17263,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2114.BMP.bmp4",
+                      "image": "400-278.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17291,26 +17276,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -17446,7 +17412,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2121.BMP.bmp11",
+                      "image": "400-280.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17482,7 +17448,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2122.BMP.bmp6",
+                      "image": "400-281.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17539,7 +17505,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2120.BMP.bmp5",
+                      "image": "400-279.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17552,26 +17518,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -17596,7 +17543,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2123.BMP.bmp7",
+                      "image": "400-282.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17609,30 +17556,11 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2124.BMP.bmp4",
+                      "image": "400-283.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17645,62 +17573,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "2123.BMP.bmp8",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -17858,7 +17731,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2114.BMP.bmp5",
+                      "image": "400-278.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17871,26 +17744,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -17969,7 +17823,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2121.BMP.bmp13",
+                      "image": "400-280.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17982,30 +17836,11 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2122.BMP.bmp7",
+                      "image": "400-281.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18018,26 +17853,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -18062,7 +17878,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2120.BMP.bmp6",
+                      "image": "400-279.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18075,26 +17891,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -18119,7 +17916,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2123.BMP.bmp10",
+                      "image": "400-282.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18132,30 +17929,11 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "2124.BMP.bmp5",
+                      "image": "400-283.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18168,26 +17946,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -20383,6 +20142,175 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "400-281.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "400-279.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject8",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "400-282.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "400-283.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject97",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "2111.BMP.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject98",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "400-277.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -25158,7 +25086,7 @@
               },
               "parameters": [
                 "",
-                "E:\\ultimate\\wave\\.rsrc\\WAVE\\7000.wav",
+                "7000",
                 "",
                 "",
                 ""
@@ -26270,6 +26198,77 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject8",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "rez.sell.milk",
+                    "<",
+                    "GlobalVariable(rez.merchantmarine)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "rez.sell.milk",
+                    "<",
+                    "GlobalVariable(rez.current.milk)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "rez.sell.milk",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewObject84",
+                    "=",
+                    "GlobalVariableString(rez.sell.milk)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
               "events": []
@@ -26588,6 +26587,43 @@
                 "NewObject74.Y() + 4",
                 "NewObject74.X() + 5 * GlobalVariable(rez.sell.paperz)",
                 "NewObject74.Y() + 4",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "rez.sell.milk",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PrimitiveDrawing::Line"
+              },
+              "parameters": [
+                "NewObject23",
+                "NewObject7.X()",
+                "NewObject7.Y() + 4",
+                "NewObject7.X() + 5 * GlobalVariable(rez.sell.milk)",
+                "NewObject7.Y() + 4",
                 "5"
               ],
               "subInstructions": []
@@ -30490,6 +30526,51 @@
           "x": 905,
           "y": 145,
           "zOrder": 262,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "5030",
+          "width": 0,
+          "x": 355,
+          "y": 385,
+          "zOrder": 263,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "5030",
+          "width": 0,
+          "x": 405,
+          "y": 385,
+          "zOrder": 264,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "5030",
+          "width": 0,
+          "x": 455,
+          "y": 385,
+          "zOrder": 265,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -50248,6 +50329,53 @@
               "events": []
             },
             {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "aspic1.X() - 75",
+                    "aspic1.Y() - 25"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "aspic2",
+                    "aspic1.X() - 75",
+                    "aspic1.Y() - 25"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "aspaint1",
+                    "aspic1.X() - 100",
+                    "aspic1.Y() - 55",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
@@ -53525,7 +53653,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "4149.BMP.bmp3",
+                      "image": "400-506.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -53538,26 +53666,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
