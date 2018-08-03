@@ -11728,6 +11728,36 @@
         "name": "400-506.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "../../../Imperialism/Data/wave/.rsrc/WAVE/1000",
+        "kind": "audio",
+        "name": "1000",
+        "userAdded": true
+      },
+      {
+        "file": "wave/3005.wav",
+        "kind": "audio",
+        "name": "3005.wav",
+        "userAdded": true
+      },
+      {
+        "file": "wave/3004.wav",
+        "kind": "audio",
+        "name": "3004.wav",
+        "userAdded": true
+      },
+      {
+        "file": "wave/3003.wav",
+        "kind": "audio",
+        "name": "3003.wav",
+        "userAdded": true
+      },
+      {
+        "file": "wave/shooting15000.wav",
+        "kind": "audio",
+        "name": "shooting15000.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13420,6 +13450,10 @@
     },
     {
       "name": "defender",
+      "value": "momis"
+    },
+    {
+      "name": "attacker",
       "value": "momis"
     }
   ],
@@ -30571,6 +30605,36 @@
           "x": 455,
           "y": 385,
           "zOrder": 265,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "5030",
+          "width": 0,
+          "x": 330,
+          "y": 55,
+          "zOrder": 267,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "5030",
+          "width": 0,
+          "x": 280,
+          "y": 55,
+          "zOrder": 268,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -49231,19 +49295,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "aspic1",
-                    "aspic1.X() - 175",
-                    "aspic1.Y() + 35"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic2",
+                    "as",
                     "aspic1.X() - 175",
                     "aspic1.Y() + 35"
                   ],
@@ -49417,19 +49469,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "aspic1",
-                    "aspic1.X() - 150",
-                    "aspic1.Y() + 5"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic2",
+                    "as",
                     "aspic1.X() - 150",
                     "aspic1.Y() + 5"
                   ],
@@ -49464,19 +49504,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "aspic1",
-                    "aspic1.X() - 150",
-                    "aspic1.Y() + 65"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic2",
+                    "as",
                     "aspic1.X() - 150",
                     "aspic1.Y() + 65"
                   ],
@@ -49634,19 +49662,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "aspic1",
-                    "aspic1.X() - 125",
-                    "aspic1.Y() + 35"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic2",
+                    "as",
                     "aspic1.X() - 125",
                     "aspic1.Y() + 35"
                   ],
@@ -49681,19 +49697,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "aspic1",
-                    "aspic1.X() - 125",
-                    "aspic1.Y() - 25"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic2",
+                    "as",
                     "aspic1.X() - 125",
                     "aspic1.Y() - 25"
                   ],
@@ -49728,19 +49732,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "aspic1",
-                    "aspic1.X() - 125",
-                    "aspic1.Y() + 95"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic2",
+                    "as",
                     "aspic1.X() - 125",
                     "aspic1.Y() + 95"
                   ],
@@ -49898,19 +49890,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "aspic1",
-                    "aspic1.X() - 100",
-                    "aspic1.Y() + 5"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic2",
+                    "as",
                     "aspic1.X() - 100",
                     "aspic1.Y() + 5"
                   ],
@@ -49945,19 +49925,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "aspic1",
-                    "aspic1.X() - 100",
-                    "aspic1.Y() + 65"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic2",
+                    "as",
                     "aspic1.X() - 100",
                     "aspic1.Y() + 65"
                   ],
@@ -49992,19 +49960,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "aspic1",
-                    "aspic1.X() - 100",
-                    "aspic1.Y() + 125"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic2",
+                    "as",
                     "aspic1.X() - 100",
                     "aspic1.Y() + 125"
                   ],
@@ -50039,19 +49995,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "aspic1",
-                    "aspic1.X() - 100",
-                    "aspic1.Y() - 55"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic2",
+                    "as",
                     "aspic1.X() - 100",
                     "aspic1.Y() - 55"
                   ],
@@ -50128,71 +50072,6 @@
                     "\"0;255;0\""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 75",
-                    "aspic1.Y() + 35",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 75",
-                    "aspic1.Y() - 25",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 75",
-                    "aspic1.Y() + 95",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 75",
-                    "aspic1.Y() - 85",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 75",
-                    "aspic1.Y() + 155",
-                    "2"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -50259,77 +50138,12 @@
                     "\"255;0;0\""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 75",
-                    "aspic1.Y() + 35",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 75",
-                    "aspic1.Y() + 95",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 75",
-                    "aspic1.Y() - 25",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 75",
-                    "aspic1.Y() - 85",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "aspaint1",
-                    "aspic1.X() - 75",
-                    "aspic1.Y() + 155",
-                    "2"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
             },
             {
-              "disabled": true,
+              "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -50339,19 +50153,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "aspic1",
-                    "aspic1.X() - 75",
-                    "aspic1.Y() - 25"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "aspic2",
+                    "as",
                     "aspic1.X() - 75",
                     "aspic1.Y() - 25"
                   ],
@@ -50366,8 +50168,148 @@
                   },
                   "parameters": [
                     "aspaint1",
-                    "aspic1.X() - 100",
-                    "aspic1.Y() - 55",
+                    "aspic1.X() - 75",
+                    "aspic1.Y() - 25",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "as",
+                    "aspic1.X() - 75",
+                    "aspic1.Y() + 35"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "aspaint1",
+                    "aspic1.X() - 75",
+                    "aspic1.Y() + 35",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "as",
+                    "aspic1.X() - 75",
+                    "aspic1.Y() + 95"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "aspaint1",
+                    "aspic1.X() - 75",
+                    "aspic1.Y() + 95",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "as",
+                    "aspic1.X() - 75",
+                    "aspic1.Y() - 85"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "aspaint1",
+                    "aspic1.X() - 75",
+                    "aspic1.Y() - 85",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "as",
+                    "aspic1.X() - 75",
+                    "aspic1.Y() + 155"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "aspaint1",
+                    "aspic1.X() - 75",
+                    "aspic1.Y() + 155",
                     "2"
                   ],
                   "subInstructions": []
@@ -50556,87 +50498,17 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "ChangeSprite"
+                            "value": "ModVarScene"
                           },
                           "parameters": [
-                            "mouzez",
+                            "selected",
                             "=",
-                            "0"
+                            "112"
                           ],
                           "subInstructions": []
                         }
                       ],
-                      "events": [
-                        {
-                          "disabled": false,
-                          "folded": false,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "Distance"
-                              },
-                              "parameters": [
-                                "aspic1",
-                                "ds",
-                                "(1*GlobalVariable(province.momis.movemoraga.1.rng))",
-                                ""
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "ChangeSprite"
-                              },
-                              "parameters": [
-                                "mouzez",
-                                "=",
-                                "2"
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "ModVarScene"
-                              },
-                              "parameters": [
-                                "selected",
-                                "=",
-                                "112"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "events": []
-                        },
-                        {
-                          "disabled": false,
-                          "folded": false,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "Distance"
-                              },
-                              "parameters": [
-                                "aspic1",
-                                "ds",
-                                "(222*GlobalVariable(province.momis.movemoraga.1.rng))",
-                                ""
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "actions": [],
-                          "events": []
-                        }
-                      ]
+                      "events": []
                     }
                   ]
                 }
@@ -50855,7 +50727,398 @@
             }
           ],
           "actions": [],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "dspic1",
+                    "(111*GlobalVariable(province.momis.movemoraga.1.rng))",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "dspic2",
+                    "(111*GlobalVariable(province.momis.movemoraga.1.rng))",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "dspic3",
+                    "(111*GlobalVariable(province.momis.movemoraga.1.rng))",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "dspic4",
+                    "(111*GlobalVariable(province.momis.movemoraga.1.rng))",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "mouzez",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "selected",
+                    "=",
+                    "111"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "aspic1",
+                    "ds",
+                    "(111*GlobalVariable(province.momis.movemoraga.1.rng))",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "mouzez",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "ds",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "0.1",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "shooting15000.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "dspic1",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "province[GlobalVariableString(defender)].standing.1.hpz",
+                            "-",
+                            "GlobalVariable(province[GlobalVariableString(attacker)].movemoraga.1.dmg)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "dspic2",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "province[GlobalVariableString(defender)].standing.2.hpz",
+                            "-",
+                            "GlobalVariable(province[GlobalVariableString(attacker)].movemoraga.1.dmg)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "dspic3",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "province[GlobalVariableString(defender)].standing.3.hpz",
+                            "-",
+                            "GlobalVariable(province[GlobalVariableString(attacker)].movemoraga.1.dmg)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "dspic4",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "province[GlobalVariableString(defender)].standing.4.hpz",
+                            "-",
+                            "GlobalVariable(province[GlobalVariableString(attacker)].movemoraga.1.dmg)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "selected",
+                            "=",
+                            "121"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "mouzez",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "camera",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -53125,105 +53388,6 @@
               ]
             }
           ]
-        },
-        {
-          "disabled": true,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "GlobalVariableChildExists"
-              },
-              "parameters": [
-                "nordborg.movemomis",
-                "\"5\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PrimitiveDrawing::FillColor"
-              },
-              "parameters": [
-                "aspaint5",
-                "\"255;0;0\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PrimitiveDrawing::Line"
-              },
-              "parameters": [
-                "aspaint5",
-                "aspic5.X() + 15",
-                "aspic5.Y() + 47",
-                "aspic5.X() + 35",
-                "aspic5.Y() + 47",
-                "3"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PrimitiveDrawing::FillColor"
-              },
-              "parameters": [
-                "aspaint5",
-                "\"255;255;0\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PrimitiveDrawing::Line"
-              },
-              "parameters": [
-                "aspaint5",
-                "aspic5.X() + 15",
-                "aspic5.Y() + 47",
-                "aspic5.X() + 15 + GlobalVariable(nordborg.movemomis.5.mrl)",
-                "aspic5.Y() + 47",
-                "3"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PrimitiveDrawing::FillColor"
-              },
-              "parameters": [
-                "aspaint5",
-                "\"0;255;0\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PrimitiveDrawing::Line"
-              },
-              "parameters": [
-                "aspaint5",
-                "aspic5.X() + 15",
-                "aspic5.Y() + 47",
-                "aspic5.X() + 15 + GlobalVariable(nordborg.movemomis.5.hpz)",
-                "aspic5.Y() + 47",
-                "3"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         },
         {
           "disabled": false,
