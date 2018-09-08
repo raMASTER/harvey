@@ -12958,6 +12958,78 @@
         "name": "400-941.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BITMAP/400-726.png",
+        "kind": "image",
+        "name": "400-726.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BITMAP/400-738.png",
+        "kind": "image",
+        "name": "400-738.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BITMAP/400-749.png",
+        "kind": "image",
+        "name": "400-749.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "placeholderz/armory01.png",
+        "kind": "image",
+        "name": "armory01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "placeholderz/armory02.png",
+        "kind": "image",
+        "name": "armory02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "placeholderz/armory03.png",
+        "kind": "image",
+        "name": "armory03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assetz/tilemapz/armory01c.png",
+        "kind": "image",
+        "name": "armory01c.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assetz/tilemapz/armory02c.png",
+        "kind": "image",
+        "name": "armory02c.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assetz/tilemapz/armory03c.png",
+        "kind": "image",
+        "name": "armory03c.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14738,6 +14810,19 @@
             {
               "name": "wool",
               "value": "100"
+            }
+          ]
+        },
+        {
+          "name": "producing",
+          "children": [
+            {
+              "name": "boardz",
+              "value": "0"
+            },
+            {
+              "name": "paperz",
+              "value": "0"
             }
           ]
         },
@@ -18440,7 +18525,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "NewObject15",
           "width": 0,
           "x": 43,
@@ -18581,6 +18666,36 @@
           "x": 166,
           "y": 338,
           "zOrder": 358,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject133",
+          "width": 0,
+          "x": 214,
+          "y": 338,
+          "zOrder": 359,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject134",
+          "width": 0,
+          "x": 257,
+          "y": 338,
+          "zOrder": 360,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24282,9 +24397,83 @@
               ]
             }
           ]
+        },
+        {
+          "name": "NewObject133",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "400-278.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NewObject134",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "globalz"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "settradehelp"
+        },
         {
           "disabled": false,
           "folded": false,
@@ -24590,15 +24779,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "settradehelp"
         },
         {
           "disabled": false,
@@ -92936,7 +93116,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -92973,6 +93153,9 @@
             },
             {
               "name": "NewObject7"
+            },
+            {
+              "name": "NewObject102"
             }
           ]
         },
@@ -93067,14 +93250,6 @@
           "value": "0"
         },
         {
-          "name": "producingboardz",
-          "value": "0"
-        },
-        {
-          "name": "producingpaperz",
-          "value": "0"
-        },
-        {
           "name": "lumbermillcapacity",
           "value": "2"
         }
@@ -93145,7 +93320,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "NewObject7",
           "width": 0,
           "x": 88,
@@ -93235,11 +93410,11 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "NewObject15",
           "width": 0,
-          "x": 49,
-          "y": 257,
+          "x": 51,
+          "y": 221,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -94105,7 +94280,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "NewObject84",
           "width": 0,
           "x": 230,
@@ -94350,7 +94525,7 @@
           "width": 0,
           "x": 0,
           "y": 0,
-          "zOrder": 20,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -94516,6 +94691,141 @@
           "x": 434,
           "y": 279,
           "zOrder": 219,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Layer2",
+          "locked": false,
+          "name": "NewObject105",
+          "width": 0,
+          "x": 271,
+          "y": 309,
+          "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject107",
+          "width": 0,
+          "x": 71,
+          "y": 270,
+          "zOrder": 222,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Layer3",
+          "locked": false,
+          "name": "NewObject108",
+          "width": 0,
+          "x": 140,
+          "y": 38,
+          "zOrder": 223,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 52,
+          "layer": "Layer3",
+          "locked": false,
+          "name": "NewObject98",
+          "width": 55,
+          "x": 360,
+          "y": 116,
+          "zOrder": 224,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 53,
+          "layer": "Layer3",
+          "locked": false,
+          "name": "NewObject109",
+          "width": 57,
+          "x": 438,
+          "y": 116,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 53,
+          "layer": "Layer3",
+          "locked": false,
+          "name": "NewObject110",
+          "width": 57,
+          "x": 359,
+          "y": 199,
+          "zOrder": 226,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 53,
+          "layer": "Layer3",
+          "locked": false,
+          "name": "NewObject111",
+          "width": 58,
+          "x": 438,
+          "y": 199,
+          "zOrder": 227,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 53,
+          "layer": "Layer3",
+          "locked": false,
+          "name": "NewObject112",
+          "width": 57,
+          "x": 359,
+          "y": 283,
+          "zOrder": 228,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 53,
+          "layer": "Layer3",
+          "locked": false,
+          "name": "NewObject113",
+          "width": 57,
+          "x": 438,
+          "y": 283,
+          "zOrder": 229,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -95441,7 +95751,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "7024.png",
+                      "image": "400-726.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -95454,30 +95764,11 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "7040.png",
+                      "image": "400-738.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -95490,30 +95781,11 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "7056.png",
+                      "image": "400-749.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -95526,26 +95798,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -102032,44 +102285,6 @@
           ]
         },
         {
-          "name": "NewObject98",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "citylumbermill.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "NewObject99",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -102650,18 +102865,474 @@
               ]
             }
           ]
+        },
+        {
+          "name": "NewObject105",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "400-939.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject106",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "1505.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject107",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "5050.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject108",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "armory01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "armory01c.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "armory02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "armory02c.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "armory03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "armory03c.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject98",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "5050.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject109",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "5050.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject110",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "5050.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject111",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "5050.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject112",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "5050.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject113",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "5050.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "globalz"
-        },
         {
           "disabled": false,
           "folded": false,
@@ -102682,6 +103353,33 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "globalz"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "layer2e"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "layer3e"
         },
         {
           "disabled": false,
@@ -102785,38 +103483,394 @@
                 "\"\""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "LireFichierExp"
-              },
-              "parameters": [
-                "filez",
-                "\"producingboardz\"",
-                "",
-                "producingboardz"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "LireFichierExp"
-              },
-              "parameters": [
-                "filez",
-                "\"producingpaperz\"",
-                "",
-                "producingpaperz"
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
         },
         {
           "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"New layer 1\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"New layer 2\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"New layer 3\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"New layer 4\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"New layer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Layer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Layer2\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Layer22\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Layer3\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject107",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "helpz",
+                    "=",
+                    "\"Armory\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Layer3\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "click7000.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject93",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "helpz",
+                    "=",
+                    "\"Lumber Mill\" "
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewObject94",
+                    "=",
+                    "\"Production:\" + ToString(GlobalVariable(rez.producing.boardz) + GlobalVariable(rez.producing.boardz)) + \" / \" + GlobalVariableString(factories.lumbermill.capacity)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "NewObject94",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Layer2\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "click7000.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NewObject88",
+                        "=",
+                        "GlobalVariableString(factories.lumbermill.capacity)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NewObject89",
+                        "=",
+                        "GlobalVariableString(rez.producing.boardz)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -102885,7 +103939,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -103012,7 +104066,7 @@
           "comment2": ""
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -103070,7 +104124,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -103151,7 +104205,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -103232,7 +104286,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -103313,7 +104367,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -103394,7 +104448,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -103490,7 +104544,7 @@
           "comment2": ""
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -103607,7 +104661,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -103724,7 +104778,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -103829,7 +104883,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -103934,7 +104988,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -104034,26 +105088,12 @@
                 "0"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "E:\\ultimate\\wave\\.rsrc\\WAVE\\7000.wav",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -104158,7 +105198,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -104263,7 +105303,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -104368,7 +105408,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -104473,7 +105513,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -104593,7 +105633,7 @@
           "comment2": ""
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -104638,7 +105678,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -104734,7 +105774,7 @@
           "comment2": ""
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -104871,7 +105911,7 @@
           ]
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -105023,7 +106063,7 @@
           "comment2": ""
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -105149,7 +106189,7 @@
           ]
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -105194,7 +106234,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -105371,7 +106411,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -105843,7 +106883,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -106008,7 +107048,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -106059,7 +107099,7 @@
           "comment2": ""
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -106162,7 +107202,7 @@
           ]
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -106279,7 +107319,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -106405,1070 +107445,6 @@
           },
           "comment": "layer2",
           "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "NewObject93",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "helpz",
-                "=",
-                "\"Lumber Mill\" "
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "NewObject94",
-                "=",
-                "\"Production:\" + NewObject7.VariableString(productionz) + \" / \" + GlobalVariableString(factories.lumbermill.capacity)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Timer"
-                  },
-                  "parameters": [
-                    "",
-                    "1",
-                    "\"\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Layer2\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "click7000.wav",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "NewObject88",
-                    "=",
-                    "GlobalVariableString(factories.lumbermill.capacity)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "NewObject89",
-                    "=",
-                    "VariableString(producingboardz)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Layer2\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "NewObject95",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "helpz",
-                    "=",
-                    "\"Close\" "
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Timer"
-                      },
-                      "parameters": [
-                        "",
-                        "1",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SourisBouton"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Layer2\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "click7000.wav",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "NewObject96",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "helpz",
-                    "=",
-                    "\"Expand Factory\" "
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Timer"
-                      },
-                      "parameters": [
-                        "",
-                        "1",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SourisBouton"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "click7000.wav",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ShowLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Layer22\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "NewObject100",
-                        "=",
-                        "LargeNumberToString(GlobalVariable(factories.lumbermill.capacity) * 2)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "NewObject103",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "helpz",
-                    "=",
-                    "\"Decrease\" "
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Timer"
-                      },
-                      "parameters": [
-                        "",
-                        "0.2",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SourisBouton"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "NewObject89",
-                        "=",
-                        "VariableString(producingboardz)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "NewObject103",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "click7000.wav",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "producingboardz",
-                        "-",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "NewObject103",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "MouseButtonReleased"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "NewObject103"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "NewObject104",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "helpz",
-                    "=",
-                    "\"Increase\" "
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Timer"
-                      },
-                      "parameters": [
-                        "",
-                        "0.2",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SourisBouton"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "click7000.wav",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "NewObject104",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "producingboardz",
-                        "+",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "NewObject89",
-                        "=",
-                        "VariableString(producingboardz)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "NewObject104",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "MouseButtonReleased"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "NewObject104"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Layer22\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "NewObject101",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "helpz",
-                "=",
-                "\"Cancel\" "
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Timer"
-                  },
-                  "parameters": [
-                    "",
-                    "1",
-                    "\"\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "click7000.wav",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Layer22\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Layer22\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "NewObject99",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "helpz",
-                "=",
-                "\"OK\" "
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Timer"
-                  },
-                  "parameters": [
-                    "",
-                    "1",
-                    "\"\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "click7000.wav",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Layer22\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "NewObject7",
-                    "+",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "EcrireFichierExp"
-                  },
-                  "parameters": [
-                    "filez",
-                    "\"lumbermill/upgrading\"",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "factories.lumbermill.upgrading",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
         }
       ],
       "layers": [
@@ -107582,13 +107558,19 @@
         },
         {
           "name": "Layer2",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
         {
           "name": "Layer22",
           "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Layer3",
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
@@ -118071,6 +118053,1182 @@
                   "comment2": ""
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "city",
+      "lastChangeTimeStamp": 0,
+      "name": "layer2e",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Layer2\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject95",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "helpz",
+                    "=",
+                    "\"Close\" "
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Layer2\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "click7000.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject96",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "helpz",
+                    "=",
+                    "\"Expand Factory\" "
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "click7000.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Layer22\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NewObject100",
+                        "=",
+                        "LargeNumberToString(GlobalVariable(factories.lumbermill.capacity) * 2)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject103",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "helpz",
+                    "=",
+                    "\"Decrease\" "
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "0.2",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "rez.producing.boardz",
+                        ">",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "NewObject103",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "click7000.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "rez.producing.boardz",
+                        "-",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NewObject89",
+                        "=",
+                        "GlobalVariableString(rez.producing.boardz)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "blue.resources.arms",
+                        "+",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "rez.current.tree",
+                        "+",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject104",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "helpz",
+                    "=",
+                    "\"Increase\" "
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "0.2",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "rez.producing.boardz",
+                        "<",
+                        "GlobalVariable(factories.lumbermill.capacity) + GlobalVariable(rez.producing.paperz)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "blue.resources.arms",
+                        ">",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "rez.current.tree",
+                        ">",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "click7000.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "NewObject104",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "rez.producing.boardz",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NewObject89",
+                        "=",
+                        "GlobalVariableString(rez.producing.boardz)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "rez.current.tree",
+                        "-",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "blue.resources.arms",
+                        "-",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "NewObject104"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "NewObject103"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject103",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "NewObject103"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject104",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "NewObject104"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Layer22\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject101",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "helpz",
+                    "=",
+                    "\"Cancel\" "
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "click7000.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Layer22\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject99",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "helpz",
+                    "=",
+                    "\"OK\" "
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Layer22\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "NewObject7",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "click7000.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "factories.lumbermill.upgrading",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "rez.producing.boardz",
+                ">",
+                "0 - GlobalVariable(rez.producing.paperz)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "NewObject102"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "rez.producing.boardz",
+                ">",
+                "0 - GlobalVariable(rez.producing.paperz)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseAnimation"
+              },
+              "parameters": [
+                "NewObject102"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "city",
+      "lastChangeTimeStamp": 0,
+      "name": "layer3e",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Layer3\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewObject98",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "NewObject108",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
         }
