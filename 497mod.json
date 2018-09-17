@@ -13070,6 +13070,86 @@
         "name": "BITMAP\\400-279.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "providenzez/ulloa.png",
+        "kind": "image",
+        "name": "providenzez\\ulloa.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "providenzez/NewObject24-1.png",
+        "kind": "image",
+        "name": "providenzez\\NewObject24-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "providenzez/NewObject24-2.png",
+        "kind": "image",
+        "name": "providenzez\\NewObject24-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "providenzez/NewObject24-1-0.png",
+        "kind": "image",
+        "name": "providenzez\\NewObject24-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "providenzez/NewObject24-2-0.png",
+        "kind": "image",
+        "name": "providenzez\\NewObject24-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "providenzez/NewObject24-3.png",
+        "kind": "image",
+        "name": "providenzez\\NewObject24-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "providenzez/NewObject24-3-0.png",
+        "kind": "image",
+        "name": "providenzez\\NewObject24-3-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "providenzez/NewObject24-4.png",
+        "kind": "image",
+        "name": "providenzez\\NewObject24-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "providenzez/NewObject24-5.png",
+        "kind": "image",
+        "name": "providenzez\\NewObject24-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "providenzez/sussex.png",
+        "kind": "image",
+        "name": "providenzez\\sussex.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -64431,8 +64511,8 @@
           "locked": false,
           "name": "pmoraga",
           "width": 0,
-          "x": 291,
-          "y": 236,
+          "x": 292,
+          "y": 235,
           "zOrder": 1155,
           "numberProperties": [],
           "stringProperties": [],
@@ -64447,7 +64527,7 @@
           "name": "pmoraga",
           "width": 0,
           "x": -1436,
-          "y": 236,
+          "y": 235,
           "zOrder": 1350,
           "numberProperties": [],
           "stringProperties": [],
@@ -65784,6 +65864,51 @@
           "x": 3552,
           "y": 3968,
           "zOrder": 1367,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "New layer 1",
+          "locked": false,
+          "name": "NewObject24",
+          "width": 0,
+          "x": 333,
+          "y": 310,
+          "zOrder": 1368,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "New layer 1",
+          "locked": false,
+          "name": "NewObject24",
+          "width": 0,
+          "x": -1395,
+          "y": 311,
+          "zOrder": 1369,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "New layer 1",
+          "locked": false,
+          "name": "NewObject203",
+          "width": 0,
+          "x": -1452,
+          "y": -84,
+          "zOrder": 1370,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -79000,7 +79125,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "NewObject203",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -79009,7 +79134,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sussex.png",
+                      "image": "providenzez\\sussex.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -81675,6 +81800,129 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "6464.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject24",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject24",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "providenzez\\NewObject24-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "providenzez\\NewObject24-2-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "providenzez\\NewObject24-3-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "providenzez\\NewObject24-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "providenzez\\NewObject24-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "providenzez\\NewObject24-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -87847,7 +88095,7 @@
         },
         {
           "name": "New layer 2",
-          "visibility": true,
+          "visibility": false,
           "cameras": [
             {
               "defaultSize": true,
@@ -87864,7 +88112,7 @@
         },
         {
           "name": "New layer",
-          "visibility": true,
+          "visibility": false,
           "cameras": [
             {
               "defaultSize": true,
