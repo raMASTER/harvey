@@ -24,8 +24,8 @@
     "author": "",
     "windowWidth": 640,
     "windowHeight": 480,
-    "latestCompilationDirectory": "",
-    "maxFPS": 60,
+    "latestCompilationDirectory": "C:\\M\\GDevelop\\Version",
+    "maxFPS": 30,
     "minFPS": 10,
     "verticalSync": false,
     "platformSpecificAssets": {},
@@ -5948,15 +5948,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnbdw_2.icn.cadres/0000.bmp",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnbdw_2.icn.cadres\\0000.bmp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "../../Downloads/animget/shots/anim079-2.png",
         "kind": "image",
         "metadata": "",
@@ -6152,6 +6143,497 @@
         "name": "..\\..\\Downloads\\animget\\shots\\anim079-11-0.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnbdw_2.icn.cadres/0000.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnbdw_2.icn.cadres\\0000.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "necrotown/anim001-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "necrotown\\anim001-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "necrotown/anim001-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "necrotown\\anim001-1-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "necrotown/anim001-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "necrotown\\anim001-1-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "necrotown/anim001-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "necrotown\\anim001-1-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject15-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject15-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/advbord.icn.cadres/0000.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\advbord.icn.cadres\\0000.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "necrotown/anim001-1-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "necrotown\\anim001-1-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnmoat.icn.cadres/0000.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnmoat.icn.cadres\\0000.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "necrotown/anim001-1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "necrotown\\anim001-1-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndock.icn.cadres/0000.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndock.icn.cadres\\0000.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndock.icn.cadres/0001.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndock.icn.cadres\\0001.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndock.icn.cadres/0002.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndock.icn.cadres\\0002.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndock.icn.cadres/0003.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndock.icn.cadres\\0003.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndock.icn.cadres/0004.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndock.icn.cadres\\0004.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndock.icn.cadres/0005.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndock.icn.cadres\\0005.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Downloads/0000.gif",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Downloads\\0000.gif",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnboat.icn.cadres/0000.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0000.bmp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnboat.icn.cadres/0001.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0001.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnboat.icn.cadres/0002.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0002.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnboat.icn.cadres/0003.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0003.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnboat.icn.cadres/0004.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0004.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnboat.icn.cadres/0005.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0005.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnboat.icn.cadres/0006.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0006.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnboat.icn.cadres/0007.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0007.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnboat.icn.cadres/0008.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0008.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnboat.icn.cadres/0009.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0009.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "necrotown/anim001-1-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "necrotown\\anim001-1-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndw_5.icn.cadres/0000.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0000.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndw_5.icn.cadres/0001.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0001.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndw_5.icn.cadres/0002.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0002.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndw_5.icn.cadres/0003.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0003.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndw_5.icn.cadres/0004.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0004.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndw_5.icn.cadres/0005.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0005.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndw_5.icn.cadres/0006.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0006.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnup_1.icn.cadres/0000.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_1.icn.cadres\\0000.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "../../../../K/Heroes of Might and Magic 2 GOLD/DATA/H2XINTRO.SMK",
+        "kind": "video",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\Heroes of Might and Magic 2 GOLD\\DATA\\H2XINTRO.SMK",
+        "userAdded": true
+      },
+      {
+        "file": "G:/Panzer General 3D/Video/Intro.bik",
+        "kind": "video",
+        "metadata": "",
+        "name": "G:\\Panzer General 3D\\Video\\Intro.bik",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Downloads/Town_necromancer.gif",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Downloads\\Town_necromancer.gif",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndw_4.icn.cadres/0000.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_4.icn.cadres\\0000.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnup_4.icn.cadres/0000.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_4.icn.cadres\\0000.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject13-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject13-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnup_2.icn.cadres/0000.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_2.icn.cadres\\0000.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnup_2.icn.cadres/0001.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_2.icn.cadres\\0001.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnup_2.icn.cadres/0002.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_2.icn.cadres\\0002.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnup_2.icn.cadres/0003.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_2.icn.cadres\\0003.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnup_2.icn.cadres/0004.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_2.icn.cadres\\0004.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnnup_2.icn.cadres/0005.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_2.icn.cadres\\0005.bmp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject12-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject12-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject13-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject13-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject15-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject15-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject10-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject10-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndw_0.icn.cadres/0000.bmp",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_0.icn.cadres\\0000.bmp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "necrotown/anim001-1-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "necrotown\\anim001-1-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../K/fheroes2-20150122-win-r3274/release/fheroes2/tools/bgt/twnndw_4.icn.cadres/0000-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_4.icn.cadres\\0000-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6298,9 +6780,30 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.76
+        "zoomFactor": 0.904
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "buildingz",
+          "objects": [
+            {
+              "name": "NewObject11"
+            },
+            {
+              "name": "NewObject12"
+            },
+            {
+              "name": "NewObject13"
+            },
+            {
+              "name": "NewObject15"
+            },
+            {
+              "name": "NewObject10"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -6313,37 +6816,7 @@
           "width": 0,
           "x": 0,
           "y": 0,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "roads",
-          "locked": true,
-          "name": "NewObject3",
-          "width": 0,
-          "x": 215,
-          "y": 214,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "roads",
-          "locked": true,
-          "name": "NewObject4",
-          "width": 0,
-          "x": 351,
-          "y": 155,
-          "zOrder": 4,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6358,37 +6831,7 @@
           "width": 0,
           "x": 0,
           "y": 0,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "front",
-          "locked": true,
-          "name": "NewObject8",
-          "width": 0,
-          "x": 412,
-          "y": 194,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "roads",
-          "locked": true,
-          "name": "NewObject11",
-          "width": 0,
-          "x": 5,
-          "y": 262,
-          "zOrder": 13,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6412,23 +6855,8 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "front",
-          "locked": true,
-          "name": "NewObject2",
-          "width": 0,
-          "x": 246,
-          "y": 179,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
           "layer": "inside",
-          "locked": false,
+          "locked": true,
           "name": "NewObject6",
           "width": 0,
           "x": 0,
@@ -6527,6 +6955,201 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "inside",
+          "locked": false,
+          "name": "NewObject20",
+          "width": 0,
+          "x": 149,
+          "y": 307,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "inside",
+          "locked": false,
+          "name": "NewObject21",
+          "width": 0,
+          "x": 149,
+          "y": 232,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "inside",
+          "locked": false,
+          "name": "NewObject22",
+          "width": 0,
+          "x": 293,
+          "y": 232,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "inside",
+          "locked": false,
+          "name": "NewObject23",
+          "width": 0,
+          "x": 6,
+          "y": 307,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "inside",
+          "locked": false,
+          "name": "NewObject25",
+          "width": 0,
+          "x": 293,
+          "y": 387,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "inside",
+          "locked": false,
+          "name": "NewObject27",
+          "width": 0,
+          "x": 5,
+          "y": 232,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "inside",
+          "locked": false,
+          "name": "NewObject30",
+          "width": 0,
+          "x": 293,
+          "y": 77,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "NewObject13",
+          "width": 0,
+          "x": 111,
+          "y": 125,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "NewObject12",
+          "width": 0,
+          "x": 0,
+          "y": 28,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "NewObject15",
+          "width": 0,
+          "x": 309,
+          "y": 18,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "NewObject10",
+          "width": 0,
+          "x": 215,
+          "y": 9,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "NewObject11",
+          "width": 0,
+          "x": 396,
+          "y": 179,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "inside",
+          "locked": false,
+          "name": "NewObject24",
+          "width": 0,
+          "x": 6,
+          "y": 156,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -6547,7 +7170,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "necrotown\\Sem Título.bmp",
+                      "image": "..\\..\\Downloads\\Town_necromancer.gif",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6573,7 +7196,13 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
+            }
+          ],
           "animations": [
             {
               "name": "TWNNWELL",
@@ -6611,7 +7240,13 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
+            }
+          ],
           "animations": [
             {
               "name": "TWNNSTAT",
@@ -6687,7 +7322,13 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -6759,154 +7400,20 @@
           ]
         },
         {
-          "name": "NewObject10",
+          "name": "NewObject12",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
-          "animations": [
+          "behaviors": [
             {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\brcrest.icn.cadres\\0000.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\brcrest.icn.cadres\\0001.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\brcrest.icn.cadres\\0002.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\brcrest.icn.cadres\\0003.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\brcrest.icn.cadres\\0004.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\brcrest.icn.cadres\\0005.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\brcrest.icn.cadres\\0006.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
             }
-          ]
-        },
-        {
-          "name": "NewObject11",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
+          ],
           "animations": [
             {
-              "name": "",
+              "name": "NewObject12",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6915,92 +7422,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\crest.icn.cadres\\0000.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\crest.icn.cadres\\0001.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\crest.icn.cadres\\0002.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\crest.icn.cadres\\0003.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\crest.icn.cadres\\0004.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\crest.icn.cadres\\0005.bmp",
+                      "image": "NewObject12-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7019,95 +7441,6 @@
                 }
               ]
             },
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\port0000.icn.cadres\\0000.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "por\\port0001.icn.cadres\\0000.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "por\\port0002.icn.cadres\\0000.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "por\\port0003.icn.cadres\\0000.bmp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "NewObject12",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
             {
               "name": "0000",
               "useMultipleDirections": false,
@@ -7299,6 +7632,103 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_2.icn.cadres\\0001.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_2.icn.cadres\\0002.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_2.icn.cadres\\0003.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_2.icn.cadres\\0004.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_2.icn.cadres\\0005.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -7307,8 +7737,43 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
+            }
+          ],
           "animations": [
+            {
+              "name": "NewObject13",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject13-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "name": "0000",
               "useMultipleDirections": false,
@@ -7356,6 +7821,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_1.icn.cadres\\0000.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -7364,7 +7858,13 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
+            }
+          ],
           "animations": [
             {
               "name": "0000",
@@ -7565,8 +8065,43 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
+            }
+          ],
           "animations": [
+            {
+              "name": "NewObject15",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject15-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "name": "0000",
               "useMultipleDirections": false,
@@ -8059,7 +8594,13 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
+            }
+          ],
           "animations": [
             {
               "name": "0000",
@@ -8535,6 +9076,1080 @@
               ]
             }
           ]
+        },
+        {
+          "name": "NewObject20",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "anim001",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "necrotown\\anim001-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject21",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "anim001",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "necrotown\\anim001-1-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject22",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "anim001",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "necrotown\\anim001-1-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject23",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "anim001",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "necrotown\\anim001-1-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject25",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "anim001",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "necrotown\\anim001-1-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject26",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
+            }
+          ],
+          "animations": [
+            {
+              "name": "0000",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnmoat.icn.cadres\\0000.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject27",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "anim001",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "necrotown\\anim001-1-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject28",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
+            }
+          ],
+          "animations": [
+            {
+              "name": "0000",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.3333,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndock.icn.cadres\\0001.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndock.icn.cadres\\0002.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndock.icn.cadres\\0003.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndock.icn.cadres\\0004.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndock.icn.cadres\\0005.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject29",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "0000",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0001.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0002.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0003.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0004.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0005.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0006.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0007.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0008.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnboat.icn.cadres\\0009.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject30",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "anim001",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "necrotown\\anim001-1-9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject31",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
+            }
+          ],
+          "animations": [
+            {
+              "name": "0000",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0001.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 196,
+                            "y": 22
+                          },
+                          {
+                            "x": 227,
+                            "y": 22
+                          },
+                          {
+                            "x": 266,
+                            "y": 140
+                          },
+                          {
+                            "x": 169,
+                            "y": 142
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0002.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 196,
+                            "y": 22
+                          },
+                          {
+                            "x": 227,
+                            "y": 22
+                          },
+                          {
+                            "x": 266,
+                            "y": 140
+                          },
+                          {
+                            "x": 169,
+                            "y": 142
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0003.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 196,
+                            "y": 22
+                          },
+                          {
+                            "x": 227,
+                            "y": 22
+                          },
+                          {
+                            "x": 266,
+                            "y": 140
+                          },
+                          {
+                            "x": 169,
+                            "y": 142
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0004.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 196,
+                            "y": 22
+                          },
+                          {
+                            "x": 227,
+                            "y": 22
+                          },
+                          {
+                            "x": 266,
+                            "y": 140
+                          },
+                          {
+                            "x": 169,
+                            "y": 142
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0005.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 196,
+                            "y": 22
+                          },
+                          {
+                            "x": 227,
+                            "y": 22
+                          },
+                          {
+                            "x": 266,
+                            "y": 140
+                          },
+                          {
+                            "x": 169,
+                            "y": 142
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_5.icn.cadres\\0006.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 196,
+                            "y": 22
+                          },
+                          {
+                            "x": 227,
+                            "y": 22
+                          },
+                          {
+                            "x": 266,
+                            "y": 140
+                          },
+                          {
+                            "x": 169,
+                            "y": 142
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject10",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewObject10",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewObject10-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32.5,
+                            "y": 53
+                          },
+                          {
+                            "x": 44.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 77.5,
+                            "y": 195
+                          },
+                          {
+                            "x": 4.5,
+                            "y": 195
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "0000",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_4.icn.cadres\\0000-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32.5,
+                            "y": 53
+                          },
+                          {
+                            "x": 44.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 77.5,
+                            "y": 195
+                          },
+                          {
+                            "x": 4.5,
+                            "y": 195
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnnup_4.icn.cadres\\0000.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32.5,
+                            "y": 53
+                          },
+                          {
+                            "x": 44.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 77.5,
+                            "y": 195
+                          },
+                          {
+                            "x": 4.5,
+                            "y": 195
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject11",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "0000",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "..\\..\\..\\..\\K\\fheroes2-20150122-win-r3274\\release\\fheroes2\\tools\\bgt\\twnndw_0.icn.cadres\\0000.bmp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject24",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "anim001",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "necrotown\\anim001-1-10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -8555,20 +10170,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "..\\..\\..\\..\\K\\Heroes of Might and Magic 2 GOLD\\MUSIC\\homm2_06.ogg",
-                "yes",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -8600,6 +10201,42 @@
                 "NewObject7"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "released",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "buildingz"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "..\\..\\..\\..\\K\\Heroes of Might and Magic 2 GOLD\\MUSIC\\homm2_06.ogg",
+                "yes",
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -8619,6 +10256,18 @@
                 "Left"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "released",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [],
@@ -8631,22 +10280,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "NewObject14",
-                    "",
-                    "no",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ShowLayer"
+                    "value": "LayerVisible"
                   },
                   "parameters": [
                     "",
@@ -8655,196 +10289,1087 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "NewObject7",
-                    "",
-                    "no",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
               "actions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "HideLayer"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "",
-                    "\"inside\""
+                    "released",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "events": [
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "NewObject16",
-                    "",
-                    "no",
-                    ""
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject7",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"inside\""
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
+                  "events": []
                 },
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "NewObject15",
-                    "309",
-                    "18",
-                    "\"roads\""
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject24",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "NewObject17",
-                    "",
-                    "no",
-                    ""
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "NewObject15",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "NewObject15",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "NewObject15",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "NewObject15",
+                        "Tween",
+                        "\"mj\"",
+                        "255",
+                        "\"linear\"",
+                        "5000",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"inside\""
-                  ],
-                  "subInstructions": []
+                  "events": []
                 },
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "NewObject13",
-                    "111",
-                    "125",
-                    "\"roads\""
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject18",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "NewObject18",
-                    "",
-                    "no",
-                    ""
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "NewObject12",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "NewObject12",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "NewObject12",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "NewObject12",
+                        "Tween",
+                        "\"ed\"",
+                        "255",
+                        "\"linear\"",
+                        "5000",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"inside\""
-                  ],
-                  "subInstructions": []
+                  "events": []
                 },
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "NewObject12",
-                    "0",
-                    "28",
-                    "\"roads\""
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject16",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "NewObject11",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "NewObject11",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "NewObject11",
+                        "Tween",
+                        "\"ui\"",
+                        "255",
+                        "\"linear\"",
+                        "5000",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject17",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "NewObject13",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "NewObject13",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "NewObject13",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "NewObject13",
+                        "Tween",
+                        "\"ui\"",
+                        "255",
+                        "\"linear\"",
+                        "5000",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject19",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "NewObject10",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "NewObject10",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "NewObject10",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "NewObject10",
+                        "Tween",
+                        "\"ui\"",
+                        "255",
+                        "\"linear\"",
+                        "5000",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject20",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NbObjet"
+                      },
+                      "parameters": [
+                        "NewObject2",
+                        "<",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "NewObject2",
+                        "246",
+                        "179",
+                        "\"front\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "NewObject2",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "NewObject2",
+                        "Tween",
+                        "\"ui\"",
+                        "255",
+                        "\"linear\"",
+                        "5000",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject21",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NbObjet"
+                      },
+                      "parameters": [
+                        "NewObject4",
+                        "<",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "NewObject4",
+                        "351",
+                        "155",
+                        "\"front\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "NewObject4",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "NewObject4",
+                        "Tween",
+                        "\"ui\"",
+                        "255",
+                        "\"linear\"",
+                        "5000",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject22",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NbObjet"
+                      },
+                      "parameters": [
+                        "NewObject8",
+                        "<",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "NewObject8",
+                        "412",
+                        "194",
+                        "\"front\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "NewObject8",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "NewObject8",
+                        "Tween",
+                        "\"ui\"",
+                        "255",
+                        "\"linear\"",
+                        "5000",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject23",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NbObjet"
+                      },
+                      "parameters": [
+                        "NewObject3",
+                        "<",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "NewObject3",
+                        "215",
+                        "214",
+                        "\"front\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "NewObject3",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "NewObject3",
+                        "Tween",
+                        "\"ui\"",
+                        "255",
+                        "\"linear\"",
+                        "5000",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": true,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject25",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NbObjet"
+                      },
+                      "parameters": [
+                        "NewObject26",
+                        "<",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "NewObject26",
+                        "260",
+                        "146",
+                        "\"roads\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "NewObject26",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "NewObject26",
+                        "Tween",
+                        "\"ui\"",
+                        "255",
+                        "\"linear\"",
+                        "5000",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": true,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject27",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NbObjet"
+                      },
+                      "parameters": [
+                        "NewObject28",
+                        "<",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "NewObject28",
+                        "215",
+                        "214",
+                        "\"front\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "NewObject28",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "NewObject28",
+                        "Tween",
+                        "\"ui\"",
+                        "255",
+                        "\"linear\"",
+                        "5000",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": true,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "NewObject30",
+                        "",
+                        "no",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NbObjet"
+                      },
+                      "parameters": [
+                        "NewObject31",
+                        "<",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"inside\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "NewObject31",
+                        "303",
+                        "56",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "NewObject31",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "NewObject31",
+                        "Tween",
+                        "\"ui\"",
+                        "255",
+                        "\"linear\"",
+                        "5000",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 }
-              ],
-              "events": []
+              ]
             }
           ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "mousee"
         },
         {
           "disabled": false,
@@ -8854,19 +11379,48 @@
             {
               "type": {
                 "inverted": false,
-                "value": "AnyKeyPressed"
+                "value": "SourisBouton"
               },
               "parameters": [
-                ""
+                "",
+                "Left"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "VarGlobal"
               },
-              "parameters": [],
+              "parameters": [
+                "released",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewObject14",
+                "",
+                "no",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"inside\""
+              ],
               "subInstructions": []
             }
           ],
@@ -8874,17 +11428,37 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeAnimation"
+                "value": "ShowLayer"
               },
               "parameters": [
-                "NewObject15",
-                "+",
-                "1"
+                "",
+                "\"inside\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "released",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "mousee"
         }
       ],
       "layers": [
@@ -8906,6 +11480,12 @@
           "effects": []
         },
         {
+          "name": "back",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
           "name": "roads",
           "visibility": true,
           "cameras": [],
@@ -8919,7 +11499,7 @@
         },
         {
           "name": "inside",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -8930,7 +11510,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     },
     {
       "b": 209,
@@ -14330,7 +16915,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.072
+        "zoomFactor": 0.784
       },
       "objectsGroups": [],
       "variables": [],
@@ -14376,6 +16961,21 @@
           "x": 543,
           "y": 49,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Layer",
+          "locked": false,
+          "name": "NewObject12",
+          "width": 0,
+          "x": 262,
+          "y": 55,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15519,10 +18119,16 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior",
+              "content": {}
+            }
+          ],
           "animations": [
             {
-              "name": "",
+              "name": "0000",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -15589,6 +18195,18 @@
                 "NewObject11"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "NewObject12",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -15613,6 +18231,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "NewObject12",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ChangeSprite"
               },
               "parameters": [
@@ -15629,6 +18259,22 @@
               },
               "parameters": [
                 "NewObject11"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "NewObject12",
+                "Tween",
+                "\"mumu\"",
+                "255",
+                "\"linear\"",
+                "4000",
+                "no"
               ],
               "subInstructions": []
             }
@@ -15661,7 +18307,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [
@@ -15765,7 +18416,8 @@
           "name": "Function",
           "sentence": "",
           "events": [],
-          "parameters": []
+          "parameters": [],
+          "objectGroups": []
         }
       ]
     }
